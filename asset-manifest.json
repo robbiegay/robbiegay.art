@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robbiegay/robbiegay.art/settings/static/css/main.d1b05096.chunk.css",
+    "main.js": "/robbiegay/robbiegay.art/settings/static/js/main.84ece242.chunk.js",
+    "main.js.map": "/robbiegay/robbiegay.art/settings/static/js/main.84ece242.chunk.js.map",
+    "runtime-main.js": "/robbiegay/robbiegay.art/settings/static/js/runtime-main.5e76ca34.js",
+    "runtime-main.js.map": "/robbiegay/robbiegay.art/settings/static/js/runtime-main.5e76ca34.js.map",
+    "static/js/2.5c98bb4b.chunk.js": "/robbiegay/robbiegay.art/settings/static/js/2.5c98bb4b.chunk.js",
+    "static/js/2.5c98bb4b.chunk.js.map": "/robbiegay/robbiegay.art/settings/static/js/2.5c98bb4b.chunk.js.map",
+    "index.html": "/robbiegay/robbiegay.art/settings/index.html",
+    "precache-manifest.a7ae90512e1fa72438c620fa9593836d.js": "/robbiegay/robbiegay.art/settings/precache-manifest.a7ae90512e1fa72438c620fa9593836d.js",
+    "service-worker.js": "/robbiegay/robbiegay.art/settings/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/robbiegay/robbiegay.art/settings/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.5c98bb4b.chunk.js.LICENSE.txt": "/robbiegay/robbiegay.art/settings/static/js/2.5c98bb4b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/robbiegay/robbiegay.art/settings/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e76ca34.js",
+    "static/js/2.5c98bb4b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.84ece242.chunk.js"
+  ]
+}
