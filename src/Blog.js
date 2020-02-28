@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from './NavBar'
 
 function Blog() {
     const [time, setTime] = useState(new Date());
@@ -16,7 +17,59 @@ function Blog() {
 
     return (
         <>
+            <NavBar />
             <h1 className='clockFont text-white'>{time.toLocaleTimeString([], settings)}</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
+            <h1>Blog Page</h1>
             <h1>Blog Page</h1>
         </>
     );

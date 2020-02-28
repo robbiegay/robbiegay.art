@@ -1,6 +1,6 @@
 import React from 'react';
 import { PtsCanvas } from 'react-pts-canvas';
-import { Color, Create, Pt, Num, Rectangle, UIButton, UI } from 'pts';
+import { Color, Create, Pt, Num, Rectangle, UIButton, UI, Bound } from 'pts';
 
 class Homepage extends PtsCanvas {
     constructor(props) {
@@ -8,6 +8,8 @@ class Homepage extends PtsCanvas {
         this.blogButton = null;
         this.portfolioButton = null;
         this.musicButton = null;
+        // this.currBound = new Bound();
+
 
         this.centerX = null;
         this.centerY = null;
@@ -21,6 +23,7 @@ class Homepage extends PtsCanvas {
         let ratio = space.size.x / space.size.y;
         let columnNum = 20 * ratio
         let rowNum = 20
+        this.form.font(75, "normal", "normal", 1, "Roboto")
         grid = Create.gridCells(space.innerBound, columnNum, rowNum);
 
         // get LAB color string, given a point position
@@ -109,18 +112,36 @@ class Homepage extends PtsCanvas {
 
         space.bindMouse().bindTouch().play();
     }  
+
+    // resize (size, event) { 
+    //     let centerX = size.center.x;
+    //     let centerY = size.center.y;
+    //     // this.currBound = size;
+
+    //     console.log("size center x =>",size.center.x);
+
+
+    //     // if (this.blogButton) {
+    //     //     this.blogButton.Pt()
+            
+    //     //     // ([
+    //     //     //     [0,0],
+    //     //     //     [0,25],
+    //     //     //     [25,25],
+    //     //     //     [25,0]
+    //     //     // ]);
+    //     // }
+    // }
 }
 
 export default Homepage
 
 /*
 Homepage:
-- Make text clickable
 - Button should resize to stay with text
-- Possible change font family
 
 Blog:
-- Setup way to convery blog post to the page
+- Setup way to convert blog post to the page
 - Setup interface: nav bar, footer, etc
 - Setup previous post list
 
