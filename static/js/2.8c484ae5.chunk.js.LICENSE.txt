@@ -5,6 +5,12 @@ object-assign
 */
 
 /*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
  * pts.js 0.8.11 - Copyright © 2017-2019 William Ngan and contributors.
  * Licensed under Apache 2.0 License.
  * See https://github.com/williamngan/pts for details.
