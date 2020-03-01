@@ -139,19 +139,19 @@ Homepage:
 - Button should resize to stay with text
 
 Blog:
-- Setup way to convert blog post to the page
-- Setup interface: nav bar, footer, etc
-- Setup previous post list
+- Add backlog of blog posts
 
 Projects:
-- Add projects
-- Add resume
+- Center items
 - Add github and linkedIn links
-- Add tech stack icons
+- Add projects section
 
 Music:
 - Create music section
 
-All pages:
+General:
+- robbiegay.art redirect
+- Message on old site about new on
+- Update website address on other profiles (and maybe awesome inc)
 
 */
