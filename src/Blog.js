@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer'
 
 function Blog() {
     // const [time, setTime] = useState(new Date());
@@ -19,57 +20,7 @@ function Blog() {
         <>
             <NavBar />
             <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
-            <h1>Blog Page</h1>
+            <Footer />
         </>
     );
 }
