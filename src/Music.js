@@ -7,6 +7,34 @@ function Music() {
         <>
             <NavBar />
             <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
+            <h1>Music Page</h1>
             <Footer />
         </>
     );
