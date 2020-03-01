@@ -7,6 +7,43 @@ function Portfolio() {
         <>
             <NavBar />
             <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+            <h1>Portfolio Page</h1>
+
             <Footer />
         </>
     );
