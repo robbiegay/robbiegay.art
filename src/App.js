@@ -20,6 +20,7 @@ function App() {
               <Homepage style={{ height: '100vh', width: '100vw' }} changePage={changePage} />
             </Route>
             <Route exact path="/blog">
+              {/* {process.env.PUBLIC_URL + '/blog'} */}
               <Blog />
             </Route>
             <Route path="/portfolio">
