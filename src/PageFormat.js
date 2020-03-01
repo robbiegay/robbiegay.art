@@ -1,19 +1,20 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function PageFormat(props) {
     return (
         <>
-            <div class="container-fluid">
-                <div class="row">
-                    <div className="col-0 col-sm-1 col-md-2 col-lg-3"></div>
-                    <div className="col-12 col-sm-10 col-md-8 col-lg-6">
+            <Container fluid>
+                <Row>
+                    <Col xs={0} sm={1} md={2} lg={3}></Col>
+                    <Col xs={12} sm={10} md={8} lg={6}>
                         <article className="text-justify">
                             {props.children}
                         </article>
-                    </div>
-                    <div className="col-0 col-sm-1 col-md-2 col-lg-3"></div>
-                </div>
-            </div >
+                    </Col>
+                    <Col xs={0} sm={1} md={2} lg={3}></Col>
+                </Row>
+            </Container>
         </>
     );
 }
