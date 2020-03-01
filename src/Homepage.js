@@ -144,9 +144,6 @@ Blog:
 Projects:
 - 2. Add projects section
 
-Music:
-- 3. Create music section
-
 General:
 - Message on old site about new on
 - Update website address on other profiles (and maybe awesome inc)

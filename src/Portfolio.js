@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import PageFormat from './PageFormat';
+import ProjectsViewer from './ProjectsViewer';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Pdf from './documents/robbie-gay-resume.pdf';
 
@@ -94,9 +95,11 @@ function Portfolio() {
                     <Col></Col>
                     <Col xs="auto">
                         <h2>Projects</h2>
+                        <br />
                     </Col>
                     <Col></Col>
                 </Row>
+                <ProjectsViewer />
             </PageFormat>
             <Footer />
         </>
