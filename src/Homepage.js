@@ -136,22 +136,16 @@ export default Homepage
 
 /*
 Homepage:
-- Button should resize to stay with text
+- 5. Button should resize to stay with text
 
 Blog:
-- Add backlog of blog posts
-
-Projects:
-- Center items
-- Add github and linkedIn links
-- Add projects section
-
-Music:
-- Create music section
+- Add blog post CSS? Change class to className
+- Add backlog of 19 blog posts
 
 General:
-- robbiegay.art redirect
 - Message on old site about new on
 - Update website address on other profiles (and maybe awesome inc)
+- Blog spellchecks from Mom on most recent post
+- Check for ' vs "
 
 */

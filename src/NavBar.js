@@ -7,8 +7,7 @@ function NavBar() {
     return (
         <>
         <Router>
-            <Navbar expand="md" sticky="top"> 
-            {/* bg="light" */}
+            <Navbar expand="md" sticky="top" bg="light"> 
                 <Navbar.Brand href="/">robbiegay</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

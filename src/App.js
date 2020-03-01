@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
-import Homepage from './Homepage'
-import Blog from './Blog'
-import Portfolio from './Portfolio'
-import Music from './Music'
+import Homepage from './Homepage';
+import Blog from './Blog';
+import Portfolio from './Portfolio';
+import Music from './Music';
+import BlogPost from './/BlogPost';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -20,8 +22,10 @@ function App() {
               <Homepage style={{ height: '100vh', width: '100vw' }} changePage={changePage} />
             </Route>
             <Route exact path="/blog">
-              {/* {process.env.PUBLIC_URL + '/blog'} */}
               <Blog />
+            </Route>
+            <Route path="/blog">
+              <BlogPost />
             </Route>
             <Route path="/portfolio">
               <Portfolio />

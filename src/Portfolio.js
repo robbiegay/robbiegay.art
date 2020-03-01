@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import PageFormat from './PageFormat';
+import ProjectsViewer from './ProjectsViewer';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Pdf from './documents/robbie-gay-resume.pdf';
 
@@ -12,6 +13,7 @@ function Portfolio() {
     return (
         <>
             <NavBar />
+            <br />
             <h1>Robbie Gay</h1>
             <PageFormat>
                 <Container>
@@ -24,11 +26,18 @@ function Portfolio() {
                     </Row>
                 </Container>
                 <br />
+
                 {/* GitHub and LinkedIn Links */}
-                <p>
-                    <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{' '}
-                    <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
-                </p>
+                <Row>
+                    <Col></Col>
+                    <Col xs="auto">
+                        <p>
+                            <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{' '}
+                            <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
+                        </p>
+                    </Col>
+                    <Col></Col>
+                </Row>
 
                 {/* Bio */}
                 <p>
@@ -46,6 +55,7 @@ function Portfolio() {
                     mostly a laptop musician, but my goal in 2020 is to learn jazz piano — stay tuned! I also
                     manage the RPM playbox (electronic music) for <a href="http://wrfl.fm/" title="WRFL's website">WRFL</a>.
                 </p>
+
                 {/* Language Icons */}
                 <p className="text-justify">
                     {/* <i className="fas fa-terminal" style={{ color: "#37932e", fontSize: fontSize }}></i>{' '} */}
@@ -58,18 +68,38 @@ function Portfolio() {
                     <a href="https://getbootstrap.com/" title="Bootstrap"><i className="fab fa-bootstrap" style={{ color: "#563d7d", fontSize: fontSize }}></i></a>{' '}
                     <a href="https://reactjs.org/" title="React"><i className="fab fa-react" style={{ color: "#5fd7f6", fontSize: fontSize }}></i></a>{' '}
                     <a href="https://www.php.net/" title="PHP"><i className="fab fa-php" style={{ color: "#8992c0", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://www.mysql.com/" title="MySQL"><Image src={process.env.PUBLIC_URL + '/languageIcons/mysql.png'} style={{ height: fontSize }} /></a>{' '}
+                    {/* Added bottom margins to images to push their top alignment even with icons */}
+                    <a href="https://www.mysql.com/" title="MySQL"><Image src={process.env.PUBLIC_URL + '/languageIcons/mysql.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
                     <a href="https://laravel.com/" title="Laravel"><i className="fab fa-laravel" style={{ color: "#ff4841", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://firebase.google.com/" title="Firebase"><Image src={process.env.PUBLIC_URL + '/languageIcons/firebase.png'} style={{ height: fontSize }} /></a>{' '}
-                    <a href="https://ptsjs.org/" title="Pts.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/pts.png'} style={{ height: fontSize }} /></a>{' '}
-                    <a href="https://tonejs.github.io/" title="Tone.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/tone.png'} style={{ height: fontSize }} /></a>
+                    <a href="https://firebase.google.com/" title="Firebase"><Image src={process.env.PUBLIC_URL + '/languageIcons/firebase.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
+                    <a href="https://ptsjs.org/" title="Pts.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/pts.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
+                    <a href="https://tonejs.github.io/" title="Tone.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/tone.png'} style={{ height: fontSize }} className="mb-3" /></a>
                     {/* Hack to spread the icons evenly across the line */}
                     <span style={{ width: "100%", display: "inline-block" }}></span>
                 </p>
-                <Button href={Pdf} target="_blank">
-                    Resume
-                </Button>
-                <h2>Projects</h2>
+
+                {/* Resume */}
+                <Row>
+                    <Col></Col>
+                    <Col xs="auto">
+                        <Button href={Pdf} target="_blank">
+                            Resume
+                        </Button>
+                        <br /><br />
+                    </Col>
+                    <Col></Col>
+                </Row>
+
+                {/* Projects */}
+                <Row>
+                    <Col></Col>
+                    <Col xs="auto">
+                        <h2>Projects</h2>
+                        <br />
+                    </Col>
+                    <Col></Col>
+                </Row>
+                <ProjectsViewer />
             </PageFormat>
             <Footer />
         </>
