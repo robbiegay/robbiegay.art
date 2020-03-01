@@ -141,9 +141,6 @@ Homepage:
 Blog:
 - 4. Add backlog of blog posts
 
-Projects:
-- 2. Add projects section
-
 General:
 - Message on old site about new on
 - Update website address on other profiles (and maybe awesome inc)

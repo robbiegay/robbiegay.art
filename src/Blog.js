@@ -34,7 +34,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2019-08-30">8.30.2019</time>
-                                        : <a href="posts/pw-week-1.html" title="Prework Week 1 Blog Post">
+                                        : <a href="/blog/PWWeek1" title="Prework Week 1 Blog Post">
                                             Prework Week 1: Git and Github
                                         </a>
                                     </li>
