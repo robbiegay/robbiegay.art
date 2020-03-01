@@ -56,9 +56,17 @@ function CountUpTimer() {
             countdown.years + ' years ' +
             countdown.days + ' days ' +
             countdown.hrs + ' hours ' +
-            countdown.min + ' minutes ' +
-            countdown.sec + ' seconds and ' +
-            countdown.mil + ' milliseconds'
+            // Seconds.tenths option
+            countdown.min + ' minutes and ' +
+            countdown.sec + '.' +
+            countdown.mil + ' seconds'
+
+            // Milliseconds option -> turn on addZeros() and 
+            // change milli / num and interval num to 10 or 1
+            // countdown.min + ' minutes ' +
+            // countdown.sec + ' seconds and ' +
+            // countdown.mil + ' milliseconds'
+            // addZeros(countdown.mil) + ' milliseconds'
     );
 }
 

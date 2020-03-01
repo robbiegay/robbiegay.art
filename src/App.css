@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.clockFont {
+  font-family: 'Roboto', monospace;
+}

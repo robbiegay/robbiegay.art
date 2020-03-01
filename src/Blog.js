@@ -8,6 +8,7 @@ function Blog() {
     return (
         <>
             <NavBar />
+            <br />
             <h1>Blog Posts</h1>
             <PageFormat>
                 <p>

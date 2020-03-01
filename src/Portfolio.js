@@ -12,6 +12,7 @@ function Portfolio() {
     return (
         <>
             <NavBar />
+            <br />
             <h1>Robbie Gay</h1>
             <PageFormat>
                 <Container>
