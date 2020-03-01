@@ -139,11 +139,13 @@ Homepage:
 - 5. Button should resize to stay with text
 
 Blog:
-- 4. Add backlog of blog posts
+- Add blog post CSS? Change class to className
+- Add backlog of 19 blog posts
 
 General:
 - Message on old site about new on
 - Update website address on other profiles (and maybe awesome inc)
-- Blog spellchecks
+- Blog spellchecks from Mom on most recent post
+- Check for ' vs "
 
 */

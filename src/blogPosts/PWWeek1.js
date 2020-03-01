@@ -7,22 +7,20 @@ function PWWeek1() {
                 <h3 class="text-center">Welcome!</h3>
                 <p>
                     Welcome to my blog! Here I’ll be posting regular updates about 
-                    the <a href="https://www.awesomeincu.com/bootcamp/" title="Awesome Inc Web Dev Bootcamp">
-                        Awesome Inc Web Dev Bootcamp</a>. This first post covers Prework Week 1, but is being
-                    written towards the end of Week 2 — as we had to learn some basic <abbr
-                        title="Hypertext Markup Language">HTML</abbr>
+                    the <a href="https://www.awesomeincu.com/bootcamp/" title="Awesome Inc Web Dev Bootcamp">Awesome Inc Web Dev Bootcamp</a>. This 
+                    first post covers Prework Week 1, but is being written towards the end of 
+                    Week 2 — as we had to learn some basic <abbr title="Hypertext Markup Language">HTML</abbr>
                     /<abbr title="Cascading Style Sheets">CSS</abbr> in order to create a blog post to begin with!
                 </p>
 
                 <h3 class="text-center">First Week of Prework</h3>
                 <p>
-                    Our first week started with a meet up at Awesome Inc. We got a chance to meet our fellow
-                    bootcampers
-                    (there are 11 of us!), as well as meet our 3 instructors: <a href="https://www.justinhall.com/"
-                        title="Justin Hall's Website">Justin</a>,
-                    <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>, and
-                    <a href="https://jmstewart00.github.io/" title="Josh Stewart's Website">Josh</a>.
-                    <br />
+                    Our first week started with a meet up at Awesome Inc. We got a chance to 
+                    meet our fellow bootcampers (there are 11 of us!), as well as meet our 3 
+                    instructors: <a href="https://www.justinhall.com/" title="Justin Hall's Website">Justin</a>,{' '}
+                    <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>, 
+                    and <a href="https://jmstewart00.github.io/" title="Josh Stewart's Website">Josh</a>.
+                    <br /><br />
                     <figure class="figure">
                         <img class="img-fluid border" src="/blogAssets/img/awesome-u-bootcamp-curriculum.png"
                             alt="The Awesome Inc U Bootcamp Curriculum" />
@@ -36,7 +34,7 @@ function PWWeek1() {
                 <h3 class="text-center">The Learning Curve</h3>
                 <p>
                     My favorite takeaway from our initial meet up was this cool graphic on the stages of learning:
-                    <br />
+                    <br /><br />
                     <figure class="figure">
                         <img class="img-fluid border" src="/blogAssets/img/awesome-learning-curve.png"
                             alt="Awesome Learning Curve" />
@@ -46,16 +44,14 @@ function PWWeek1() {
                     </figure>
 
                     <br />
-                    I love reading books about learning. I read (skimmed) Malcolm Gladwell’s
-                    <a href="https://en.wikipedia.org/wiki/Outliers_(book)"
-                        title="Outliers by Malcolm Gladwell">“Outliers”</a>
-                    a few months ago, and have been working my way through the public library’s collection of Cal
-                    Newport
-                    (<a href="http://www.calnewport.com/books/so-good/"
-                        title="So Good They Can’t Ignore You by Cal Newport">
-                        “So Good They Can’t Ignore You”</a> is an awesome take on learning new skills;
+                    I love reading books about learning. I read (skimmed) Malcolm 
+                    Gladwell’s <a href="https://en.wikipedia.org/wiki/Outliers_(book)" title="Outliers by Malcolm Gladwell">“Outliers”</a> a 
+                    few months ago, and have been working my way through the public library’s 
+                    collection of Cal 
+                    Newport (<a href="http://www.calnewport.com/books/so-good/" title="So Good They Can’t Ignore You by Cal Newport">
+                        “So Good They Can’t Ignore You”</a> is an awesome take on learning new skills;{' '}
                     <a href="http://www.calnewport.com/books/digital-minimalism/"
-                        title="Digital Minimalism by Cal Newport">“Digital Minimalism”</a>
+                        title="Digital Minimalism by Cal Newport">“Digital Minimalism”</a>{' '}
                     caused me to delete all social media from my phone and to disable its internet browser). I’d
                     seen images of learning
                     curves, and read various theories about the path someone takes when learning a new skill, but I
@@ -138,6 +134,7 @@ function PWWeek1() {
                     <br />
                     ~Phew~ Sorry for the big rant on learning curves — on to the meat and potatoes of Prework Week
                     1.
+                    <br /><br />
 
                     <h3>DVCS: Git and GitHub</h3>
 
@@ -215,10 +212,10 @@ function PWWeek1() {
 
 
                 <p>
-                    One thing that helped me was reaching out to my brother, William.
-                    <a href="https://github.com/1GWilly8" title="William's GitHub">William</a>
+                    One thing that helped me was reaching out to my brother, William.{' '}
+                    <a href="https://github.com/1GWilly8" title="William's GitHub">William</a>{' '}
                     graduated with a <a href="https://www.hanover.edu/academics/programs/cs"
-                        title="Hanover College Computer Science"><abbr title="Computer Science">CS</abbr> degree</a>
+                        title="Hanover College Computer Science"><abbr title="Computer Science">CS</abbr> degree</a>{' '}
                     in 2018 and has been working for an <a href="https://glowlabs.co" title="Glow Labs">
                         <abbr title="Internet of Things">IoT</abbr> company</a> in Denver. I told him that I was
                     struggling with Git and
@@ -267,7 +264,7 @@ function PWWeek1() {
                     The prompt for our first blog post asked us for a resource that would help others in the
                     program.
                     I’m sure that most bootcampers know of or use something similar to this, but I found an
-                    online coding platform like <a href="https://codepen.io" title="CodePen">CodePen</a>
+                    online coding platform like <a href="https://codepen.io" title="CodePen">CodePen</a>{' '}
                     really helpful. I didn’t use it for major projects, but when I learned something new
                     and wanted to try applying it quickly, I could hop over to CodePen and draft something
                     up in a matter of minutes.
