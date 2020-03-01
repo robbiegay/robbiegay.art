@@ -1,12 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function NavBar() {
     return (
