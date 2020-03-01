@@ -1,4 +1,3 @@
-import React from 'react';
 import { PtsCanvas } from 'react-pts-canvas';
 import { Color, Create, Pt, Num, Rectangle, UIButton, UI, Bound } from 'pts';
 
@@ -9,7 +8,6 @@ class Homepage extends PtsCanvas {
         this.portfolioButton = null;
         this.musicButton = null;
         // this.currBound = new Bound();
-
 
         this.centerX = null;
         this.centerY = null;
@@ -153,5 +151,7 @@ Projects:
 
 Music:
 - Create music section
+
+All pages:
 
 */
