@@ -39,7 +39,7 @@ class BlogPost extends React.Component {
         let idx = window.location.pathname.lastIndexOf("/")
         let postName = window.location.pathname.slice(idx + 1);
         switch (postName) {
-            case "PWWeek1":
+            case "pw-week-1":
                 this.setState({
                     blogPost: <PWWeek1 />,
                     title: "Prework Week 1: Bootcamp Path and Intro to Git",
@@ -47,7 +47,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "PWWeek2":
+            case "pw-week-2":
                 this.setState({
                     blogPost: <PWWeek2 />,
                     title: "Prework Week 2: HTML and CSS",
@@ -55,7 +55,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "PWWeek3":
+            case "pw-week-3":
                 this.setState({
                     blogPost: <PWWeek3 />,
                     title: "Prework Week 3: An Introduction to JavaScript",
@@ -63,7 +63,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "PWWeek4":
+            case "pw-week-4":
                 this.setState({
                     blogPost: <PWWeek4 />,
                     title: "Prework Week 4: More JavaScript, the end of Prework",
@@ -71,14 +71,14 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek1":
+            case "bc-week-1":
                 this.setState({
                     blogPost: <BCWeek1 />,
                     title: "Bootcamp Week 1: Bootstrap and Design Theory",
                     date: <time datetime="2019-09-22">Sept. 22<sup>nd</sup>, 2019</time>
                 });
                 break;
-            case "BCWeek2":
+            case "bc-week-2":
                 this.setState({
                     blogPost: <BCWeek2 />,
                     title: "Bootcamp Week 2: JavaScript Projects",
@@ -86,7 +86,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek3":
+            case "bc-week-3":
                 this.setState({
                     blogPost: <BCWeek3 />,
                     title: "Bootcamp Week 3: More JavaScript Projects",
@@ -94,7 +94,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek4":
+            case "bc-week-4":
                 this.setState({
                     blogPost: <BCWeek4 />,
                     title: "Bootcamp Week 4: Saying Goodbye to Vanilla JS",
@@ -102,7 +102,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek5":
+            case "bc-week-5":
                 this.setState({
                     blogPost: <BCWeek5 />,
                     title: "Bootcamp Week 5: React.JS",
@@ -110,7 +110,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek6":
+            case "bc-week-6":
                 this.setState({
                     blogPost: <BCWeek6 />,
                     title: "Bootcamp Week 6: More React, A Halfway Point",
@@ -118,7 +118,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek7":
+            case "bc-week-7":
                 this.setState({
                     blogPost: <BCWeek7 />,
                     title: "Bootcamp Week 7: Back End Development",
@@ -126,7 +126,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek8":
+            case "bc-week-8":
                 this.setState({
                     blogPost: <BCWeek8 />,
                     title: "Bootcamp Week 8: Laravel Library",
@@ -134,7 +134,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek9":
+            case "bc-week-9":
                 this.setState({
                     blogPost: <BCWeek9 />,
                     title: "Bootcamp Week 9: Catgram",
@@ -142,7 +142,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek10":
+            case "bc-week-10":
                 this.setState({
                     blogPost: <BCWeek10 />,
                     title: "Bootcamp Bootcamp Week 9: Final Projects",
@@ -150,7 +150,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek11":
+            case "bc-week-11":
                 this.setState({
                     blogPost: <BCWeek11 />,
                     title: "Bootcamp Week 11: Final Project Prototype",
@@ -158,7 +158,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "BCWeek12":
+            case "bc-week-12":
                 this.setState({
                     blogPost: <BCWeek12 />,
                     title: "Bootcamp Week 12: Demo Day",
@@ -166,7 +166,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "JHWeek1":
+            case "jh-week-1":
                 this.setState({
                     blogPost: <JHWeek1 />,
                     title: "Job Hunt Week 1: 30-60-90",
@@ -174,7 +174,7 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "JHWeek4":
+            case "jh-week-4":
                 this.setState({
                     blogPost: <JHWeek4 />,
                     title: "Learning React Hooks",
@@ -182,14 +182,14 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "FLWeek3":
+            case "fl-week-3":
                 this.setState({
                     blogPost: <FLWeek3 />,
                     title: "Swift vs JavaScript",
                     date: <time datetime="2020-01-31">January 31<sup>st</sup>, 2020</time>
                 });
                 break;
-            case "FLWeek7":
+            case "fl-week-7":
                 this.setState({
                     blogPost: <FLWeek7 />,
                     title: "Design: UI and UX",

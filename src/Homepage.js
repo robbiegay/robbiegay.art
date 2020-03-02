@@ -7,20 +7,27 @@ class Homepage extends PtsCanvas {
         this.blogButton = null;
         this.portfolioButton = null;
         this.musicButton = null;
-        // this.currBound = new Bound();
 
         this.centerX = null;
         this.centerY = null;
+        // 1% of the space width
         this.yPerc = null;
+
+        // Used to prevent buttons from re-rendering at every animation cycle
+        this.spaceSize = null;
     }
 
     animate(time, ftime, space) {
         // Background
+
+        // Grid of colored squares
         var grid = [];
+        // Colors
         let cu = Color.lab(Color.maxValues("lab"))
         let ratio = space.size.x / space.size.y;
         let columnNum = 20 * ratio
         let rowNum = 20
+        // Page font
         this.form.font(75, "normal", "normal", 1, "Roboto")
         grid = Create.gridCells(space.innerBound, columnNum, rowNum);
 
@@ -62,6 +69,47 @@ class Homepage extends PtsCanvas {
         this.form.fill("rgba(0,0,0,0)").font(40).stroke("rgba(0,0,0,0)", 3).rect( musicRect );
         this.form.fillOnly("#FFF").alignText("center").paragraphBox( musicRect, "music", 1, "middle", false );
         this.musicButton.render( g => this.form.fillOnly("rgba(0,0,0,0.05)").polygon(g) );
+        
+        // checks to see if window has been resized. If so, re-renders buttons
+        if (this.spaceSize.x !== space.size.x) {
+            let hovOn = (ui) => ui.group.scale(1.1, ui.group.centroid());;
+            let hovOff = (ui) => ui.group.scale(100/110, ui.group.centroid());
+            this.blogButton = UIButton.fromPolygon( [
+                [this.centerX - 100, this.centerY + (this.yPerc * 6)], 
+                [this.centerX - 100 , this.centerY + (this.yPerc * 14)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 14)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 6)]
+            ] );
+            this.blogButton.onClick( x => { 
+                this.props.changePage("blog");
+            } );
+            this.blogButton.onHover( hovOn, hovOff );
+
+            this.portfolioButton = UIButton.fromPolygon( [
+                [this.centerX - 100, this.centerY + (this.yPerc * 16)], 
+                [this.centerX - 100 , this.centerY + (this.yPerc * 24)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 24)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 16)]
+            ] );
+            this.portfolioButton.onClick( x => { 
+                this.props.changePage("portfolio");
+            } );
+            this.portfolioButton.onHover( hovOn, hovOff );
+    
+            this.musicButton = UIButton.fromPolygon( [
+                [this.centerX - 100, this.centerY + (this.yPerc * 26)], 
+                [this.centerX - 100 , this.centerY + (this.yPerc * 34)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 34)], 
+                [this.centerX + 100, this.centerY + (this.yPerc * 26)]
+            ] );
+            this.musicButton.onClick( x => { 
+                this.props.changePage("music");
+            } );
+            this.musicButton.onHover( hovOn, hovOff );
+
+            // After re-rendering buttons, updates spaceSize variable to new window size
+            this.spaceSize = space.size
+        }
     }
 
     action(type, x, y, event) { 
@@ -69,6 +117,8 @@ class Homepage extends PtsCanvas {
     }
 
     start(bound, space) {
+        // Creates buttons on page load
+        this.spaceSize = space.size;
         let hovOn = (ui) => ui.group.scale(1.1, ui.group.centroid());;
         let hovOff = (ui) => ui.group.scale(100/110, ui.group.centroid());
         this.centerX = space.size.x / 2
@@ -109,43 +159,16 @@ class Homepage extends PtsCanvas {
         this.musicButton.onHover( hovOn, hovOff );
 
         space.bindMouse().bindTouch().play();
-    }  
-
-    // resize (size, event) { 
-    //     let centerX = size.center.x;
-    //     let centerY = size.center.y;
-    //     // this.currBound = size;
-
-    //     console.log("size center x =>",size.center.x);
-
-
-    //     // if (this.blogButton) {
-    //     //     this.blogButton.Pt()
-            
-    //     //     // ([
-    //     //     //     [0,0],
-    //     //     //     [0,25],
-    //     //     //     [25,25],
-    //     //     //     [25,0]
-    //     //     // ]);
-    //     // }
-    // }
+    }
 }
 
 export default Homepage
 
 /*
-Homepage:
-- 5. Button should resize to stay with text
-
-Blog:
-- Add blog post CSS? Change class to className
-- Add backlog of 19 blog posts
 
 General:
-- Message on old site about new on
+- Message on old site about new one
 - Update website address on other profiles (and maybe awesome inc)
-- Blog spellchecks from Mom on most recent post
 - Check for ' vs "
 
 */
