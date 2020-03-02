@@ -7,7 +7,7 @@ import PWWeek1 from './blogPosts/PWWeek1';
 import PWWeek2 from './blogPosts/PWWeek2';
 import PWWeek3 from './blogPosts/PWWeek3';
 import PWWeek4 from './blogPosts/PWWeek4';
-// import BCWeek1 from './blogPosts/BCWeek1';
+import BCWeek1 from './blogPosts/BCWeek1';
 // import BCWeek2 from './blogPosts/BCWeek2';
 // import BCWeek3 from './blogPosts/BCWeek3';
 // import BCWeek4 from './blogPosts/BCWeek4';
@@ -69,6 +69,13 @@ class BlogPost extends React.Component {
                     title: "Prework Week 4: More JavaScript, the end of Prework",
                     date: <time datetime="2019-09-13">September 13<sup>th</sup>,
                     2019</time>
+                });
+                break;
+            case "BCWeek1":
+                this.setState({
+                    blogPost: <BCWeek1 />,
+                    title: "Bootcamp Week 1: Bootstrap and Design Theory",
+                    date: <time datetime="2019-09-22">Sept. 22<sup>nd</sup>, 2019</time>
                 });
                 break;
             default:

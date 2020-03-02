@@ -4,7 +4,7 @@ function PWWeek4() {
     return (
         <>
             {/* <!-- Main Text --> */}
-                <article class="text-justify">
+                <article className="text-justify">
                     <p>
                         Happy super ~spooky~ Friday the 13th!! This week was our final
                         week of Bootcamp Prework and it really seemed like these last four
@@ -19,7 +19,7 @@ function PWWeek4() {
                         material during Prework was challenging but exciting, and I’ve had a
                         lot more fun than I excepted to writing code!
                     </p>
-                    <h3 class="text-center">Prework Week 4</h3>
+                    <h3 className="text-center">Prework Week 4</h3>
                     <p>
                         This week was lighter on the readings, and started to skew more
                         towards project-based work. We started with another{' '}
@@ -59,12 +59,12 @@ function PWWeek4() {
                         my code, costing me several additional hours. Starting with Pseudo
                         Code would likely have saved me both time and headaches
                     </p>
-                    <blockquote class="blockquote bg-light px-5 py-2 my-4 rounded-pill">
+                    <blockquote className="blockquote bg-light px-5 py-2 my-4 rounded-pill">
                         "Measure twice, cut once"
-                        <cite class="blockquote-footer">Justin (and just about anyone else who has ever built
+                        <cite className="blockquote-footer">Justin (and just about anyone else who has ever built
                             anything)</cite>
                     </blockquote>
-                    <h3 class="text-center">Reflection: The Prework Period</h3>
+                    <h3 className="text-center">Reflection: The Prework Period</h3>
                     <p>
                         Each week of Prework presented different challenges and opportunities.{' '}
                         <a href="https://robbiegay.github.io/posts/pw-week-1.html" title="PW Week 1 Blog Post">Week
@@ -125,14 +125,14 @@ function PWWeek4() {
                         various functionalities. This made the act of writing the code
                         a little bit like filling in the blanks.
                     </p>
-                    <h3 class="text-center">Bootcamp</h3>
+                    <h3 className="text-center">Bootcamp</h3>
                     <p>
                         I am <strong>super</strong> excited to start Bootcamp Week 1 on Monday!
                     </p>
-                    <figure class="figure">
-                        <img class="img-fluid" src="/blogAssets/img/time-till-bootcamp-starts.png"
+                    <figure className="figure">
+                        <img className="img-fluid" src="/blogAssets/img/time-till-bootcamp-starts.png"
                             alt="Countdown till Sept. 16th, 2019" />
-                        <figcaption class="figure-caption text-center">Counting down to Day 1!</figcaption>
+                        <figcaption className="figure-caption text-center">Counting down to Day 1!</figcaption>
                     </figure>
                     <p>
                         I felt like we learned a lot more than I expected to in this

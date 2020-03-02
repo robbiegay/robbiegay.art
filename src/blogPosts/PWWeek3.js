@@ -4,7 +4,7 @@ function PWWeek3() {
     return (
         <>
             {/* <!-- Main Text --> */}
-            <article class="text-justify">
+            <article className="text-justify">
                 <p>
                     I’m writing this on a Saturday — we’ve just wrapped up our third
                     week of Bootcamp Prework, and are barreling full steam ahead
@@ -22,7 +22,7 @@ function PWWeek3() {
                     under the hood and showcasing/explaining the source code behind
                     our projects.
                     </p>
-                <h3 class="text-center">JavaScript</h3>
+                <h3 className="text-center">JavaScript</h3>
                 <p>
                     JavaScript is a coding language that is used on both the client
                     and server sides. On the client side, it is used to add reactive
@@ -44,17 +44,17 @@ function PWWeek3() {
             fast start for a programming language that has been going strong
             for 23 years!
                     </p>
-                <h3 class="text-center">HTML, CSS, and JS</h3>
+                <h3 className="text-center">HTML, CSS, and JS</h3>
                 <p>
                     How do the three languages we’ve talked about so far relate?
                     </p>
                 <p>
                     As I’ve mentioned in previous posts, HTML creates the framework, and CSS adds the style.
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/html-vs-css.png"
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/html-vs-css.png"
                         alt="An image comparing HTML and CSS" />
-                    <figcaption class="figure-caption text-center">HTML creates the framework; CSS adds the style
+                    <figcaption className="figure-caption text-center">HTML creates the framework; CSS adds the style
                         </figcaption>
                 </figure>
                 <p>
@@ -68,10 +68,10 @@ function PWWeek3() {
                     click on the front door and see the door open, and your neighbors
                     walk out!
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/html-vs-css-vs-js-house.png"
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/html-vs-css-vs-js-house.png"
                         alt="An image comparing JS to a House" />
-                    <figcaption class="figure-caption text-center">JavaScript creates reactive websites — Similar to
+                    <figcaption className="figure-caption text-center">JavaScript creates reactive websites — Similar to
                         being able to click on a house and
                         open the
                             door</figcaption>
@@ -85,7 +85,7 @@ function PWWeek3() {
                     to create dynamic, reactive websites, the type of website
                     functionality that users have come to expect across the web.
                     </p>
-                <h3 class="text-center">Challenges: Resizing Websites (CSS) and Logic Errors (JavaScript)</h3>
+                <h3 className="text-center">Challenges: Resizing Websites (CSS) and Logic Errors (JavaScript)</h3>
                 <p>
                     Two challenges that I faced this week involved attempting to make
                     this blog viewable on mobile devices, and trying to get my Silly
@@ -95,20 +95,20 @@ function PWWeek3() {
                     After initializing the blog last week, I managed to get it so that
                     it looked pretty good on a desktop browser.
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid border" src="/blogAssets/img/css-looks-good-on-desktop.png"
+                <figure className="figure">
+                    <img className="img-fluid border" src="/blogAssets/img/css-looks-good-on-desktop.png"
                         alt="CSS looking good on Desktop" />
-                    <figcaption class="figure-caption text-center">A blog post viewed from a computer</figcaption>
+                    <figcaption className="figure-caption text-center">A blog post viewed from a computer</figcaption>
                 </figure>
                 <p>
                     I realized, however, that there was a problem with how this
                     arrangement scaled down to mobile. What looks nice and spacious on
                     a widescreen, became very compressed on a mobile device.
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid border" src="/blogAssets/img/css-not-scaling-well-to-mobile.png"
+                <figure className="figure">
+                    <img className="img-fluid border" src="/blogAssets/img/css-not-scaling-well-to-mobile.png"
                         alt="CSS not scaling well to mobile view" />
-                    <figcaption class="figure-caption text-center">The same blog post viewed on a mobile device
+                    <figcaption className="figure-caption text-center">The same blog post viewed on a mobile device
                         </figcaption>
                 </figure>
                 <p>
@@ -201,7 +201,7 @@ function PWWeek3() {
                     together bits of functionality, the closer I got to a program that
                     ran as I intended!
                     </p>
-                <h3 class="text-center">Two Cool Things</h3>
+                <h3 className="text-center">Two Cool Things</h3>
                 <p>
                     I wanted to mention two things that I learned this week that I
                     found really interesting. When working in HTML, there is a lot of
@@ -218,9 +218,9 @@ function PWWeek3() {
                                     template will appear. This was a significantly quicker and more
                                     convenient way to build a starting framework — thanks Sam!
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/vs-code-!-template.png" alt="VS Code '!' Shortcut" />
-                    <figcaption class="figure-caption text-center">Using the "!" Shortcut in VS Code</figcaption>
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/vs-code-!-template.png" alt="VS Code '!' Shortcut" />
+                    <figcaption className="figure-caption text-center">Using the "!" Shortcut in VS Code</figcaption>
                 </figure>
                 <p>
                     A second really useful thing that we learned this week came from
@@ -239,12 +239,12 @@ function PWWeek3() {
                                         below, my code is shown on the left, and what values the computer
                                         is using is shown on the rights.
                     </p>
-                <figure class="figure">
-                    <img class="img-fluid border" src="/blogAssets/img/using-chrome-breakpoints.png"
+                <figure className="figure">
+                    <img className="img-fluid border" src="/blogAssets/img/using-chrome-breakpoints.png"
                         alt="Chrome Dev Tools: Breakpoint Function" />
-                    <figcaption class="figure-caption text-center">An example of the Chrome Dev Tools</figcaption>
+                    <figcaption className="figure-caption text-center">An example of the Chrome Dev Tools</figcaption>
                 </figure>
-                <h3 class="text-center">Resources</h3>
+                <h3 className="text-center">Resources</h3>
                 <p>
                     The resource that I wanted to share this week is less of a useful
                     tool and more of a really cool inspiration! While working through
