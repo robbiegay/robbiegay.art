@@ -5,14 +5,14 @@ function JHWeek4() {
     return (
         <>
             {/* <!-- Main Text --> */}
-            <article class="text-justify">
+            <article className="text-justify">
 
                 <p>
                     I apologize for the short blog post — it’s 7:15pm on New Years Eve, and
                     I’m hoping to post a final blog post of the decade.
                     </p>
 
-                <h3 class="text-center">Reviewing React</h3>
+                <h3 className="text-center">Reviewing React</h3>
 
                 <p>
                     I’ve spent the last few days working through some React documentation. First,
@@ -43,7 +43,7 @@ function JHWeek4() {
                         React comes with two useful, built-in hooks: <code>useState</code> and <code>useEffect</code>.
                     </p>
 
-                <h3 class="text-center">Hooks and State</h3>
+                <h3 className="text-center">Hooks and State</h3>
 
                 <p>
                     The <code>useState</code> hook allows you to use state in a React function component.
@@ -77,12 +77,12 @@ function JHWeek4() {
                     many times it is clicked.
                     </p>
 
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/hooks-example.png" alt="React hooks example code" />
-                    <figcaption class="figure-caption text-center">An example of the useState hook</figcaption>
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/hooks-example.png" alt="React hooks example code" />
+                    <figcaption className="figure-caption text-center">An example of the useState hook</figcaption>
                 </figure>
 
-                <h3 class="text-center">Hooks and Lifecycle</h3>
+                <h3 className="text-center">Hooks and Lifecycle</h3>
 
                 <p>
                     React has several different lifecycle components.
@@ -97,12 +97,12 @@ function JHWeek4() {
                     if using a React class.
                     </p>
 
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/useeffect-example.png" alt="React useEffect example code" />
-                    <figcaption class="figure-caption text-center">An example of the useEffect hook</figcaption>
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/useeffect-example.png" alt="React useEffect example code" />
+                    <figcaption className="figure-caption text-center">An example of the useEffect hook</figcaption>
                 </figure>
 
-                <h3 class="text-center">Closing Thoughts</h3>
+                <h3 className="text-center">Closing Thoughts</h3>
 
                 <p>
                     It’s now almost 8:30pm. I’ve got to go get ready to ring in the new year, and new decade.

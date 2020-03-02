@@ -32,8 +32,8 @@ function Portfolio() {
                     <Col></Col>
                     <Col xs="auto">
                         <p>
-                            <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{' '}
-                            <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
+                            <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{' '}
+                            <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
                         </p>
                     </Col>
                     <Col></Col>

@@ -5,9 +5,9 @@ function JHWeek1() {
     return (
         <>
             {/* <!-- Main Text --> */}
-            <article class="text-justify">
+            <article className="text-justify">
 
-                <h3 class="text-center">The End of Bootcamp</h3>
+                <h3 className="text-center">The End of Bootcamp</h3>
                 <p>
                     Friday was our final day of in-person Bootcamp. Since we were wrapping
                     things up, we had a soft start of 10am. We had one-on-ones: Ian and Justin
@@ -26,18 +26,18 @@ function JHWeek1() {
                 {/* <!-- Carousel Images --> */}
                 <Carousel>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/bog-team-1.JPG"
+                        <img className="d-block w-100" src="/blogAssets/img/bog-team-1.JPG"
                             alt="Breakout Games Team 1" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">L-R: Nick, Michael, Taylor, Todd,
+                            <p className="d-inline-flex px-2">L-R: Nick, Michael, Taylor, Todd,
                                         Ethan, Robbie, Justin</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/bog-team-2.JPG"
+                        <img className="d-block w-100" src="/blogAssets/img/bog-team-2.JPG"
                             alt="Breakout Games Team 2" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">L-R: David, Ian, Abram, Will, Sam,
+                            <p className="d-inline-flex px-2">L-R: David, Ian, Abram, Will, Sam,
                                         Eric, Rachael</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -61,23 +61,23 @@ function JHWeek1() {
                 {/* <!-- Carousel Images --> */}
                 <Carousel>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/newtons-vr.JPG" alt="Newton's Attic VR" />
+                        <img className="d-block w-100" src="/blogAssets/img/newtons-vr.JPG" alt="Newton's Attic VR" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2 bg-dark rounded">Playing Beat Saber (VR) at Newton's
+                            <p className="d-inline-flex px-2 bg-dark rounded">Playing Beat Saber (VR) at Newton's
                                         Attic</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/newtons-spinner-blur.png"
+                        <img className="d-block w-100" src="/blogAssets/img/newtons-spinner-blur.png"
                             alt="Spinner at Newton's Attic" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2 bg-dark rounded">Sam having "fun" in the spinning
+                            <p className="d-inline-flex px-2 bg-dark rounded">Sam having "fun" in the spinning
                                         machine</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
 
-                <h3 class="text-center">The Job Hunt</h3>
+                <h3 className="text-center">The Job Hunt</h3>
 
                 <p>
                     Now that we have completed the in-person segment of the Bootcamp, we will be starting
@@ -99,7 +99,7 @@ function JHWeek1() {
                     as something we should already be doing in our attempt to find a job.
                     </p>
 
-                <h3 class="text-center">Job Hunt Update</h3>
+                <h3 className="text-center">Job Hunt Update</h3>
 
                 <p>
                     I actually began my job hunt back in mid-October, and had applied to 6 jobs by the time the Bootcamp
@@ -135,7 +135,7 @@ function JHWeek1() {
                     </ul>
                 </p>
 
-                <h3 class="text-center">What's Next?</h3>
+                <h3 className="text-center">What's Next?</h3>
 
                 <p>
                     More job hunting — as well as working to continue to grow as a developer. I’ve been
@@ -148,10 +148,10 @@ function JHWeek1() {
                     on hold to learn their tech stack as thoroughly as possible.
                     </p>
 
-                <figure class="figure">
-                    <img class="img-fluid" src="/blogAssets/img/30-60-90-plan.png"
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/30-60-90-plan.png"
                         alt="An image of my 30-60-90 day plan" />
-                    <figcaption class="figure-caption text-center">My 30-60-90 day plan</figcaption>
+                    <figcaption className="figure-caption text-center">My 30-60-90 day plan</figcaption>
                 </figure>
 
                 <p>

@@ -5,9 +5,9 @@ function FLWeek3() {
     return (
         <>
             {/* <!-- Main Text --> */}
-            <article class="text-justify">
+            <article className="text-justify">
 
-                <h3 class="text-center">Monthly Update</h3>
+                <h3 className="text-center">Monthly Update</h3>
 
                 <p>
                     This past month, Anna and I adopted two cats, I played my first game
@@ -19,50 +19,50 @@ function FLWeek3() {
                 {/* <!-- Carousel Images --> */}
                 <Carousel>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/poppy-and-waffles-blur.png"
+                        <img className="d-block w-100" src="/blogAssets/img/poppy-and-waffles-blur.png"
                             alt="Picture of the cats" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2 bg-dark rounded">Waffles (front) and Poppy</p>
+                            <p className="d-inline-flex px-2 bg-dark rounded">Waffles (front) and Poppy</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/first-game-of-disc-golf-blur.png"
+                        <img className="d-block w-100" src="/blogAssets/img/first-game-of-disc-golf-blur.png"
                             alt="A muddy picture of me" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">After I fell in the mud. Note my superb taste in functional eyewear</p>
+                            <p className="d-inline-flex px-2">After I fell in the mud. Note my superb taste in functional eyewear</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/lou-aja-jenga-blur.png"
+                        <img className="d-block w-100" src="/blogAssets/img/lou-aja-jenga-blur.png"
                             alt="A picture of Aja" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">Aja playing giant Jenga at Mile Wide Brewery</p>
+                            <p className="d-inline-flex px-2">Aja playing giant Jenga at Mile Wide Brewery</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/lou-robbie-anna-ricky-larry.JPG"
+                        <img className="d-block w-100" src="/blogAssets/img/lou-robbie-anna-ricky-larry.JPG"
                             alt="A picture of Aja" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">L-R: Robbie, Anna, Ricky, Larry. Visiting my great Uncle in Louisville.</p>
+                            <p className="d-inline-flex px-2">L-R: Robbie, Anna, Ricky, Larry. Visiting my great Uncle in Louisville.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/baking-pizza-at-ians-blur.png"
+                        <img className="d-block w-100" src="/blogAssets/img/baking-pizza-at-ians-blur.png"
                             alt="A picture of our pizzas" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">Baking pizzas at Ian and Olivia's house</p>
+                            <p className="d-inline-flex px-2">Baking pizzas at Ian and Olivia's house</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img class="d-block w-100" src="/blogAssets/img/music-studio.JPG"
+                        <img className="d-block w-100" src="/blogAssets/img/music-studio.JPG"
                             alt="A picture of my home music studio" />
                         <Carousel.Caption>
-                            <p class="d-inline-flex px-2">I finally got my home music studio decorated. I made it half the month on my piano practice resolution.</p>
+                            <p className="d-inline-flex px-2">I finally got my home music studio decorated. I made it half the month on my piano practice resolution.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
 
-                <h3 class="text-center">The Job Hunt</h3>
+                <h3 className="text-center">The Job Hunt</h3>
 
                 <p>
                     Around Jan 15th, I started doing freelance iOS development for{' '}
@@ -102,10 +102,10 @@ was having to turn away clients because he was too busy,
                     however, had a certain magical quality and I was really excited to build
                     something that I could run on my phone.
                     </p>
-                <div class="text-center">
-                    <figure class="figure" style={{ maxWidth: "50%" }}>
-                        <img class="img-fluid" src="/blogAssets/img/calculator-demo.gif" alt="A demo gif of my calculator app" />
-                        <figcaption class="figure-caption text-center">My calculator app!</figcaption>
+                <div className="text-center">
+                    <figure className="figure" style={{ maxWidth: "50%" }}>
+                        <img className="img-fluid" src="/blogAssets/img/calculator-demo.gif" alt="A demo gif of my calculator app" />
+                        <figcaption className="figure-caption text-center">My calculator app!</figcaption>
                     </figure>
                 </div>
 
@@ -120,7 +120,7 @@ has a calculator on their phone, I also added an Easter Egg — Party Mode — t
                         be accessed by inputting my birthday: “32193” (March 21<sup>st</sup>, 1993).
                     </p>
 
-                <h3 class="text-center">Swift vs JavaScript</h3>
+                <h3 className="text-center">Swift vs JavaScript</h3>
 
                 <p>
                     I wanted to end this post with my thoughts on some key differences
@@ -176,7 +176,7 @@ Below are some key differences that I found:
                     </li>
                 </ul>
 
-                <h3 class="text-center">Reflection</h3>
+                <h3 className="text-center">Reflection</h3>
 
                 <p>
                     I've really enjoyed learning Swift and like both building apps and freelancing in general.
