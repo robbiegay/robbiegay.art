@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek8() {
     return (
@@ -12,8 +12,8 @@ function BCWeek8() {
                 <p>
                     On Monday we worked remote. President Trump held a last minute
                     rally for the Kentucky Republicans and there was concern about
-                        traffic being congested. On Tuesday, Kentucky{' '}
-                    <a href="https://en.wikipedia.org/wiki/Andy_Beshear#Governor_of_Kentucky" title="Andy Beshear Wikipedia">elected a new governor</a>{' '}
+                        traffic being congested. On Tuesday, Kentucky{" "}
+                    <a href="https://en.wikipedia.org/wiki/Andy_Beshear#Governor_of_Kentucky" title="Andy Beshear Wikipedia">elected a new governor</a>{" "}
                     and UK opened their basketball season by defeating #1 Michigan State.
                     </p>
 
@@ -34,11 +34,11 @@ function BCWeek8() {
                     Your browser does not support HTML5 video.
                       </video>
                 <p>
-                    On Thursday, our informal Bootcamp Lunch Club™ ate at{' '}
+                    On Thursday, our informal Bootcamp Lunch Club™ ate at{" "}
                     <a href="https://www.sunrisebakeryky.com/" title="Sunrise Bakery Website">Sunrise Bakery</a>.
                     They have a cool “make me a sandwich” option, so we all took our chances
                         with mystery sandwiches. On Friday we had Bootcamp Happy Hour! About 2/3<sup>rds</sup>
-                    of our class met up at <a href="http://marikkaslex.com/" title="Marikka's Website">Marikka’s</a>{' '}
+                    of our class met up at <a href="http://marikkaslex.com/" title="Marikka's Website">Marikka’s</a>{" "}
                     for drinks and games. Below is a picture of
                     Abram beating Taylor and I two-on-one in foosball. On Saturday, Anna and I
                     went to Sahara. Ethan has been telling me how good their food is all semester. I was
@@ -83,9 +83,9 @@ function BCWeek8() {
 
                 <p>
                     Last week we continued working on learning Laravel.
-                        I worked through the remaining{' '}
-                    <a href="https://laracasts.com/series/laravel-6-from-scratch" title="Laravel 6 from Scratch">Laracast Videos</a>{' '}
-                    and then began working on the{' '}
+                        I worked through the remaining{" "}
+                    <a href="https://laracasts.com/series/laravel-6-from-scratch" title="Laravel 6 from Scratch">Laracast Videos</a>{" "}
+                    and then began working on the{" "}
                     <a href="https://robbiegay.github.io/react-restaurant/" title="Laravel Library GitHub Repo">Laravel Library project</a>.
                     This is the first time that the instructors have assigned this
                     project, and apparently they didn’t think we could
@@ -101,8 +101,8 @@ function BCWeek8() {
                     more by doing and after following along with the Laracast Videos
                     for several days, I was really ready to jump in and start coding!
                     This project has made me realize that I like Back End. I really enjoy
-                        the problem solving aspect of Back End programming, and found using{' '}
-                    <a href="https://laracasts.com/series/laravel-6-from-scratch/episodes/30" title="Laracast Video on foreign keys">foreign keys</a>{' '}
+                        the problem solving aspect of Back End programming, and found using{" "}
+                    <a href="https://laracasts.com/series/laravel-6-from-scratch/episodes/30" title="Laracast Video on foreign keys">foreign keys</a>{" "}
                     to link items between tables really neat.
                     </p>
 
@@ -112,8 +112,8 @@ function BCWeek8() {
                 </figure>
 
                 <p>
-                    On Thursday we wrapped up the{' '}
-                    <a href="https://www.hackerrank.com/" title="HackerRank Website">HackerRank</a>{' '}
+                    On Thursday we wrapped up the{" "}
+                    <a href="https://www.hackerrank.com/" title="HackerRank Website">HackerRank</a>{" "}
                     morning warm-ups &#128533;. I have really enjoyed starting the day with some fast
                     paced problem solving. Although we now get an extra hour to work on our various projects,
                     I will miss starting the day like this.

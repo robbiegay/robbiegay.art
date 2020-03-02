@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PWWeek3() {
     return (
@@ -36,9 +36,9 @@ function PWWeek3() {
             various new products.
                     </p>
                 <p>
-                    A final interesting fact about JavaScript — its creator,{' '}
+                    A final interesting fact about JavaScript — its creator,{" "}
                     <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Brendan Eich</a>,
-                wrote the prototype of the language{' '}
+                wrote the prototype of the language{" "}
                     <a href="https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape"
                         title="History of JavaScript (Wikipedia)">in just 10 days</a>. A pretty
         fast start for a programming language that has been going strong
@@ -142,7 +142,7 @@ function PWWeek3() {
                     A second thing that I struggled with this week was encountering
                         logic errors in my <a href="https://robbiegay.github.io/silly-story/"
                         title="Robbie's Silly Story Generator">Silly Story Generator</a>.
-            The SSG is supposed to take a string of text and, somewhat{' '}
+            The SSG is supposed to take a string of text and, somewhat{" "}
                     <a href="https://en.wikipedia.org/wiki/Mad_Libs" title="Mad Libs Wikipedia">Mad Libs</a> style,
                                 insert funny
                                 characters and locations to generate a new “silly story” each time
@@ -189,10 +189,10 @@ function PWWeek3() {
                     It seemed like there were no real “ah-ha” moments of getting this
                     week's code to work — rather than a large change that fixed the
                     program, it was several small implementations that eventually
-                    built some functioning code.{' '}
+                    built some functioning code.{" "}
                     <a href="https://en.wikipedia.org/wiki/The_Pragmatic_Programmer"
                         title="Pragmatic Programmer Wikipedia">The
-                            Pragmatic Programmer</a>{' '}
+                            Pragmatic Programmer</a>{" "}
                     mentions a Japanese phrase, “kaizen”. This is the process of
                     making small, incremental improvements that over time produce high
                     quality results. This is what the process of debugging both this
@@ -208,7 +208,7 @@ function PWWeek3() {
                     framework that gets recycled on every page. After my first couple
                     of webpages, I got tired of repeatedly building the same
                     structure. I had decided that it would be really useful to build a
-                    template to start with. It was then that fellow Bootcamper{' '}
+                    template to start with. It was then that fellow Bootcamper{" "}
                     <a href="https://anchormansam.github.io/my-blog/blog.html" title="A link to Sam's Blog">Sam</a>
                     mentioned a
                     useful shortcut
@@ -248,13 +248,13 @@ function PWWeek3() {
                 <p>
                     The resource that I wanted to share this week is less of a useful
                     tool and more of a really cool inspiration! While working through
-                    this week’s{' '}
+                    this week’s{" "}
                     <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#So_what_can_it_really_do"
                         title="MDN: 'What is JavaScript?'">
                         MDN reading on JavaScript</a>, they mentioned that some
         programmers are doing some really cool things with audio and video
                         <abbr title="Application Programming Interfaces">API’s</abbr>. As
-                                            an example, they gave use a link to the{' '}
+                                            an example, they gave use a link to the{" "}
                     <a href="https://experiments.withgoogle.com/collection/chrome" title="Chrome Experiments">Chrome
                                             Experiments
                             webpage</a>. This

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PWWeek1() {
     return (
@@ -17,7 +17,7 @@ function PWWeek1() {
                 <p>
                     Our first week started with a meet up at Awesome Inc. We got a chance to
                     meet our fellow bootcampers (there are 11 of us!), as well as meet our 3
-                    instructors: <a href="https://www.justinhall.com/" title="Justin Hall's Website">Justin</a>,{' '}
+                    instructors: <a href="https://www.justinhall.com/" title="Justin Hall's Website">Justin</a>,{" "}
                     <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>,
                     and <a href="https://jmstewart00.github.io/" title="Josh Stewart's Website">Josh</a>.
                     <br /><br />
@@ -49,9 +49,9 @@ function PWWeek1() {
                     few months ago, and have been working my way through the public library’s
                     collection of Cal
                     Newport (<a href="http://www.calnewport.com/books/so-good/" title="So Good They Can’t Ignore You by Cal Newport">
-                        “So Good They Can’t Ignore You”</a> is an awesome take on learning new skills;{' '}
+                        “So Good They Can’t Ignore You”</a> is an awesome take on learning new skills;{" "}
                     <a href="http://www.calnewport.com/books/digital-minimalism/"
-                        title="Digital Minimalism by Cal Newport">“Digital Minimalism”</a>{' '}
+                        title="Digital Minimalism by Cal Newport">“Digital Minimalism”</a>{" "}
                     caused me to delete all social media from my phone and to disable its internet browser). I’d
                     seen images of learning
                     curves, and read various theories about the path someone takes when learning a new skill, but I
@@ -212,10 +212,10 @@ function PWWeek1() {
 
 
                 <p>
-                    One thing that helped me was reaching out to my brother, William.{' '}
-                    <a href="https://github.com/1GWilly8" title="William's GitHub">William</a>{' '}
+                    One thing that helped me was reaching out to my brother, William.{" "}
+                    <a href="https://github.com/1GWilly8" title="William's GitHub">William</a>{" "}
                     graduated with a <a href="https://www.hanover.edu/academics/programs/cs"
-                        title="Hanover College Computer Science"><abbr title="Computer Science">CS</abbr> degree</a>{' '}
+                        title="Hanover College Computer Science"><abbr title="Computer Science">CS</abbr> degree</a>{" "}
                     in 2018 and has been working for an <a href="https://glowlabs.co" title="Glow Labs">
                         <abbr title="Internet of Things">IoT</abbr> company</a> in Denver. I told him that I was
             struggling with Git and
@@ -264,7 +264,7 @@ function PWWeek1() {
                     The prompt for our first blog post asked us for a resource that would help others in the
                     program.
                     I’m sure that most bootcampers know of or use something similar to this, but I found an
-                    online coding platform like <a href="https://codepen.io" title="CodePen">CodePen</a>{' '}
+                    online coding platform like <a href="https://codepen.io" title="CodePen">CodePen</a>{" "}
                     really helpful. I didn’t use it for major projects, but when I learned something new
                     and wanted to try applying it quickly, I could hop over to CodePen and draft something
                     up in a matter of minutes.

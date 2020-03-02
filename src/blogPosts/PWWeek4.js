@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PWWeek4() {
     return (
@@ -22,7 +22,7 @@ function PWWeek4() {
                 <h3 className="text-center">Prework Week 4</h3>
                 <p>
                     This week was lighter on the readings, and started to skew more
-                        towards project-based work. We started with another{' '}
+                        towards project-based work. We started with another{" "}
                     <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"
                         title="JavaScript Building Blocks">MDN module</a>, this one
                 introducing us to some more JavaScript building blocks — things
@@ -30,7 +30,7 @@ function PWWeek4() {
                     </p>
                 <p>
                     Next, we moved on to four coding projects. Our first project still
-                        involved a little bit of handholding. For the{' '}
+                        involved a little bit of handholding. For the{" "}
                     <a href="https://robbiegay.github.io/image-gallery/" title="Image Gallery">Image Gallery</a>,
                     we were given some starter code, as well as instructions on what
                     parts of the code we still needed to fill in. After the Image
@@ -38,9 +38,9 @@ function PWWeek4() {
                     </p>
                 <p>
                     My biggest takeaway from this week's assignments has been that I
-                        have become a pretty big Pseudo Code enthusiast! For the{' '}
+                        have become a pretty big Pseudo Code enthusiast! For the{" "}
                     <a href="https://robbiegay.github.io/countdown-timer/" title="Countdown Timer">Countdown
-                            Timer</a>{' '}
+                            Timer</a>{" "}
                     assignment, I felt
                     like I had an idea of how the code could work pretty early on. I
                         <em>did</em> jot down a rough outline of the code, but didn’t
@@ -66,9 +66,9 @@ function PWWeek4() {
                 </blockquote>
                 <h3 className="text-center">Reflection: The Prework Period</h3>
                 <p>
-                    Each week of Prework presented different challenges and opportunities.{' '}
+                    Each week of Prework presented different challenges and opportunities.{" "}
                     <a href="https://robbiegay.github.io/posts/pw-week-1.html" title="PW Week 1 Blog Post">Week
-                            1</a>{' '}
+                            1</a>{" "}
                     introduced
                     us to Git, Github,
                     and Command Line. A lot of these new technologies felt very
@@ -78,7 +78,7 @@ function PWWeek4() {
                     </p>
                 <p>
                     <a href="https://robbiegay.github.io/posts/pw-week-2.html" title="PW Week 2 Blog Post">Week
-                            2</a>{' '}
+                            2</a>{" "}
                     introduced
                     us to HTML and
                     CSS, and saw us creating our first blog posts! I found the
@@ -95,7 +95,7 @@ function PWWeek4() {
                     </p>
                 <p>
                     <a href="https://robbiegay.github.io/posts/pw-week-3.html" title="PW Week 3 Blog Post">Week
-                            3</a>{' '}
+                            3</a>{" "}
                     introduced
                     us to
                     JavaScript, while Week 4 added some more fundamentals

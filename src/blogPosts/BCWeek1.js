@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 
 function PWWeek2() {
@@ -64,7 +64,7 @@ function PWWeek2() {
                 <p>
                     Jacqueline, a graphic designer here at Awesome Inc, came by
                     on Wednesday to talk to us about some basic design principles.
-                        Her talk was about{' '}
+                        Her talk was about{" "}
                     <span className="text-danger">C.</span><span className="text-primary">R.</span><span className="text-warning">A.</span><span className="text-success">P.</span>:
                     </p>
 
@@ -76,8 +76,8 @@ function PWWeek2() {
                 </ol>
 
                 <p>
-                    We talked about{' '}
-                    <span className="text-danger">C.</span><span className="text-primary">R.</span><span className="text-warning">A.</span><span className="text-success">P.</span>{' '}
+                    We talked about{" "}
+                    <span className="text-danger">C.</span><span className="text-primary">R.</span><span className="text-warning">A.</span><span className="text-success">P.</span>{" "}
                     principles, and then looked at
                     some examples of bad design. After our design workshop wrapped
                     up, I turned back to my blog and realized just how much additional
@@ -101,8 +101,8 @@ function PWWeek2() {
 
                 <p>
                     I definitely struggled with understanding JavaScript objects at
-                        first. I tried reading the “objects” chapter in{' '}
-                    <a title="Eloquent JavaScript" href="https://eloquentjavascript.net/06_object.html">“Eloquent JavaScript”</a>{' '}
+                        first. I tried reading the “objects” chapter in{" "}
+                    <a title="Eloquent JavaScript" href="https://eloquentjavascript.net/06_object.html">“Eloquent JavaScript”</a>{" "}
                     on Monday. By “tried to read”, I mean that I made it about halfway through
                     before becoming so lost that I only skimmed the rest, knowing that nothing else was going to
                         stick. Later in the week, I began working through the <a title="MDN JS Objects Module"

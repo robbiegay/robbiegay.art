@@ -1,5 +1,5 @@
-import React from 'react';
-import { CardDeck, Card } from 'react-bootstrap';
+import React from "react";
+import { CardDeck, Card } from "react-bootstrap";
 
 function ProjectsViewer() {
     // let fontSize = "30px";

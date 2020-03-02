@@ -1,9 +1,9 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import PageFormat from './PageFormat';
-import CountUpTimer from './CountUpTimer';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import PageFormat from "./PageFormat";
+import CountUpTimer from "./CountUpTimer";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 function Music() {
     let largerSize = "75px";
@@ -43,7 +43,7 @@ function Music() {
             </p>
 
                 {/*  Music making photo */}
-                <Image src={process.env.PUBLIC_URL + '/images/making-music.jpg'} rounded fluid />
+                <Image src={process.env.PUBLIC_URL + "/images/making-music.jpg"} rounded fluid />
 
                 <br /><br />
                 <Container>
@@ -51,9 +51,9 @@ function Music() {
                         <Col xs={3}></Col>
                         <Col xs={6}>
                             <p className="text-justify">
-                                <a href="https://robbiegay.bandcamp.com/" title="My BandCamp Page" target="_blank" rel="noopener noreferrer"><i class="fab fa-bandcamp" style={{ color: "#1ea1c3", fontSize: largerSize }}></i></a>{' '}
-                                <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page" target="_blank" rel="noopener noreferrer"><i class="fab fa-soundcloud" style={{ color: "#ff6c02", fontSize: largerSize }}></i></a>{' '}
-                                {/* <a href="https://www.youtube.com/robbiegay" title="My YouTube Channel" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" style={{ color: "#ff0000", fontSize: largerSize }}></i></a> */}
+                                <a href="https://robbiegay.bandcamp.com/" title="My BandCamp Page" target="_blank" rel="noopener noreferrer"><i className="fab fa-bandcamp" style={{ color: "#1ea1c3", fontSize: largerSize }}></i></a>{" "}
+                                <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page" target="_blank" rel="noopener noreferrer"><i className="fab fa-soundcloud" style={{ color: "#ff6c02", fontSize: largerSize }}></i></a>{" "}
+                                {/* <a href="https://www.youtube.com/robbiegay" title="My YouTube Channel" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube" style={{ color: "#ff0000", fontSize: largerSize }}></i></a> */}
                                 {/* Hack to spread the icons evenly across the line */}
                                 <span style={{ width: "100%", display: "inline-block" }}></span>
                             </p>

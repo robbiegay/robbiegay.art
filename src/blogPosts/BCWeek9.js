@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek9() {
     return (
@@ -22,10 +22,10 @@ function BCWeek9() {
                 </figure>
 
                 <p>
-                    On Tuesday, Ian and I met up to make some music — stay tuned for the{' '}
-                    <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page">robbiegay</a>{' '}
-                    x <a href="https://soundcloud.com/whythough" title="Ian's SoundCloud Page">whythough?</a>{' '}
-                    remix. On Thursday, Bootcamp Lunch Club struck again. We went to{' '}
+                    On Tuesday, Ian and I met up to make some music — stay tuned for the{" "}
+                    <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page">robbiegay</a>{" "}
+                    x <a href="https://soundcloud.com/whythough" title="Ian's SoundCloud Page">whythough?</a>{" "}
+                    remix. On Thursday, Bootcamp Lunch Club struck again. We went to{" "}
                     <a href="http://www.ilovecajun.com/">Bourbon and Toulouse</a>. I had recently decided to become
         a pescatarian, so I couldn’t order my usual chicken etouffee. Finally, on Friday, Awesome Inc
         had a potluck style family lunch. Overall, a lot of good food was eaten this week!
@@ -63,9 +63,9 @@ function BCWeek9() {
                 </Carousel>
 
                 <p>
-                    On Friday night, we had our second Bootcamp Happy Hour! We started at{' '}
-                    <a href="https://www.goodfellaspizzeria.com/" title="Goodfella's Website">Goodfella’s</a>{' '}
-                    for pizza, and then migrated over to the{' '}
+                    On Friday night, we had our second Bootcamp Happy Hour! We started at{" "}
+                    <a href="https://www.goodfellaspizzeria.com/" title="Goodfella's Website">Goodfella’s</a>{" "}
+                    for pizza, and then migrated over to the{" "}
                     <a href="https://www.theburlky.com/arcade/" title="Burl Arcade Website">Burl Arcade</a>!
             Lots of quarters were spent, Anna smoked me in some skee ball, and some very long Uno and giant
             Jenga games closed out the night.
@@ -80,7 +80,7 @@ function BCWeek9() {
 
                 <p>
                     Our project this week was to deconstruct and recreate a popular website.
-                    I selected Instagram, and decided to turn it into{' '}
+                    I selected Instagram, and decided to turn it into{" "}
                     <a href="https://github.com/robbiegay/catgram-front-end" title="Catgram Front End Repo">Catgram</a>!
             Step one was to break down various components of the site, and to MoSCoW these
             features. MoSCoW-ing a project involves sorting the proposed features into

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek7() {
     return (
@@ -23,7 +23,7 @@ function BCWeek7() {
                     </p>
 
                 <p>
-                    We went over to{' '}
+                    We went over to{" "}
                     <a href="https://wineandmarket.com/" title="Wine and Market's Website">Wine and Market</a>,
             a really cool sandwich spot and boutique grocery store over on
             Jefferson Street. I always feel like I’m in the hot seat when
@@ -69,12 +69,12 @@ function BCWeek7() {
                 <p>
                     On Friday, the UK Men’s Basketball team played their second exhibition
                     game against Kentucky State. Anna and I had 2 extra tickets, so
-                    I offered them up to anyone in the Bootcamp and{' '}
+                    I offered them up to anyone in the Bootcamp and{" "}
                     <a href="http://ianrios.me/" title="Ian's Website">Ian</a> was the
     first to claim them. Ian and his wife Olivia joined us for dinner
-                            at <a href="https://www.facebook.com/Sawyers-Downtown-Bar-Grill-491414770920862/" title="Sawyer's Facebook Page">Sawyer's</a>{' '}
+                            at <a href="https://www.facebook.com/Sawyers-Downtown-Bar-Grill-491414770920862/" title="Sawyer's Facebook Page">Sawyer's</a>{" "}
                     before the game. I’m starting to get a little ‘foodie’-ish with all
-                    of these recommendation, but I do think that the chili and burgers at Sawyer's are the
+                    of these recommendation, but I do think that the chili and burgers at Sawyer"s are the
                     best in town. We sat in our actual seats (upper arena) for the first
                     half, but took our chances in the second half by
                     snagging some open seats about 8 rows from the floor. Luckily no one
@@ -111,7 +111,7 @@ function BCWeek7() {
 
                 <p>
                     This week we started learning Back End development! We began by
-                        learning some{' '}
+                        learning some{" "}
                     <a href="https://www.php.net/" title="PHP Documentation Site">PHP</a>.
             PHP stands for ‘PHP: Hypertext Processor’, which is a recursive acronym,
             apparently something that programmers love. We built a practice server,
@@ -126,7 +126,7 @@ function BCWeek7() {
                 </figure>
 
                 <p>
-                    About midweek, we jumped into{' '}
+                    About midweek, we jumped into{" "}
                     <a href="https://laravel.com/" title="The Laravel Website">Laravel</a>.
             Laravel is a PHP framework that is billed as an elegant and
             expressive means to do Back End programming. I have really
@@ -187,14 +187,14 @@ function BCWeek7() {
                         </p>
 
                 <p>
-                    Next week we start the week off with a remote day!{' '}
-                    <a href="https://twitter.com/realDonaldTrump" title="The Donald's Twitter Page">President Trump</a>{' '}
+                    Next week we start the week off with a remote day!{" "}
+                    <a href="https://twitter.com/realDonaldTrump" title="The Donald's Twitter Page">President Trump</a>{" "}
                     is holing a political rally in the evening, and most of
                     downtown will be blocked off starting at 2pm. Traffic
                     will be a nightmare, and because of this we will be working
                     from home. We will spend the first day or two working through
-                        the rest of the Laracasts, and will then move into the{' '}
-                    <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/laravel-library.md" title="Project Prompt">Laravel Library</a>{' '}
+                        the rest of the Laracasts, and will then move into the{" "}
+                    <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/laravel-library.md" title="Project Prompt">Laravel Library</a>{" "}
                     project. Tuesday is election day. I’m looking forward to voting,
                     and will be excited to see how the election plays out across
                     the state. Finally, on Tuesday night (9:30pm — remember

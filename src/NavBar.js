@@ -1,7 +1,7 @@
-import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function NavBar() {
     return (

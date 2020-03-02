@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek12() {
     return (
@@ -36,10 +36,10 @@ function BCWeek12() {
                             Introductory speeches at Noon. Open house until 1pm.
                             </li>
                         <li>
-                            <span className="text-primary">Friday</span>: Retro and feedback.{' '}
-                            <a href="https://breakoutgames.com/lexington" title="Breakout Games Website">Breakout Games</a>{' '}
+                            <span className="text-primary">Friday</span>: Retro and feedback.{" "}
+                            <a href="https://breakoutgames.com/lexington" title="Breakout Games Website">Breakout Games</a>{" "}
                             after lunch. Evening:
-                                Bootcamp Graduation party at{' '}
+                                Bootcamp Graduation party at{" "}
                             <a href="https://newtonsattic.com/index.php" title="Newton's Attic Website">Newton's Attic</a>.
                             </li>
                     </ol>
@@ -140,7 +140,7 @@ function BCWeek12() {
                 </Carousel>
 
                 <p>
-                    For my presentation, I talked about my background in{' '}
+                    For my presentation, I talked about my background in{" "}
                     <a href="spotify:album:3izLLRwlc66KiLs3M6P4wk" title="My single 'Wake'">music making</a>, my intention of
                     combining this passion with our tech stack for the final project, and finally how
                         MPM<sup>2</sup> worked.
@@ -179,8 +179,8 @@ function BCWeek12() {
                 <h3>Post Demo Day</h3>
 
                 <p>
-                    After Demo Day wrapped up, we all went across the street to{' '}
-                    <a href="https://www.eastendtapandtable.com/" title="EE T&T Website">East End Tap and Table</a>{' '}
+                    After Demo Day wrapped up, we all went across the street to{" "}
+                    <a href="https://www.eastendtapandtable.com/" title="EE T&T Website">East End Tap and Table</a>{" "}
                     for a celebratory meal. Still staying true to my new Pescetarian lifestyle, I ordered the
                     tofu siam-wich. It was really good!
                     </p>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek10() {
     return (
@@ -64,16 +64,16 @@ function BCWeek10() {
                 <p>
                     Despite the detailed planning, I still had to remain pretty flexible
                     during this first week of development. I planned on onboarding two
-                        frameworks/libraries,{' '}
-                    <a href="https://tonejs.github.io/" title="Tone.js Homepage">Tone.js</a>{' '}
-                    (for sound) and{' '}
-                    <a href="https://ptsjs.org/" title="Pts.js Homepage">Pts.js</a>{' '}
+                        frameworks/libraries,{" "}
+                    <a href="https://tonejs.github.io/" title="Tone.js Homepage">Tone.js</a>{" "}
+                    (for sound) and{" "}
+                    <a href="https://ptsjs.org/" title="Pts.js Homepage">Pts.js</a>{" "}
                     (for visuals). The documentation pages for both of these frameworks/libraries
                     talked about how simple they are to learn, and the example code was
                     often only 10-15 lines long. Because of this, I had a certain time
                     expectation for incorporating in these new techs. Nothing ever
                     goes quite as planned, and it turned out that Pts doesn’t work all
-                        that well with React (I had to download an auxiliary package{' '}
+                        that well with React (I had to download an auxiliary package{" "}
                     <a href="https://www.npmjs.com/package/react-pts-canvas" title="NPM: react-pts-canvas">react-pts-canvas</a>).
                     I ended up getting the synth to work more quickly than the visuals,
                     and headed into the weekend with a working synth with basic control parameters.

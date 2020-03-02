@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek11() {
     return (
@@ -20,8 +20,8 @@ function BCWeek11() {
                 <h3>Monday</h3>
 
                 <p>
-                    On Monday, I created a new{' '}
-                    <a href="https://en.wikipedia.org/wiki/Kanban" title="Wikipedia: Kanban">kanban</a>{' '}
+                    On Monday, I created a new{" "}
+                    <a href="https://en.wikipedia.org/wiki/Kanban" title="Wikipedia: Kanban">kanban</a>{" "}
                     board for the project. Last week made me realize that time will
                     play an important role in how much I will be able to get done,
                     and I wanted to map out a project “prototype” — something with
@@ -41,8 +41,8 @@ function BCWeek11() {
                     ran into as issue with creating too many API calls. When I would move the
                     slider once, it would send hundreds of calls to the database. This would
                     cause a “429 — too many requests" error. To remedy this, I decided to use
-                    a technique called{' '}
-                    <a href="https://en.wikipedia.org/wiki/Polling_(computer_science)" title="Wikipedia: Polling">polling</a>{' '}
+                    a technique called{" "}
+                    <a href="https://en.wikipedia.org/wiki/Polling_(computer_science)" title="Wikipedia: Polling">polling</a>{" "}
                     — basically, checking for updates at regular time
                     intervals. I found that if I limited myself to one API call per second, I
                     could mostly avoid 429 errors.
@@ -75,13 +75,13 @@ function BCWeek11() {
                     </p>
 
                 <p>
-                    After lunch (a quick stop at Sahara with Sam and Anna, and a tour of{' '}
-                    <a href="http://nymbl.healthcare/" title="Nymbl's Website">Nymbl’s</a>{' '}
+                    After lunch (a quick stop at Sahara with Sam and Anna, and a tour of{" "}
+                    <a href="http://nymbl.healthcare/" title="Nymbl's Website">Nymbl’s</a>{" "}
                     offices), I still had one more problem I wanted to tackle: I was separating
                     my synth and synth control components, and knew that they wouldn’t have
                     any common parents to pass state up to. This meant that I needed some way
                     to store my Boolean value for triggering synth sounds. One strategy that
-                    I attempted was using{' '}
+                    I attempted was using{" "}
                     <a href="https://reactjs.org/docs/context.html" title="React Documentation: Context">React context</a>.
                 Context allows you to store values outside of the parent-child tree. This
                 was a new aspect of React to me, so first I had to research this technique,
@@ -272,8 +272,8 @@ function BCWeek11() {
                     </p>
 
                 <p>
-                    The low hanging fruit would be the new technologies that I have on boarded:{' '}
-                    <a href="https://tonejs.github.io/" title="Tone.js Homepage">Tone.js</a> and{' '}
+                    The low hanging fruit would be the new technologies that I have on boarded:{" "}
+                    <a href="https://tonejs.github.io/" title="Tone.js Homepage">Tone.js</a> and{" "}
                     <a href="https://ptsjs.org/" title="Pts.js Homepage">Pts.js</a>. While learning specific frameworks and libraries is
                 important, as a beginner developer, the important lessons that I think I
                 have learned are project management and pragmatic problem solving skills.
@@ -293,7 +293,7 @@ function BCWeek11() {
                 <p>
                     I have also learned some new strategies for dealing with problems as they
                         arise. When importing an element (for example, <code>PtsCanvas</code>), you
-                    can right click in{' '}
+                    can right click in{" "}
                     <a href="https://code.visualstudio.com/" title="VSCode Website">VSCode</a> and
                 select “go to definition” to find out how that component is defined. Reading
                 the meaning behind these higher level abstractions can really help you figure

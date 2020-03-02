@@ -1,10 +1,10 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import PageFormat from './PageFormat';
-import ProjectsViewer from './ProjectsViewer';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
-import Pdf from './documents/robbie-gay-resume.pdf';
+import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import PageFormat from "./PageFormat";
+import ProjectsViewer from "./ProjectsViewer";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import Pdf from "./documents/robbie-gay-resume.pdf";
 
 function Portfolio() {
     let fontSize = "30px";
@@ -20,7 +20,7 @@ function Portfolio() {
                     <Row>
                         <Col xs={2}></Col>
                         <Col xs={8}>
-                            <Image src={process.env.PUBLIC_URL + '/images/headshot-short-hair.jpg'} roundedCircle fluid />
+                            <Image src={process.env.PUBLIC_URL + "/images/headshot-short-hair.jpg"} roundedCircle fluid />
                         </Col>
                         <Col xs={2}></Col>
                     </Row>
@@ -32,8 +32,8 @@ function Portfolio() {
                     <Col></Col>
                     <Col xs="auto">
                         <p>
-                            <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{' '}
-                            <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
+                            <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{" "}
+                            <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
                         </p>
                     </Col>
                     <Col></Col>
@@ -58,22 +58,22 @@ function Portfolio() {
 
                 {/* Language Icons */}
                 <p className="text-justify">
-                    {/* <i className="fas fa-terminal" style={{ color: "#37932e", fontSize: fontSize }}></i>{' '} */}
-                    <a href="https://git-scm.com/" title="Git"><i className="fab fa-git-alt" style={{ color: "#fb4f28", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://github.com/" title="GitHub"><i className="fab fa-github" style={{ color: "#24292e", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://www.w3schools.com/html/" title="HTML"><i className="fab fa-html5" style={{ color: "#ef652a", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://www.w3schools.com/css/" title="CSS"><i className="fab fa-css3-alt" style={{ color: "#2965f2", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://www.w3schools.com/js/" title="JavaScript"><i className="fab fa-js" style={{ color: "#f5df18", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://swift.org/" title="Swift"><i className="fab fa-swift" style={{ color: "#f15138", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://getbootstrap.com/" title="Bootstrap"><i className="fab fa-bootstrap" style={{ color: "#563d7d", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://reactjs.org/" title="React"><i className="fab fa-react" style={{ color: "#5fd7f6", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://www.php.net/" title="PHP"><i className="fab fa-php" style={{ color: "#8992c0", fontSize: fontSize }}></i></a>{' '}
+                    {/* <i className="fas fa-terminal" style={{ color: "#37932e", fontSize: fontSize }}></i>{" "} */}
+                    <a href="https://git-scm.com/" title="Git"><i className="fab fa-git-alt" style={{ color: "#fb4f28", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://github.com/" title="GitHub"><i className="fab fa-github" style={{ color: "#24292e", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://www.w3schools.com/html/" title="HTML"><i className="fab fa-html5" style={{ color: "#ef652a", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://www.w3schools.com/css/" title="CSS"><i className="fab fa-css3-alt" style={{ color: "#2965f2", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://www.w3schools.com/js/" title="JavaScript"><i className="fab fa-js" style={{ color: "#f5df18", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://swift.org/" title="Swift"><i className="fab fa-swift" style={{ color: "#f15138", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://getbootstrap.com/" title="Bootstrap"><i className="fab fa-bootstrap" style={{ color: "#563d7d", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://reactjs.org/" title="React"><i className="fab fa-react" style={{ color: "#5fd7f6", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://www.php.net/" title="PHP"><i className="fab fa-php" style={{ color: "#8992c0", fontSize: fontSize }}></i></a>{" "}
                     {/* Added bottom margins to images to push their top alignment even with icons */}
-                    <a href="https://www.mysql.com/" title="MySQL"><Image src={process.env.PUBLIC_URL + '/languageIcons/mysql.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
-                    <a href="https://laravel.com/" title="Laravel"><i className="fab fa-laravel" style={{ color: "#ff4841", fontSize: fontSize }}></i></a>{' '}
-                    <a href="https://firebase.google.com/" title="Firebase"><Image src={process.env.PUBLIC_URL + '/languageIcons/firebase.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
-                    <a href="https://ptsjs.org/" title="Pts.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/pts.png'} style={{ height: fontSize }} className="mb-3" /></a>{' '}
-                    <a href="https://tonejs.github.io/" title="Tone.js"><Image src={process.env.PUBLIC_URL + '/languageIcons/tone.png'} style={{ height: fontSize }} className="mb-3" /></a>
+                    <a href="https://www.mysql.com/" title="MySQL"><Image src={process.env.PUBLIC_URL + "/languageIcons/mysql.png"} style={{ height: fontSize }} className="mb-3" /></a>{" "}
+                    <a href="https://laravel.com/" title="Laravel"><i className="fab fa-laravel" style={{ color: "#ff4841", fontSize: fontSize }}></i></a>{" "}
+                    <a href="https://firebase.google.com/" title="Firebase"><Image src={process.env.PUBLIC_URL + "/languageIcons/firebase.png"} style={{ height: fontSize }} className="mb-3" /></a>{" "}
+                    <a href="https://ptsjs.org/" title="Pts.js"><Image src={process.env.PUBLIC_URL + "/languageIcons/pts.png"} style={{ height: fontSize }} className="mb-3" /></a>{" "}
+                    <a href="https://tonejs.github.io/" title="Tone.js"><Image src={process.env.PUBLIC_URL + "/languageIcons/tone.png"} style={{ height: fontSize }} className="mb-3" /></a>
                     {/* Hack to spread the icons evenly across the line */}
                     <span style={{ width: "100%", display: "inline-block" }}></span>
                 </p>
