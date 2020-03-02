@@ -44,21 +44,21 @@ function BCWeek7() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/wine-and-market-sandwhiches.JPG"
                             alt="Wine and Market Sandwiches" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2">L-R: Wine and Market's #9 and #7 Sandwiches</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/wine-and-market-group-photo.JPG"
                             alt="Some Bootcampers and Anna at Wine and Market" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2">L-R: Anna, Rachael, Sam, and Ethan</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/awesome-inc-pumpkin-decorating.JPG"
                             alt="Awesome Inc Pumpkins" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Some 'Awesome' looking pumpkins!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -87,21 +87,21 @@ function BCWeek7() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/sawyers-chili-uk-kstate.JPG"
                             alt="Sawyer's Chili" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Sawyer's 'Chili Pie': Fritos, Cheese, and Chili!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/me-anna-olivia-ian-uk-kstate.JPG"
                             alt="Group selfie at the UK game" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">A group selfie at the UK game! L-R: Me, Anna, Olivia, Ian</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/anna-and-ice-cream-uk-kstate-blur.png"
                             alt="Rupp Arena Ice Cream" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Anna and Ice Cream!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -133,11 +133,11 @@ function BCWeek7() {
             enjoyed learning Laravel so far. We have been working our
             way through this
                             "<a href="https://laracasts.com/series/laravel-6-from-scratch" title="Laracasts">Laravel 6 From Scratch</a>"
-            video series. I find it to be a pretty fun way to learn!
-            I follow along with the video, pausing it to apply what
-            I just learned to my own code. Once I feel like I
-            have come to an understanding about some topic, I then try to
-            summarize it in my notes.
+    video series. I find it to be a pretty fun way to learn!
+    I follow along with the video, pausing it to apply what
+    I just learned to my own code. Once I feel like I
+    have come to an understanding about some topic, I then try to
+    summarize it in my notes.
                         </p>
 
                 <p>
@@ -176,14 +176,14 @@ function BCWeek7() {
                     understand at first. While working with JavaScript, I would
                     create one or two JS files, an HTML file, and a CSS file.
                             When I run <code>Laravel new project name</code>, it makes
-            a massive amount of files. I just went through and tried to count
-            how many files this actually does create. I was around 140~
-            when I got into the vendor bin and realized that it
-            would be a waste of time to keep counting. This is obviously
-            a great thing — look how much functionality comes built in
-            to Laravel. It does mean, however, that the learning curve is a little
-            bit steep, and a fair bit intimidating. I look forward to a
-            time when I can make better use of some of these powerful features!
+    a massive amount of files. I just went through and tried to count
+    how many files this actually does create. I was around 140~
+    when I got into the vendor bin and realized that it
+    would be a waste of time to keep counting. This is obviously
+    a great thing — look how much functionality comes built in
+    to Laravel. It does mean, however, that the learning curve is a little
+    bit steep, and a fair bit intimidating. I look forward to a
+    time when I can make better use of some of these powerful features!
                         </p>
 
                 <p>

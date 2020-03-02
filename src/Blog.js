@@ -202,7 +202,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-01-31">1.31.2020</time>
-                                        : <a href="/blog/20Week5" title="Job Hunt Week 8 Blog Post">
+                                        : <a href="/blog/FLWeek3" title="Freelance Week 3 Blog Post">
                                             Swift vs React
                                         </a>
                                     </li>
@@ -219,7 +219,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-02-29">2.29.2020</time>
-                                        : <a href="/blog/20Week9" title="Job Hunt Week 12 Blog Post">
+                                        : <a href="/blog/FLWeek7" title="Freelance Week 7 Blog Post">
                                             Design
                                         </a>
                                     </li>

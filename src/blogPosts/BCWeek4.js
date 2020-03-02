@@ -17,35 +17,35 @@ function BCWeek4() {
                 <Carousel>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/beautiful-sunrise-oct-11th.JPG" alt="A pretty sunrise" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>I've been catching some really beautiful sunrises walking to class!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/joellas-food-pic.JPG"
                             alt="Some fried chicken" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>A food pic: Joella's Hot Chicken!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/pic-of-eachother-taking-food-pics-joellas.JPG"
                             alt="Some guys taking pics of each other" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>A pic of each other taking food pics</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/uk-vs-arkansas-football.JPG"
                             alt="Before the UK Football game" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>Before the UK Football game!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/dj-bobby-frizzle.JPG"
                             alt="At the radio station" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>DJ Bobby Frizzle takes over the WRFL airwaves</p>
                         </Carousel.Caption>
                     </Carousel.Item>

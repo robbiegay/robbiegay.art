@@ -43,35 +43,35 @@ function BCWeek5() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-before-the-haircut-blur-frame.jpg"
                             alt="Before the big chop" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Standing outside the barbershop!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-getting-a-haircut-blur-frame.jpg"
                             alt="Starting the haircut" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Greg brushing out my hair</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-mid-chop-blur-frame.jpg"
                             alt="Midchop" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">The final product...</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-and-anna-after-haircut-crop.jpg"
                             alt="After the haircut" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">The actual final product... a happy girlfriend!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-hair-measured-length.JPG"
                             alt="15 inches of hair" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">15-inches — ready for donation to Wigs For Kids!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -82,13 +82,13 @@ function BCWeek5() {
                 <p>
                     On Saturday, Anna and I went hiking in Berea. We started off
                     by getting some bagels at{' '}
-                        <a href="https://www.instagram.com/nativebagelco/" title="Instagram">Native Bagel Co</a>.
-                I would really recommend the salt bagel with honey-rosemary cream cheese — so good!
-                We then hiked up to the top of East Pinnacle. Even though
-                we were hoping for more Fall colors, the view was amazing
-                and it was perfect weather for being outside. Afterwards,
+                    <a href="https://www.instagram.com/nativebagelco/" title="Instagram">Native Bagel Co</a>.
+            I would really recommend the salt bagel with honey-rosemary cream cheese — so good!
+            We then hiked up to the top of East Pinnacle. Even though
+            we were hoping for more Fall colors, the view was amazing
+            and it was perfect weather for being outside. Afterwards,
                 we drove over to{' '}
-                        <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{' '}
+                    <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{' '}
                     for some more Fall fun! We ordered their warm doughnut
                     Sunday: a warm apple cider doughnut, covered with vanilla
                     ice cream, and drizzled with caramel syrup. Very yummy!
@@ -99,35 +99,35 @@ function BCWeek5() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/berea-hike-view.JPG"
                             alt="View from East Pinnacle" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>The view from East Pinnacle!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-and-anna-berea-hike.JPG"
                             alt="Anna and I at East Pinnacle" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>Got a selfie with nature!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/berea-hike-fall-foliage-blur-frame.jpg"
                             alt="A tree turning orange" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Saw lots of Fall foliage!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/anna-on-berea-hike-blur-frame.jpg"
                             alt="Anna hiking in Berea" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Anna leading the way</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/doughnuts-and-applecider.JPG"
                             alt="Applecider doughnuts, a doughnut sunday, and a cider slushie" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Got lots of Fall goodies at the Apple Orchard. That's a warm applecider doughnut
                                         sunday on the right!</p>
                         </Carousel.Caption>
@@ -138,7 +138,7 @@ function BCWeek5() {
 
                 <p>
                     This week we started working with the{' '}
-                        <a href="https://reactjs.org" title="React Documentation">React.JS</a>{' '}
+                    <a href="https://reactjs.org" title="React Documentation">React.JS</a>{' '}
                     library. React is an open source project produced by Facebook,
                     and is billed as “A JavaScript library for building user interfaces”.
                     </p>
@@ -155,7 +155,7 @@ function BCWeek5() {
 
                 <p>
                     Here is an example of a "Card" component that I made for our{' '}
-                        <a href="https://robbiegay.github.io/react-restaurant/">React Restaurant project</a>:
+                    <a href="https://robbiegay.github.io/react-restaurant/">React Restaurant project</a>:
                     </p>
 
                 <figure className="figure">
@@ -169,7 +169,7 @@ function BCWeek5() {
                         the title, an <code>&lt;h6&gt;</code> (header) element for the price, and
                         a <code>&lt;p&gt;</code> (paragraph) element for the description.
                         You may have noticed the <code>&#123;this.props.mealTitle&#125;</code> lines of code —
-                                        A useful feature of components is that you can pass properties
+                                    A useful feature of components is that you can pass properties
                         into them using <code>props</code>.
                     </p>
 
@@ -177,14 +177,14 @@ function BCWeek5() {
                     Within the Card component, I set the inner HTML of the above
                         mentioned elements to <code>&#123;this.props.INPUT&#125;</code>. React
                                         often uses an extension of JavaScript called{' '}
-                        <a href="https://reactjs.org/docs/introducing-jsx.html" title="React Documentation">JSX</a>. JSX allows
+                    <a href="https://reactjs.org/docs/introducing-jsx.html" title="React Documentation">JSX</a>. JSX allows
                         you to put any valid JS expression within <code>{}</code> (curly braces),
-                                        and that expression will then be evaluated. In my example
+                                    and that expression will then be evaluated. In my example
                         code, I placed <code>this.props.INPUT</code> within the curly
                         braces. <code>this</code> refers to the component itself,{' '}
-                        <code>props</code> refers to properties of the object, and
+                    <code>props</code> refers to properties of the object, and
                         then <code>INPUT</code> is a placeholder for whatever element
-                                        you want to pass through to the component.
+                                    you want to pass through to the component.
                     </p>
 
                 <p>
@@ -199,10 +199,10 @@ function BCWeek5() {
 
                 <p>
                     In this example code, I pass in <code>mealTitle</code>,{' '}
-                        <code>mealPrice</code>, and <code>mealDescription</code>.
+                    <code>mealPrice</code>, and <code>mealDescription</code>.
                         Anything that I set these <code>props</code> equal to is inserted into
-                                            the respective React component. The result of
-                                            this example code is this:
+                                        the respective React component. The result of
+                                        this example code is this:
                     </p>
 
                 <figure className="figure">
@@ -226,7 +226,7 @@ function BCWeek5() {
 
                 <p>
                     Warm-up Coach{' '}
-                        <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{' '}
+                    <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{' '}
                     has recommended before that we take breaks. For me, a break typically
                     involved reading some content online or checking my phone. Unfortunately,
                     this isn’t really a ‘break’ as far as our brain is concerned — we

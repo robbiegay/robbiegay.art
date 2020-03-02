@@ -13,8 +13,8 @@ function BCWeek3() {
                         goals to the first 3 projects — keyboard input for the <a href="https://robbiegay.github.io/weather-app/">Weather
                         App</a> and <a href="https://robbiegay.github.io/calculator/">Calculator</a>; a “get weather by current location” button
                         for the Weather App; a running scoreboard for <a href="https://robbiegay.github.io/tic-tac-toe/">Tic-Tac-Toe</a>;
-                    and I also wrote my first README file for the Calculator app
-                    (more on README’s later).
+                and I also wrote my first README file for the Calculator app
+                (more on README’s later).
                     </p>
 
                 <p>
@@ -36,12 +36,12 @@ function BCWeek3() {
                     I’ve been trying to wake up early and either go to the gym or
                     get some work done before class starts. On Tuesdays, I have been
                     starting my day across the street at{' '}
-                        <a href="http://acupofcommonwealth.com/">Cup of Commonwealth</a>.
-                    It has been really nice to be able to have about an hour before
-                    class to plan out what projects I want to work on, and to even get
-                    a bit of a headstart on the day’s coding work! I also just REALLY
-                    enjoy being up that early. Note: I hate the act of actually getting out of
-                    bed (I love to sleep), but once I'm up, I love those predawn hours.
+                    <a href="http://acupofcommonwealth.com/">Cup of Commonwealth</a>.
+                It has been really nice to be able to have about an hour before
+                class to plan out what projects I want to work on, and to even get
+                a bit of a headstart on the day’s coding work! I also just REALLY
+                enjoy being up that early. Note: I hate the act of actually getting out of
+                bed (I love to sleep), but once I'm up, I love those predawn hours.
                     </p>
 
                 <figure className="figure">
@@ -56,7 +56,7 @@ function BCWeek3() {
 
                 <p>
                     On Tuesday, we started working on our final project of the 2 week sprint.{' '}
-                        <a href="https://robbiegay.github.io/sliding-puzzle/">The Sliding Puzzle game</a>{' '}
+                    <a href="https://robbiegay.github.io/sliding-puzzle/">The Sliding Puzzle game</a>{' '}
                     gave be a lot of headaches! I took an object-oriented approach, using an
                     array to hold 16 objects, each containing properties such as the array’s
                     name, and its current position on the board. Trying to conceptualize
@@ -104,7 +104,7 @@ function BCWeek3() {
                     developers in attendance, and it was really cool to get to talk with some people who are
                     currently working as devs, and to hear about the various fields that they currently work in. We spent most of the morning session setting
                         up <a href="https://flutter.dev">Flutter</a> on our machines, and we will hopefully get more
-                    into working with Flutter in this week’s session!
+                into working with Flutter in this week’s session!
                     </p>
 
                 <h3>README’s</h3>
@@ -114,9 +114,9 @@ function BCWeek3() {
                     to a project! I added some basic info about my Calculator app,
                     as well as diving fairly deeply into the various edge-cases that I had to solve for while building
                         and testing the app. Assistant Instructor <a href="http://ianrios.me/">Ian</a> also gave me a tip about including
-                    links in the project's repo descriptions. Although all of the apps that I have built so far are hosted on
-                    GitHub Pages, without easy access to links, many who visit my page may never realize this.
-                    Ian recommended that I include links to the hosted app in the description of each repo.
+                links in the project's repo descriptions. Although all of the apps that I have built so far are hosted on
+                GitHub Pages, without easy access to links, many who visit my page may never realize this.
+                Ian recommended that I include links to the hosted app in the description of each repo.
                     </p>
 
                 <figure className="figure">
@@ -131,7 +131,7 @@ function BCWeek3() {
                     I made use of this great template for writing README's, made by
                         GitHub user <a href="https://gist.github.com/PurpleBooth">PurpleBooth</a>. Check out
                     the template here:{' '}
-                        <a href="https://gist.githubusercontent.com/PurpleBooth/109311bb0361f32d87a2/raw/8254b53ab8dcb18afc64287aaddd9e5b6059f880/README-Template.md">README Template</a>{' '}
+                    <a href="https://gist.githubusercontent.com/PurpleBooth/109311bb0361f32d87a2/raw/8254b53ab8dcb18afc64287aaddd9e5b6059f880/README-Template.md">README Template</a>{' '}
                 </p>
 
                 {/* <!-- White space --> */}
