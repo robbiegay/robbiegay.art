@@ -166,9 +166,8 @@ export default Homepage
 
 /*
 
+3.2.20: Done with initial build of new website. Started on Thursday Feb 28, 2020. Finished 
+the following Monday. Took about 30 hours.
 General:
-- Message on old site about new one
-- Update website address on other profiles (and maybe awesome inc)
-- Check for ' vs "
 
 */

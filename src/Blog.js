@@ -26,7 +26,7 @@ function Blog() {
                         </Card.Header>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="0">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="0" style={{cursor: "pointer"}}>
                             August
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
@@ -43,7 +43,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="1" style={{cursor: "pointer"}}>
                             September
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
@@ -84,7 +84,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="2">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="2" style={{cursor: "pointer"}}>
                             October
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
@@ -119,7 +119,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="3" style={{cursor: "pointer"}}>
                             November
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="3">
@@ -154,7 +154,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="4">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="4" style={{cursor: "pointer"}}>
                             December
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="4">
@@ -194,7 +194,7 @@ function Blog() {
                         </Card.Header>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="5">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="5" style={{cursor: "pointer"}}>
                             January
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="5">
@@ -211,7 +211,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="6">
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="6" style={{cursor: "pointer"}}>
                             February
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="6">
