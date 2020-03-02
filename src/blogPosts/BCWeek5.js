@@ -43,35 +43,35 @@ function BCWeek5() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-before-the-haircut-blur-frame.jpg"
                             alt="Before the big chop" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Standing outside the barbershop!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-getting-a-haircut-blur-frame.jpg"
                             alt="Starting the haircut" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Greg brushing out my hair</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-mid-chop-blur-frame.jpg"
                             alt="Midchop" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">The final product...</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-and-anna-after-haircut-crop.jpg"
                             alt="After the haircut" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">The actual final product... a happy girlfriend!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-hair-measured-length.JPG"
                             alt="15 inches of hair" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">15-inches — ready for donation to Wigs For Kids!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -99,35 +99,35 @@ function BCWeek5() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/berea-hike-view.JPG"
                             alt="View from East Pinnacle" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>The view from East Pinnacle!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/robbie-and-anna-berea-hike.JPG"
                             alt="Anna and I at East Pinnacle" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p>Got a selfie with nature!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/berea-hike-fall-foliage-blur-frame.jpg"
                             alt="A tree turning orange" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Saw lots of Fall foliage!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/anna-on-berea-hike-blur-frame.jpg"
                             alt="Anna hiking in Berea" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Anna leading the way</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/doughnuts-and-applecider.JPG"
                             alt="Applecider doughnuts, a doughnut sunday, and a cider slushie" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Got lots of Fall goodies at the Apple Orchard. That's a warm applecider doughnut
                                         sunday on the right!</p>
                         </Carousel.Caption>

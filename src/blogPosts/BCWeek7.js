@@ -44,21 +44,21 @@ function BCWeek7() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/wine-and-market-sandwhiches.JPG"
                             alt="Wine and Market Sandwiches" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2">L-R: Wine and Market's #9 and #7 Sandwiches</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/wine-and-market-group-photo.JPG"
                             alt="Some Bootcampers and Anna at Wine and Market" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2">L-R: Anna, Rachael, Sam, and Ethan</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/awesome-inc-pumpkin-decorating.JPG"
                             alt="Awesome Inc Pumpkins" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Some 'Awesome' looking pumpkins!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -87,21 +87,21 @@ function BCWeek7() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/sawyers-chili-uk-kstate.JPG"
                             alt="Sawyer's Chili" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Sawyer's 'Chili Pie': Fritos, Cheese, and Chili!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/me-anna-olivia-ian-uk-kstate.JPG"
                             alt="Group selfie at the UK game" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">A group selfie at the UK game! L-R: Me, Anna, Olivia, Ian</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/anna-and-ice-cream-uk-kstate-blur.png"
                             alt="Rupp Arena Ice Cream" />
-                        <Carousel.Caption className="pb-5">
+                        <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Anna and Ice Cream!</p>
                         </Carousel.Caption>
                     </Carousel.Item>

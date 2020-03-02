@@ -15,11 +15,11 @@ import BCWeek5 from './blogPosts/BCWeek5';
 import BCWeek6 from './blogPosts/BCWeek6';
 import BCWeek7 from './blogPosts/BCWeek7';
 import BCWeek8 from './blogPosts/BCWeek8';
-// import BCWeek9 from './blogPosts/BCWeek9';
-// import BCWeek10 from './blogPosts/BCWeek10';
-// import BCWeek11 from './blogPosts/BCWeek11';
-// import BCWeek12 from './blogPosts/BCWeek12';
-// import JHWeek1 from './blogPosts/JHWeek1';
+import BCWeek9 from './blogPosts/BCWeek9';
+import BCWeek10 from './blogPosts/BCWeek10';
+import BCWeek11 from './blogPosts/BCWeek11';
+import BCWeek12 from './blogPosts/BCWeek12';
+import JHWeek1 from './blogPosts/JHWeek1';
 // import JHWeek4 from './blogPosts/JHWeek4';
 // import 20Week5 from './blogPosts/20Week5';
 // import 20Week9 from './blogPosts/20Week9';
@@ -131,6 +131,46 @@ class BlogPost extends React.Component {
                     blogPost: <BCWeek8 />,
                     title: "Bootcamp Week 8: Laravel Library",
                     date: <time datetime="2019-11-09">November 9<sup>th</sup>,
+                    2019</time>
+                });
+                break;
+            case "BCWeek9":
+                this.setState({
+                    blogPost: <BCWeek9 />,
+                    title: "Bootcamp Week 9: Catgram",
+                    date: <time datetime="2019-09-17">November 17<sup>th</sup>,
+                    2019</time>
+                });
+                break;
+            case "BCWeek10":
+                this.setState({
+                    blogPost: <BCWeek10 />,
+                    title: "Bootcamp Bootcamp Week 9: Final Projects",
+                    date: <time datetime="2019-11-24">November 24<sup>th</sup>,
+                    2019</time>
+                });
+                break;
+            case "BCWeek11":
+                this.setState({
+                    blogPost: <BCWeek11 />,
+                    title: "Bootcamp Week 11: Final Project Prototype",
+                    date: <time datetime="2019-12-01">December 1<sup>st</sup>,
+                    2019</time>
+                });
+                break;
+            case "BCWeek12":
+                this.setState({
+                    blogPost: <BCWeek12 />,
+                    title: "Bootcamp Week 12: Demo Day",
+                    date: <time datetime="2019-12-07">December 7<sup>th</sup>,
+                    2019</time>
+                });
+                break;
+            case "JHWeek1":
+                this.setState({
+                    blogPost: <JHWeek1 />,
+                    title: "Job Hunt Week 1: 30-60-90",
+                    date: <time datetime="2019-09-07">December 15<sup>th</sup>,
                     2019</time>
                 });
                 break;

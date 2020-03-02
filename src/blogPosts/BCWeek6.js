@@ -28,28 +28,28 @@ function BCWeek2() {
                         <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/bootcamp-melee.jpg"
                                         alt="Playing some Melee" />
-                            <Carousel.Caption className="pb-5">
+                            <Carousel.Caption>
                             <p className="d-inline-flex px-2">Some Bootcampers playing GameCube (L-R: Taylor, Abram, Myself, and Will)</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/carving-pumpkin.JPG"
                                         alt="A pic of pumpkin carving" />
-                            <Carousel.Caption className="pb-5">
+                            <Carousel.Caption>
                             <p className="d-inline-flex px-2">Anna carving the eyes</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/glowing-pumpkin.JPG"
                                         alt="A glowing pumpkin" />
-                            <Carousel.Caption className="pb-5">
+                            <Carousel.Caption>
                             <p className="d-inline-flex px-2">Very spooky!</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/family-lunch-oct-2019.JPG"
                                         alt="Puccini’s Pasta" />
-                            <Carousel.Caption className="pb-5">
+                            <Carousel.Caption>
                             <p className="d-inline-flex px-2">Family lunch — Puccini's Pasta and Salad!</p>
                             </Carousel.Caption>
                         </Carousel.Item>
