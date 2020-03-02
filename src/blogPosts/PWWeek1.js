@@ -3,8 +3,8 @@ import React from 'react';
 function PWWeek1() {
     return (
         <>
-            <article class="text-justify">
-                <h3 class="text-center">Welcome!</h3>
+            <article className="text-justify">
+                <h3 className="text-center">Welcome!</h3>
                 <p>
                     Welcome to my blog! Here I’ll be posting regular updates about 
                     the <a href="https://www.awesomeincu.com/bootcamp/" title="Awesome Inc Web Dev Bootcamp">Awesome Inc Web Dev Bootcamp</a>. This 
@@ -13,7 +13,7 @@ function PWWeek1() {
                     /<abbr title="Cascading Style Sheets">CSS</abbr> in order to create a blog post to begin with!
                 </p>
 
-                <h3 class="text-center">First Week of Prework</h3>
+                <h3 className="text-center">First Week of Prework</h3>
                 <p>
                     Our first week started with a meet up at Awesome Inc. We got a chance to 
                     meet our fellow bootcampers (there are 11 of us!), as well as meet our 3 
@@ -21,24 +21,24 @@ function PWWeek1() {
                     <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>, 
                     and <a href="https://jmstewart00.github.io/" title="Josh Stewart's Website">Josh</a>.
                     <br /><br />
-                    <figure class="figure">
-                        <img class="img-fluid border" src="/blogAssets/img/awesome-u-bootcamp-curriculum.png"
+                    <figure className="figure">
+                        <img className="img-fluid border" src="/blogAssets/img/awesome-u-bootcamp-curriculum.png"
                             alt="The Awesome Inc U Bootcamp Curriculum" />
-                        <figcaption class="figure-caption text-center">source: <a
+                        <figcaption className="figure-caption text-center">source: <a
                                 href="https://www.awesomeincu.com/bootcamp/">
                                 Awesome Inc Web Dev Bootcamp</a></figcaption>
                     </figure>
                     <br />
                 </p>
 
-                <h3 class="text-center">The Learning Curve</h3>
+                <h3 className="text-center">The Learning Curve</h3>
                 <p>
                     My favorite takeaway from our initial meet up was this cool graphic on the stages of learning:
                     <br /><br />
-                    <figure class="figure">
-                        <img class="img-fluid border" src="/blogAssets/img/awesome-learning-curve.png"
+                    <figure className="figure">
+                        <img className="img-fluid border" src="/blogAssets/img/awesome-learning-curve.png"
                             alt="Awesome Learning Curve" />
-                        <figcaption class="figure-caption text-center">source: <a
+                        <figcaption className="figure-caption text-center">source: <a
                                 href="https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/">"Why
                                 Learning to Code is so Damn Hard"</a></figcaption>
                     </figure>
@@ -145,9 +145,9 @@ function PWWeek1() {
                 What is Git?
                 </p>
 
-                <blockquote class="blockquote bg-light px-5 py-2 my-4 rounded-pill">
+                <blockquote className="blockquote bg-light px-5 py-2 my-4 rounded-pill">
                     "Git is a free and open source distributed version control system designed to handle everything
-                    from small to very large projects with speed and efficiency.” <cite class="blockquote-footer"><a
+                    from small to very large projects with speed and efficiency.” <cite className="blockquote-footer"><a
                             href="https://git-scm.com/">Git</a></cite>
                 </blockquote>
 
@@ -179,9 +179,9 @@ function PWWeek1() {
                     have to drive to your house for us to compare code versions.
                 </p>
 
-                <figure class="figure">
-                    <img class="img-fluid border" src="/blogAssets/img/git-stages.png" alt="Example of Git Workflow" />
-                    <figcaption class="figure-caption text-center">Source: <a class="minimalLink"
+                <figure className="figure">
+                    <img className="img-fluid border" src="/blogAssets/img/git-stages.png" alt="Example of Git Workflow" />
+                    <figcaption className="figure-caption text-center">Source: <a className="minimalLink"
                             href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository">"Intro
                             to Git"</a></figcaption>
                 </figure>
@@ -192,7 +192,7 @@ function PWWeek1() {
                     (or, to me, confusing) functions of Git.
                 </p>
 
-                <h3 class="text-center">Challenges</h3>
+                <h3 className="text-center">Challenges</h3>
 
                 <p>
                     I found Git pretty hard to understand. For one, working in Command Line meant that there wasn’t
@@ -202,10 +202,10 @@ function PWWeek1() {
                     little to no visual or textual confirmation of what you are doing.
                 </p>
 
-                <figure class="figure">
-                    <img class="img-fluid border" src="/blogAssets/img/why-git-is-confusing.png"
+                <figure className="figure">
+                    <img className="img-fluid border" src="/blogAssets/img/why-git-is-confusing.png"
                         alt="Why Git is so confusing" />
-                    <figcaption class="figure-caption text-center">Source: <a
+                    <figcaption className="figure-caption text-center">Source: <a
                             href="https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows">"Intro to
                             Git"</a> (added text mine)</figcaption>
                 </figure>
@@ -225,7 +225,7 @@ function PWWeek1() {
                     anything (too badly) and I would learn more by doing.
                 </p>
 
-                <h3 class="text-center">Reflection: Prework Week 1 (and 2)</h3>
+                <h3 className="text-center">Reflection: Prework Week 1 (and 2)</h3>
 
                 <p>
                     Since I’m writing this near the end of Week 2, I am going to reflect
@@ -258,7 +258,7 @@ function PWWeek1() {
                     matter in whichever way helps you to best absorb and apply the material!
                 </p>
 
-                <h3 class="text-center">A Bonus Resource</h3>
+                <h3 className="text-center">A Bonus Resource</h3>
 
                 <p>
                     The prompt for our first blog post asked us for a resource that would help others in the
