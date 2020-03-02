@@ -82,13 +82,13 @@ function BCWeek5() {
                 <p>
                     On Saturday, Anna and I went hiking in Berea. We started off
                     by getting some bagels at{' '}
-                        <a href="https://www.instagram.com/nativebagelco/" title="Instagram">Native Bagel Co</a>.
-                I would really recommend the salt bagel with honey-rosemary cream cheese — so good!
-                We then hiked up to the top of East Pinnacle. Even though
-                we were hoping for more Fall colors, the view was amazing
-                and it was perfect weather for being outside. Afterwards,
+                    <a href="https://www.instagram.com/nativebagelco/" title="Instagram">Native Bagel Co</a>.
+            I would really recommend the salt bagel with honey-rosemary cream cheese — so good!
+            We then hiked up to the top of East Pinnacle. Even though
+            we were hoping for more Fall colors, the view was amazing
+            and it was perfect weather for being outside. Afterwards,
                 we drove over to{' '}
-                        <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{' '}
+                    <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{' '}
                     for some more Fall fun! We ordered their warm doughnut
                     Sunday: a warm apple cider doughnut, covered with vanilla
                     ice cream, and drizzled with caramel syrup. Very yummy!
@@ -138,7 +138,7 @@ function BCWeek5() {
 
                 <p>
                     This week we started working with the{' '}
-                        <a href="https://reactjs.org" title="React Documentation">React.JS</a>{' '}
+                    <a href="https://reactjs.org" title="React Documentation">React.JS</a>{' '}
                     library. React is an open source project produced by Facebook,
                     and is billed as “A JavaScript library for building user interfaces”.
                     </p>
@@ -155,7 +155,7 @@ function BCWeek5() {
 
                 <p>
                     Here is an example of a "Card" component that I made for our{' '}
-                        <a href="https://robbiegay.github.io/react-restaurant/">React Restaurant project</a>:
+                    <a href="https://robbiegay.github.io/react-restaurant/">React Restaurant project</a>:
                     </p>
 
                 <figure className="figure">
@@ -169,7 +169,7 @@ function BCWeek5() {
                         the title, an <code>&lt;h6&gt;</code> (header) element for the price, and
                         a <code>&lt;p&gt;</code> (paragraph) element for the description.
                         You may have noticed the <code>&#123;this.props.mealTitle&#125;</code> lines of code —
-                                        A useful feature of components is that you can pass properties
+                                    A useful feature of components is that you can pass properties
                         into them using <code>props</code>.
                     </p>
 
@@ -177,14 +177,14 @@ function BCWeek5() {
                     Within the Card component, I set the inner HTML of the above
                         mentioned elements to <code>&#123;this.props.INPUT&#125;</code>. React
                                         often uses an extension of JavaScript called{' '}
-                        <a href="https://reactjs.org/docs/introducing-jsx.html" title="React Documentation">JSX</a>. JSX allows
+                    <a href="https://reactjs.org/docs/introducing-jsx.html" title="React Documentation">JSX</a>. JSX allows
                         you to put any valid JS expression within <code>{}</code> (curly braces),
-                                        and that expression will then be evaluated. In my example
+                                    and that expression will then be evaluated. In my example
                         code, I placed <code>this.props.INPUT</code> within the curly
                         braces. <code>this</code> refers to the component itself,{' '}
-                        <code>props</code> refers to properties of the object, and
+                    <code>props</code> refers to properties of the object, and
                         then <code>INPUT</code> is a placeholder for whatever element
-                                        you want to pass through to the component.
+                                    you want to pass through to the component.
                     </p>
 
                 <p>
@@ -199,10 +199,10 @@ function BCWeek5() {
 
                 <p>
                     In this example code, I pass in <code>mealTitle</code>,{' '}
-                        <code>mealPrice</code>, and <code>mealDescription</code>.
+                    <code>mealPrice</code>, and <code>mealDescription</code>.
                         Anything that I set these <code>props</code> equal to is inserted into
-                                            the respective React component. The result of
-                                            this example code is this:
+                                        the respective React component. The result of
+                                        this example code is this:
                     </p>
 
                 <figure className="figure">
@@ -226,7 +226,7 @@ function BCWeek5() {
 
                 <p>
                     Warm-up Coach{' '}
-                        <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{' '}
+                    <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{' '}
                     has recommended before that we take breaks. For me, a break typically
                     involved reading some content online or checking my phone. Unfortunately,
                     this isn’t really a ‘break’ as far as our brain is concerned — we

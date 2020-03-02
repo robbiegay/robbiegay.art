@@ -6,27 +6,27 @@ function PWWeek1() {
             <article className="text-justify">
                 <h3 className="text-center">Welcome!</h3>
                 <p>
-                    Welcome to my blog! Here I’ll be posting regular updates about 
-                    the <a href="https://www.awesomeincu.com/bootcamp/" title="Awesome Inc Web Dev Bootcamp">Awesome Inc Web Dev Bootcamp</a>. This 
-                    first post covers Prework Week 1, but is being written towards the end of 
+                    Welcome to my blog! Here I’ll be posting regular updates about
+                    the <a href="https://www.awesomeincu.com/bootcamp/" title="Awesome Inc Web Dev Bootcamp">Awesome Inc Web Dev Bootcamp</a>. This
+                    first post covers Prework Week 1, but is being written towards the end of
                     Week 2 — as we had to learn some basic <abbr title="Hypertext Markup Language">HTML</abbr>
                     /<abbr title="Cascading Style Sheets">CSS</abbr> in order to create a blog post to begin with!
                 </p>
 
                 <h3 className="text-center">First Week of Prework</h3>
                 <p>
-                    Our first week started with a meet up at Awesome Inc. We got a chance to 
-                    meet our fellow bootcampers (there are 11 of us!), as well as meet our 3 
+                    Our first week started with a meet up at Awesome Inc. We got a chance to
+                    meet our fellow bootcampers (there are 11 of us!), as well as meet our 3
                     instructors: <a href="https://www.justinhall.com/" title="Justin Hall's Website">Justin</a>,{' '}
-                    <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>, 
+                    <a href="http://ianrios.me/" title="Ian Rios' Website">Ian</a>,
                     and <a href="https://jmstewart00.github.io/" title="Josh Stewart's Website">Josh</a>.
                     <br /><br />
                     <figure className="figure">
                         <img className="img-fluid border" src="/blogAssets/img/awesome-u-bootcamp-curriculum.png"
                             alt="The Awesome Inc U Bootcamp Curriculum" />
                         <figcaption className="figure-caption text-center">source: <a
-                                href="https://www.awesomeincu.com/bootcamp/">
-                                Awesome Inc Web Dev Bootcamp</a></figcaption>
+                            href="https://www.awesomeincu.com/bootcamp/">
+                            Awesome Inc Web Dev Bootcamp</a></figcaption>
                     </figure>
                     <br />
                 </p>
@@ -39,15 +39,15 @@ function PWWeek1() {
                         <img className="img-fluid border" src="/blogAssets/img/awesome-learning-curve.png"
                             alt="Awesome Learning Curve" />
                         <figcaption className="figure-caption text-center">source: <a
-                                href="https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/">"Why
+                            href="https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/">"Why
                                 Learning to Code is so Damn Hard"</a></figcaption>
                     </figure>
 
                     <br />
-                    I love reading books about learning. I read (skimmed) Malcolm 
-                    Gladwell’s <a href="https://en.wikipedia.org/wiki/Outliers_(book)" title="Outliers by Malcolm Gladwell">“Outliers”</a> a 
-                    few months ago, and have been working my way through the public library’s 
-                    collection of Cal 
+                    I love reading books about learning. I read (skimmed) Malcolm
+                    Gladwell’s <a href="https://en.wikipedia.org/wiki/Outliers_(book)" title="Outliers by Malcolm Gladwell">“Outliers”</a> a
+                    few months ago, and have been working my way through the public library’s
+                    collection of Cal
                     Newport (<a href="http://www.calnewport.com/books/so-good/" title="So Good They Can’t Ignore You by Cal Newport">
                         “So Good They Can’t Ignore You”</a> is an awesome take on learning new skills;{' '}
                     <a href="http://www.calnewport.com/books/digital-minimalism/"
@@ -140,15 +140,15 @@ function PWWeek1() {
 
                 </p>
                 <p>
-                The focus of our first week of prework was getting up to speed on Git and Github.<br />
-                <br />
-                What is Git?
+                    The focus of our first week of prework was getting up to speed on Git and Github.<br />
+                    <br />
+                    What is Git?
                 </p>
 
                 <blockquote className="blockquote bg-light px-5 py-2 my-4 rounded-pill">
                     "Git is a free and open source distributed version control system designed to handle everything
                     from small to very large projects with speed and efficiency.” <cite className="blockquote-footer"><a
-                            href="https://git-scm.com/">Git</a></cite>
+                        href="https://git-scm.com/">Git</a></cite>
                 </blockquote>
 
                 <p>
@@ -182,7 +182,7 @@ function PWWeek1() {
                 <figure className="figure">
                     <img className="img-fluid border" src="/blogAssets/img/git-stages.png" alt="Example of Git Workflow" />
                     <figcaption className="figure-caption text-center">Source: <a className="minimalLink"
-                            href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository">"Intro
+                        href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository">"Intro
                             to Git"</a></figcaption>
                 </figure>
 
@@ -206,7 +206,7 @@ function PWWeek1() {
                     <img className="img-fluid border" src="/blogAssets/img/why-git-is-confusing.png"
                         alt="Why Git is so confusing" />
                     <figcaption className="figure-caption text-center">Source: <a
-                            href="https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows">"Intro to
+                        href="https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows">"Intro to
                             Git"</a> (added text mine)</figcaption>
                 </figure>
 
@@ -218,8 +218,8 @@ function PWWeek1() {
                         title="Hanover College Computer Science"><abbr title="Computer Science">CS</abbr> degree</a>{' '}
                     in 2018 and has been working for an <a href="https://glowlabs.co" title="Glow Labs">
                         <abbr title="Internet of Things">IoT</abbr> company</a> in Denver. I told him that I was
-                    struggling with Git and
-                    Command Line and that I was afraid of messing things up if I typed in the wrong
+            struggling with Git and
+            Command Line and that I was afraid of messing things up if I typed in the wrong
                     command. He told me to make mistakes and practice using Git/<abbr title="Command Line">CL</abbr>
                     — I wasn’t likely to break
                     anything (too badly) and I would learn more by doing.
@@ -270,7 +270,9 @@ function PWWeek1() {
                     up in a matter of minutes.
                 </p>
 
-                
+                {/* <!-- White space --> */}
+                <br /><br /><br /><br /><br /><br /><br /><br />
+
             </article>
         </>
     );

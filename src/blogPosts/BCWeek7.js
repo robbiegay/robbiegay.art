@@ -133,11 +133,11 @@ function BCWeek7() {
             enjoyed learning Laravel so far. We have been working our
             way through this
                             "<a href="https://laracasts.com/series/laravel-6-from-scratch" title="Laracasts">Laravel 6 From Scratch</a>"
-            video series. I find it to be a pretty fun way to learn!
-            I follow along with the video, pausing it to apply what
-            I just learned to my own code. Once I feel like I
-            have come to an understanding about some topic, I then try to
-            summarize it in my notes.
+    video series. I find it to be a pretty fun way to learn!
+    I follow along with the video, pausing it to apply what
+    I just learned to my own code. Once I feel like I
+    have come to an understanding about some topic, I then try to
+    summarize it in my notes.
                         </p>
 
                 <p>
@@ -176,14 +176,14 @@ function BCWeek7() {
                     understand at first. While working with JavaScript, I would
                     create one or two JS files, an HTML file, and a CSS file.
                             When I run <code>Laravel new project name</code>, it makes
-            a massive amount of files. I just went through and tried to count
-            how many files this actually does create. I was around 140~
-            when I got into the vendor bin and realized that it
-            would be a waste of time to keep counting. This is obviously
-            a great thing — look how much functionality comes built in
-            to Laravel. It does mean, however, that the learning curve is a little
-            bit steep, and a fair bit intimidating. I look forward to a
-            time when I can make better use of some of these powerful features!
+    a massive amount of files. I just went through and tried to count
+    how many files this actually does create. I was around 140~
+    when I got into the vendor bin and realized that it
+    would be a waste of time to keep counting. This is obviously
+    a great thing — look how much functionality comes built in
+    to Laravel. It does mean, however, that the learning curve is a little
+    bit steep, and a fair bit intimidating. I look forward to a
+    time when I can make better use of some of these powerful features!
                         </p>
 
                 <p>

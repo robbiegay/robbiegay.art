@@ -4,7 +4,7 @@ function BCWeek2() {
     return (
         <>
             {/* <!-- Main Text --> */}
-                <article className="text-justify">
+            <article className="text-justify">
 
                 <p>
                     Bootcamp Week 2 was mostly project based. I worked on
@@ -24,7 +24,7 @@ function BCWeek2() {
                     Programming Interfaces, sets of code governing access
                     points to servers or databases. JSON stands for JavaScript
                     Object Notation, and is a standardized data format. We used the{' '}
-                        <a href="https://openweathermap.org/api" title="openweathermap API">openweathermap API</a>{' '}
+                    <a href="https://openweathermap.org/api" title="openweathermap API">openweathermap API</a>{' '}
                     for this project, and received data from that API in the JSON format.
                     </p>
 
@@ -114,32 +114,32 @@ function BCWeek2() {
 
                 <figure className="figure">
                     <img className="img-fluid border" src="/blogAssets/img/edge-case-chart-white-bg.png" alt="Chart for Edge Case Prioritization" />
-                        <figcaption className="figure-caption text-center">A useful way to prioritize edge case solutions and bug fixes</figcaption>
-                    </figure>
+                    <figcaption className="figure-caption text-center">A useful way to prioritize edge case solutions and bug fixes</figcaption>
+                </figure>
 
-                    <p>
-                        Working within this developmental framework helped me
-                        write more efficient code, and in a more timely manner!
+                <p>
+                    Working within this developmental framework helped me
+                    write more efficient code, and in a more timely manner!
                     </p>
 
-                    <h3>Looking Forward</h3>
+                <h3>Looking Forward</h3>
 
-                    <p>
-                        In Bootcamp Week 3, we will be tackling a{' '}
-                        <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/sliding-puzzle.md" title="Sliding Puzzle Project Prompt">Sliding Puzzle project</a>{' '}
-                        — involving moving pieces around a board on
-                        each user click. This project seems pretty
-                        intimidating right now, but I think that we
-                        will be learning some new concepts this week that will
-                        hopefully help with completing this project!
+                <p>
+                    In Bootcamp Week 3, we will be tackling a{' '}
+                    <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/sliding-puzzle.md" title="Sliding Puzzle Project Prompt">Sliding Puzzle project</a>{' '}
+                    — involving moving pieces around a board on
+                    each user click. This project seems pretty
+                    intimidating right now, but I think that we
+                    will be learning some new concepts this week that will
+                    hopefully help with completing this project!
                     </p>
 
-                    {/* <!-- White space --> */}
-                    <br /><br /><br /><br /><br /><br /><br /><br />
+                {/* <!-- White space --> */}
+                <br /><br /><br /><br /><br /><br /><br /><br />
 
-                </article>
+            </article>
         </>
-                        );
-                    }
-                    
-                    export default BCWeek2;
+    );
+}
+
+export default BCWeek2;

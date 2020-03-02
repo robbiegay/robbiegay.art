@@ -52,7 +52,7 @@ function BCWeek11() {
                 <Carousel>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/mpm2-synth-controls.png"
-                                    alt="Synth Controls" />
+                            alt="Synth Controls" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 bg-dark rounded">Basic synth controls</p>
                         </Carousel.Caption>

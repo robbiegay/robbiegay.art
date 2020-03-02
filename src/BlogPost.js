@@ -20,9 +20,9 @@ import BCWeek10 from './blogPosts/BCWeek10';
 import BCWeek11 from './blogPosts/BCWeek11';
 import BCWeek12 from './blogPosts/BCWeek12';
 import JHWeek1 from './blogPosts/JHWeek1';
-// import JHWeek4 from './blogPosts/JHWeek4';
-// import 20Week5 from './blogPosts/20Week5';
-// import 20Week9 from './blogPosts/20Week9';
+import JHWeek4 from './blogPosts/JHWeek4';
+import FLWeek3 from './blogPosts/FLWeek3';
+// import FLWeek7 from './blogPosts/FLWeek7';
 
 
 class BlogPost extends React.Component {
@@ -172,6 +172,21 @@ class BlogPost extends React.Component {
                     title: "Job Hunt Week 1: 30-60-90",
                     date: <time datetime="2019-09-07">December 15<sup>th</sup>,
                     2019</time>
+                });
+                break;
+            case "JHWeek4":
+                this.setState({
+                    blogPost: <JHWeek4 />,
+                    title: "Learning React Hooks",
+                    date: <time datetime="2019-09-07">December 31<sup>st</sup>,
+                    2019</time>
+                });
+                break;
+            case "FLWeek3":
+                this.setState({
+                    blogPost: <FLWeek3 />,
+                    title: "Swift vs JavaScript",
+                    date: <time datetime="2020-01-31">January 31<sup>st</sup>, 2020</time>
                 });
                 break;
             default:
