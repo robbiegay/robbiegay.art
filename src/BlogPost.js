@@ -5,7 +5,7 @@ import PageFormat from './PageFormat';
 import AuthorCard from './AuthorCard';
 import PWWeek1 from './blogPosts/PWWeek1';
 import PWWeek2 from './blogPosts/PWWeek2';
-// import PWWeek3 from './blogPosts/PWWeek3';
+import PWWeek3 from './blogPosts/PWWeek3';
 // import PWWeek4 from './blogPosts/PWWeek4';
 // import BCWeek1 from './blogPosts/BCWeek1';
 // import BCWeek2 from './blogPosts/BCWeek2';
@@ -52,6 +52,14 @@ class BlogPost extends React.Component {
                     blogPost: <PWWeek2 />,
                     title: "Prework Week 2: HTML and CSS",
                     date: <time datetime="2019-09-07">September 2<sup>nd</sup>,
+                    2019</time>
+                });
+                break;
+                case "PWWeek3":
+                this.setState({
+                    blogPost: <PWWeek3 />,
+                    title: "Prework Week 3: An Introduction to JavaScript",
+                    date: <time datetime="2019-09-07">September 7<sup>th</sup>,
                     2019</time>
                 });
                 break;
