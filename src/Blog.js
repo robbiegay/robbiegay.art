@@ -51,31 +51,31 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2019-09-02">9.2.2019</time>
-                                        : <a href="posts/pw-week-2.html" title="Prework Week 2 Blog Post">
+                                        : <a href="/blog/PWWeek2" title="Prework Week 2 Blog Post">
                                             Prework Week 2: HTML, CSS, and Pseudo Code
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-09-07">9.7.2019</time>
-                                        : <a href="posts/pw-week-3.html" title="Prework Week 3 Blog Post">
+                                        : <a href="/blog/PWWeek3" title="Prework Week 3 Blog Post">
                                             Prework Week 3: JavaScript
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-09-13">9.13.2019</time>
-                                        : <a href="posts/pw-week-4.html" title="Prework Week 4 Blog Post">
+                                        : <a href="/blog/PWWeek4" title="Prework Week 4 Blog Post">
                                             Prework Week 4: More JavaScript
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-09-22">9.22.2019</time>
-                                        : <a href="posts/bc-week-1.html" title="Bootcamp Week 1 Blog Post">
+                                        : <a href="/blog/BCWeek1" title="Bootcamp Week 1 Blog Post">
                                             Bootcamp Week 1: Bootstrap
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-09-29">9.29.2019</time>
-                                        : <a href="posts/bc-week-2.html" title="Bootcamp Week 2 Blog Post">
+                                        : <a href="/blog/BCWeek2" title="Bootcamp Week 2 Blog Post">
                                             Bootcamp Week 2: JavaScript Projects
                                         </a>
                                     </li>
@@ -92,25 +92,25 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2019-10-05">10.5.2019</time>
-                                        : <a href="posts/bc-week-3.html" title="Bootcamp Week 3 Blog Post">
+                                        : <a href="/blog/BCWeek3" title="Bootcamp Week 3 Blog Post">
                                             Bootcamp Week 3: More JavaScript Projects
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-10-13">10.13.2019</time>
-                                        : <a href="posts/bc-week-4.html" title="Bootcamp Week 4 Blog Post">
+                                        : <a href="/blog/BCWeek4" title="Bootcamp Week 4 Blog Post">
                                             Bootcamp Week 4: Saying Goodbye to Vanilla JS
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-10-20">10.20.2019</time>
-                                        : <a href="posts/bc-week-5.html" title="Bootcamp Week 5 Blog Post">
+                                        : <a href="/blog/BCWeek5" title="Bootcamp Week 5 Blog Post">
                                             Bootcamp Week 5: React.JS
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-10-26">10.26.2019</time>
-                                        : <a href="posts/bc-week-6.html" title="Bootcamp Week 6 Blog Post">
+                                        : <a href="/blog/BCWeek6" title="Bootcamp Week 6 Blog Post">
                                             Bootcamp Week 6: More React, A Halfway Point
                                         </a>
                                     </li>
@@ -127,25 +127,25 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2019-11-3">11.3.2019</time>
-                                        : <a href="posts/bc-week-7.html" title="Bootcamp Week 7 Blog Post">
+                                        : <a href="/blog/BCWeek7" title="Bootcamp Week 7 Blog Post">
                                             Bootcamp Week 7: Back End Development
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-11-9">11.9.2019</time>
-                                        : <a href="posts/bc-week-8.html" title="Bootcamp Week 8 Blog Post">
+                                        : <a href="/blog/BCWeek8" title="Bootcamp Week 8 Blog Post">
                                             Bootcamp Week 8: Laravel Library
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-11-17">11.17.2019</time>
-                                        : <a href="posts/bc-week-9.html" title="Bootcamp Week 9 Blog Post">
+                                        : <a href="/blog/BCWeek9" title="Bootcamp Week 9 Blog Post">
                                             Bootcamp Week 9: Catgram
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-11-24">11.24.2019</time>
-                                        : <a href="posts/bc-week-10.html" title="Bootcamp Week 10 Blog Post">
+                                        : <a href="/blog/BCWeek10" title="Bootcamp Week 10 Blog Post">
                                             Bootcamp Week 10: Final Projects
                                         </a>
                                     </li>
@@ -162,25 +162,25 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2019-12-01">12.1.2019</time>
-                                        : <a href="posts/bc-week-11.html" title="Bootcamp Week 11 Blog Post">
+                                        : <a href="/blog/BCWeek11" title="Bootcamp Week 11 Blog Post">
                                             Bootcamp Week 11: Final Project Prototype
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-12-07">12.7.2019</time>
-                                        : <a href="posts/bc-week-12.html" title="Bootcamp Week 12 Blog Post">
+                                        : <a href="/blog/BCWeek12" title="Bootcamp Week 12 Blog Post">
                                             Bootcamp Week 12: Demo Day
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-12-15">12.15.2019</time>
-                                        : <a href="posts/jh-week-1.html" title="Job Hunt Week 1 Blog Post">
+                                        : <a href="/blog/JHWeek1" title="Job Hunt Week 1 Blog Post">
                                             30-60-90
                                         </a>
                                     </li>
                                     <li>
                                         <time datetime="2019-12-31">12.31.2019</time>
-                                        : <a href="posts/jh-week-4.html" title="Job Hunt Week 4 Blog Post">
+                                        : <a href="/blog/JHWeek4" title="Job Hunt Week 4 Blog Post">
                                             React Hooks
                                         </a>
                                     </li>
@@ -202,7 +202,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-01-31">1.31.2020</time>
-                                        : <a href="posts/jh-week-8.html" title="Job Hunt Week 8 Blog Post">
+                                        : <a href="/blog/20Week5" title="Job Hunt Week 8 Blog Post">
                                             Swift vs React
                                         </a>
                                     </li>
@@ -219,7 +219,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-02-29">2.29.2020</time>
-                                        : <a href="posts/jh-week-12.html" title="Job Hunt Week 12 Blog Post">
+                                        : <a href="/blog/20Week9" title="Job Hunt Week 12 Blog Post">
                                             Design
                                         </a>
                                     </li>
