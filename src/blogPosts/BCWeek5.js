@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek5() {
     return (
@@ -81,14 +81,14 @@ function BCWeek5() {
 
                 <p>
                     On Saturday, Anna and I went hiking in Berea. We started off
-                    by getting some bagels at{' '}
+                    by getting some bagels at{" "}
                     <a href="https://www.instagram.com/nativebagelco/" title="Instagram">Native Bagel Co</a>.
             I would really recommend the salt bagel with honey-rosemary cream cheese — so good!
             We then hiked up to the top of East Pinnacle. Even though
             we were hoping for more Fall colors, the view was amazing
             and it was perfect weather for being outside. Afterwards,
-                we drove over to{' '}
-                    <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{' '}
+                we drove over to{" "}
+                    <a href="https://www.instagram.com/eckertsorchard/" title="Instagram"> Eckert’s Orchard</a>{" "}
                     for some more Fall fun! We ordered their warm doughnut
                     Sunday: a warm apple cider doughnut, covered with vanilla
                     ice cream, and drizzled with caramel syrup. Very yummy!
@@ -137,8 +137,8 @@ function BCWeek5() {
                 <h3 className="text-center">React!!!</h3>
 
                 <p>
-                    This week we started working with the{' '}
-                    <a href="https://reactjs.org" title="React Documentation">React.JS</a>{' '}
+                    This week we started working with the{" "}
+                    <a href="https://reactjs.org" title="React Documentation">React.JS</a>{" "}
                     library. React is an open source project produced by Facebook,
                     and is billed as “A JavaScript library for building user interfaces”.
                     </p>
@@ -154,7 +154,7 @@ function BCWeek5() {
                     </p>
 
                 <p>
-                    Here is an example of a "Card" component that I made for our{' '}
+                    Here is an example of a "Card" component that I made for our{" "}
                     <a href="https://robbiegay.github.io/react-restaurant/">React Restaurant project</a>:
                     </p>
 
@@ -176,12 +176,12 @@ function BCWeek5() {
                 <p>
                     Within the Card component, I set the inner HTML of the above
                         mentioned elements to <code>&#123;this.props.INPUT&#125;</code>. React
-                                        often uses an extension of JavaScript called{' '}
+                                        often uses an extension of JavaScript called{" "}
                     <a href="https://reactjs.org/docs/introducing-jsx.html" title="React Documentation">JSX</a>. JSX allows
                         you to put any valid JS expression within <code>{}</code> (curly braces),
                                     and that expression will then be evaluated. In my example
                         code, I placed <code>this.props.INPUT</code> within the curly
-                        braces. <code>this</code> refers to the component itself,{' '}
+                        braces. <code>this</code> refers to the component itself,{" "}
                     <code>props</code> refers to properties of the object, and
                         then <code>INPUT</code> is a placeholder for whatever element
                                     you want to pass through to the component.
@@ -198,7 +198,7 @@ function BCWeek5() {
                 </figure>
 
                 <p>
-                    In this example code, I pass in <code>mealTitle</code>,{' '}
+                    In this example code, I pass in <code>mealTitle</code>,{" "}
                     <code>mealPrice</code>, and <code>mealDescription</code>.
                         Anything that I set these <code>props</code> equal to is inserted into
                                         the respective React component. The result of
@@ -225,8 +225,8 @@ function BCWeek5() {
                 <h3 className="text-center">The Pomodoro Method</h3>
 
                 <p>
-                    Warm-up Coach{' '}
-                    <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{' '}
+                    Warm-up Coach{" "}
+                    <a href="https://jmstewart00.github.io" title="Josh's Website">Josh</a>{" "}
                     has recommended before that we take breaks. For me, a break typically
                     involved reading some content online or checking my phone. Unfortunately,
                     this isn’t really a ‘break’ as far as our brain is concerned — we
@@ -236,7 +236,7 @@ function BCWeek5() {
 
                 <p>
                     The <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Wikipedia">Pomodoro
-                            Method</a>{' '}
+                            Method</a>{" "}
                     involves setting a timer, working with laser focus for a defined length of
                     time, and then taking a short break. Here is an example of how these
                     breaks would work:

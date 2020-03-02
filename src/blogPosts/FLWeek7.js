@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function FLWeek7() {
     return (
@@ -15,8 +15,8 @@ function FLWeek7() {
                 <h3 className="text-center">Design</h3>
 
                 <p>
-                    For the past few weeks, I have been reading{' '}
-                    <a href="https://www.penguin.co.uk/books/110/1107939/user-friendly/9780753556641.html" title="User Friendly Book Publisher's Page">”User Friendly: How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play”</a>{' '}
+                    For the past few weeks, I have been reading{" "}
+                    <a href="https://www.penguin.co.uk/books/110/1107939/user-friendly/9780753556641.html" title="User Friendly Book Publisher's Page">”User Friendly: How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play”</a>{" "}
                     by Cliff Kuang and Robert Fabricant. Sometimes I think that design
                     is looked at as the least important of a developer’s skill set.
                     Backend is typically seen as more complex, and is usually more highly
@@ -25,7 +25,7 @@ function FLWeek7() {
                     </p>
 
                 <p>
-                    The first thing that I found interesting is the story of{' '}
+                    The first thing that I found interesting is the story of{" "}
                     <a href="https://en.wikipedia.org/wiki/Apple_Inc." title="Apple, Inc Wikipedia">Apple</a>.
                     When Apple began its rise to world dominance, I was still too young to be
                     a heavy computer user. It’s interesting because when I say “too young”
@@ -72,9 +72,9 @@ function FLWeek7() {
                     </p>
 
                 <p>
-                    For more information on UI and UX, I recommend reading{' '}
+                    For more information on UI and UX, I recommend reading{" "}
                     <a href="https://www.penguin.co.uk/books/110/1107939/user-friendly/9780753556641.html" title="User Friendly Book Publisher's Page">“User Friendly”</a>,
-                        or to check out some of Apple’s documentation on{' '}
+                        or to check out some of Apple’s documentation on{" "}
                     <a href="https://developer.apple.com/design/human-interface-guidelines/" title="Apple's Human Interface Guidelines">Human Design Interface Guidelines</a>.
                     </p>
 

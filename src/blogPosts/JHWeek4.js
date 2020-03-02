@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function JHWeek4() {
     return (
@@ -16,17 +16,17 @@ function JHWeek4() {
 
                 <p>
                     I’ve spent the last few days working through some React documentation. First,
-                        I went through the <a href="https://reactjs.org/docs/hello-world.html" title="React Docs: Main Concepts">Main Concepts</a>{' '}
+                        I went through the <a href="https://reactjs.org/docs/hello-world.html" title="React Docs: Main Concepts">Main Concepts</a>{" "}
                     section in order to reinforce the basic concepts that I learned in the Bootcamp.
                     </p>
 
                 <p>
-                    I then skimmed through the advanced topics: I learned how you can use{' '}
-                    <a href="https://reactjs.org/docs/context.html" title="React Docs: Context">context</a>{' '}
+                    I then skimmed through the advanced topics: I learned how you can use{" "}
+                    <a href="https://reactjs.org/docs/context.html" title="React Docs: Context">context</a>{" "}
                     to pass data through the component tree without passing props down through component after component.
-                        I learned about using <a href="https://reactjs.org/docs/fragments.html" title="React Docs: Fragments">fragments</a>{' '}
+                        I learned about using <a href="https://reactjs.org/docs/fragments.html" title="React Docs: Fragments">fragments</a>{" "}
                     to embed multiplied elements without adding nodes to the DOM (as well as a useful <code><> </></code>
-                    shortcuts for fragments). I read about{' '}
+                    shortcuts for fragments). I read about{" "}
                     <a href="https://reactjs.org/docs/static-type-checking.html" title="React Docs: Static Type Checking">Flow</a>,
                     a static type checker for React, and
                     I am considering using in in future React projects. Many of the remaining advanced articles seemed to
@@ -35,10 +35,10 @@ function JHWeek4() {
                     </p>
 
                 <p>
-                    What I was most excited to learn about was React{' '}
+                    What I was most excited to learn about was React{" "}
                     <a href="https://reactjs.org/docs/hooks-intro.html" title="React Docs: Hooks">Hooks</a>.
-                        Hooks allow you to “hook into” React{' '}
-                    <a href="https://reactjs.org/docs/state-and-lifecycle.html" title="React Docs: State and Lifecycle">state and lifecycle</a>{' '}
+                        Hooks allow you to “hook into” React{" "}
+                    <a href="https://reactjs.org/docs/state-and-lifecycle.html" title="React Docs: State and Lifecycle">state and lifecycle</a>{" "}
                     features from function components. Hooks allow you to use React without creating classes.
                         React comes with two useful, built-in hooks: <code>useState</code> and <code>useEffect</code>.
                     </p>
@@ -86,14 +86,14 @@ function JHWeek4() {
 
                 <p>
                     React has several different lifecycle components.
-                        Things like <code>componentDidMount</code>, <code>componentDidUpdate</code>, and{' '}
+                        Things like <code>componentDidMount</code>, <code>componentDidUpdate</code>, and{" "}
                     <code>componentWillUnmount</code>. You can access these lifecycle components with
                     hooks by using the useEffect hook.
                     </p>
 
                 <p>
                     Below is some example code that uses <code>useEffect</code> to update the browser
-                        window. This is similar to the way that you would use <code>componentDidUpdate</code>{' '}
+                        window. This is similar to the way that you would use <code>componentDidUpdate</code>{" "}
                     if using a React class.
                     </p>
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function PWWeek2() {
     return (
@@ -96,7 +96,7 @@ function PWWeek2() {
                         stands for paragraph. A paragraph is the basic holding element
                         for the body of your text. The text you are reading now is
                         contained within a <code>&lt;p&gt;</code> tag. You can find
-                        a whole list of other tags on the{' '}
+                        a whole list of other tags on the{" "}
                         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
                             title="MDN HTML Reference">documentation
                             site</a>.
@@ -152,7 +152,7 @@ function PWWeek2() {
                                     that the browser can interpret). Here we
                                     have defined it as utf-8, which allows us
                                     to use virtually all 1.1 million characters
-                                    and symbols in any world language. You can{' '}
+                                    and symbols in any world language. You can{" "}
                                     <a href="https://en.wikipedia.org/wiki/UTF-8" title="utf-8 Wikipedia Page">
                                         read more about utf-8 here</a>.
                                 </li>
@@ -279,9 +279,9 @@ function PWWeek2() {
                         this were the year 1990, you might be able to get a job
                         working with <a href="https://en.wikipedia.org/wiki/HTML#Development"
                             title="The history of HTML, Wikipedia">Tim Berners-Lee</a>,
-                        otherwise you’ll likely need to read through more of the{' '}
+                        otherwise you’ll likely need to read through more of the{" "}
                         <a href="https://developer.mozilla.org/en-US/docs/Learn" title="MDN Learn Web Dev Guide">MDN
-                            tutorials</a>{' '}
+                            tutorials</a>{" "}
                         before this
                         becomes remotely practical.
                     </p>
@@ -336,11 +336,11 @@ function PWWeek2() {
                         I struggled a bit this week with CSS. We worked through the
                         MDN Intro readings on the topic, and I found myself rereading
                         them today for the 3rd time, taking notes, and only now
-                        starting to feel more comfortable understanding topics such as{' '}
+                        starting to feel more comfortable understanding topics such as{" "}
                         <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#Inheritance"
-                            title="MDN Guide to Inheritance">inheritance</a>,{' '}
+                            title="MDN Guide to Inheritance">inheritance</a>,{" "}
                         <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#Conflicting_rules"
-                            title="MDN Guide to Cascade">cascade</a>, and{' '}
+                            title="MDN Guide to Cascade">cascade</a>, and{" "}
                         <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"
                             title="MDN Guide to Box Model">box model</a>.
                         <br /><br />
@@ -366,8 +366,8 @@ function PWWeek2() {
                     <h3 className="text-center">Resources</h3>
 
                     <p>
-                        Two resources that I found helpful were{' '}
-                        <a href="https://fonts.google.com" title="Google Fonts">Google Fonts</a>{' '}
+                        Two resources that I found helpful were{" "}
+                        <a href="https://fonts.google.com" title="Google Fonts">Google Fonts</a>{" "}
                         and Google's <a href="https://www.google.com/search?q=color+picker" title="Online Color Picker">
                             online color selector</a>. Google Fonts gives you a large
                         selection of fonts to chose from (I’m currently using
@@ -395,7 +395,7 @@ function PWWeek2() {
                                     Developer Tools</a>
                             </li>
                             <li>
-                                Internet Explorer:{' '}
+                                Internet Explorer:{" "}
                                 <a href="https://technet.microsoft.com/en-us/gg589513(v=vs.71)"
                                     title="IE Web Dev Tools">Accessing
                                     Developer Tools</a>

@@ -1,5 +1,5 @@
-import { PtsCanvas } from 'react-pts-canvas';
-import { Color, Create, Pt, Num, Rectangle, UIButton, UI, Bound } from 'pts';
+import { PtsCanvas } from "react-pts-canvas";
+import { Color, Create, Pt, Num, Rectangle, UIButton, UI, Bound } from "pts";
 
 class Homepage extends PtsCanvas {
     constructor(props) {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function BCWeek3() {
     return (
@@ -35,7 +35,7 @@ function BCWeek3() {
                 <p>
                     I’ve been trying to wake up early and either go to the gym or
                     get some work done before class starts. On Tuesdays, I have been
-                    starting my day across the street at{' '}
+                    starting my day across the street at{" "}
                     <a href="http://acupofcommonwealth.com/">Cup of Commonwealth</a>.
                 It has been really nice to be able to have about an hour before
                 class to plan out what projects I want to work on, and to even get
@@ -55,8 +55,8 @@ function BCWeek3() {
                 <h3>Sliding Puzzle Game</h3>
 
                 <p>
-                    On Tuesday, we started working on our final project of the 2 week sprint.{' '}
-                    <a href="https://robbiegay.github.io/sliding-puzzle/">The Sliding Puzzle game</a>{' '}
+                    On Tuesday, we started working on our final project of the 2 week sprint.{" "}
+                    <a href="https://robbiegay.github.io/sliding-puzzle/">The Sliding Puzzle game</a>{" "}
                     gave be a lot of headaches! I took an object-oriented approach, using an
                     array to hold 16 objects, each containing properties such as the array’s
                     name, and its current position on the board. Trying to conceptualize
@@ -110,7 +110,7 @@ function BCWeek3() {
                 <h3>README’s</h3>
 
                 <p>
-                    This week I added <a href="https://github.com/robbiegay/calculator">my first README</a>{' '}
+                    This week I added <a href="https://github.com/robbiegay/calculator">my first README</a>{" "}
                     to a project! I added some basic info about my Calculator app,
                     as well as diving fairly deeply into the various edge-cases that I had to solve for while building
                         and testing the app. Assistant Instructor <a href="http://ianrios.me/">Ian</a> also gave me a tip about including
@@ -130,8 +130,8 @@ function BCWeek3() {
                 <p>
                     I made use of this great template for writing README's, made by
                         GitHub user <a href="https://gist.github.com/PurpleBooth">PurpleBooth</a>. Check out
-                    the template here:{' '}
-                    <a href="https://gist.githubusercontent.com/PurpleBooth/109311bb0361f32d87a2/raw/8254b53ab8dcb18afc64287aaddd9e5b6059f880/README-Template.md">README Template</a>{' '}
+                    the template here:{" "}
+                    <a href="https://gist.githubusercontent.com/PurpleBooth/109311bb0361f32d87a2/raw/8254b53ab8dcb18afc64287aaddd9e5b6059f880/README-Template.md">README Template</a>{" "}
                 </p>
 
                 {/* <!-- White space --> */}

@@ -1,8 +1,8 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer'
-import PageFormat from './PageFormat'
-import { Card, Accordion } from 'react-bootstrap';
+import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer"
+import PageFormat from "./PageFormat"
+import { Card, Accordion } from "react-bootstrap";
 
 function Blog() {
     return (
@@ -21,7 +21,7 @@ function Blog() {
                 <Accordion>
                     {/* defaultActiveKey="0" */}
                     <Card>
-                        <Card.Header style={{ backgroundColor: 'lightGray' }} className="text-center">
+                        <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2019 — Awesome Inc Bootcamp</b>
                         </Card.Header>
                     </Card>
@@ -189,7 +189,7 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Card.Header style={{ backgroundColor: 'lightGray' }} className="text-center">
+                        <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2020 — Freelance Web and Mobile Developer</b>
                         </Card.Header>
                     </Card>

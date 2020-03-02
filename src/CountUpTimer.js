@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 function CountUpTimer() {
     const [firstSongDate] = useState(new Date(2013, 4, 30, 11, 39));
@@ -53,20 +53,20 @@ function CountUpTimer() {
     });
 
     return (
-            countdown.years + ' years ' +
-            countdown.days + ' days ' +
-            countdown.hrs + ' hours ' +
+            countdown.years + " years " +
+            countdown.days + " days " +
+            countdown.hrs + " hours " +
             // Seconds.tenths option
-            countdown.min + ' minutes and ' +
-            countdown.sec + '.' +
-            countdown.mil + ' seconds'
+            countdown.min + " minutes and " +
+            countdown.sec + "." +
+            countdown.mil + " seconds"
 
             // Milliseconds option -> turn on addZeros() and 
             // change milli / num and interval num to 10 or 1
-            // countdown.min + ' minutes ' +
-            // countdown.sec + ' seconds and ' +
-            // countdown.mil + ' milliseconds'
-            // addZeros(countdown.mil) + ' milliseconds'
+            // countdown.min + " minutes " +
+            // countdown.sec + " seconds and " +
+            // countdown.mil + " milliseconds"
+            // addZeros(countdown.mil) + " milliseconds"
     );
 }
 

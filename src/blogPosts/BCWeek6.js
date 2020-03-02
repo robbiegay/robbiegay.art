@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function BCWeek2() {
     return (
@@ -10,11 +10,11 @@ function BCWeek2() {
                     <h3 className="text-center">Weekly Update</h3>
 
                     <p>
-                        Week 6 of the Bootcamp was pretty fun!{' '}
-                        <a href="https://wildercat.github.io/" title="Abram's Blog">Abram</a>{' '}
-                        brought in his GameCube and we played some lunchtime{' '}
+                        Week 6 of the Bootcamp was pretty fun!{" "}
+                        <a href="https://wildercat.github.io/" title="Abram's Blog">Abram</a>{" "}
+                        brought in his GameCube and we played some lunchtime{" "}
                         <a href="https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee" title="Wikipedia Page">Melee</a>. 
-                        Todd showed us his favorite game —{' '}
+                        Todd showed us his favorite game —{" "}
                         <a href="https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)" title="Wikipedia Page">Monkey Ball</a> — 
                         it was pretty fun but I was not very good at it. On Thursday, Anna and I carved a pumpkin! Warning: 
                         very spooky pic of said pumpkin below. On Friday, Awesome Inc held their monthly Family Lunch. 
@@ -76,7 +76,7 @@ function BCWeek2() {
                         I initially struggled with understanding React. It took me most of week 5 before I even 
                         felt like I was gaining any traction. Last weekend, I got a full night's sleep 
                         and spent part of Sunday re-reading the <a href="https://reactjs.org/docs/getting-started.html">React documentation</a>. 
-                        This week, I worked through the <a href="https://reactjs.org/tutorial/tutorial.html">React tutorial</a>{' '}
+                        This week, I worked through the <a href="https://reactjs.org/tutorial/tutorial.html">React tutorial</a>{" "}
                         for the second time, and read through the documentation 
                         a third. Each time through, I would make it further and further before my comprehension 
                         level would start to drop. By the end of the week, I was starting to feel well 
@@ -95,9 +95,9 @@ function BCWeek2() {
                     </p>
 
                     <p>
-                        We will start Back End work by learning <a href="https://www.php.net/">PHP</a>{' '}
+                        We will start Back End work by learning <a href="https://www.php.net/">PHP</a>{" "}
                         and <a href="https://www.mysql.com/">MySQL</a>. We got a bit of an introduction to 
-                        these languages with our morning Warm-ups this week.{' '}
+                        these languages with our morning Warm-ups this week.{" "}
                         <a href="https://jmstewart00.github.io/" title="Josh's Website">Josh</a> turned us 
                         loose with some <a href="https://www.hackerrank.com/">HackerRanks</a> on PHP and MySQL. 
                         Both were challenging at first, but it seems that we have become pretty good Google’ers 
@@ -107,7 +107,7 @@ function BCWeek2() {
                     <h3 className="text-center">Keyboard Shortcuts</h3>
 
                     <p>
-                        After using <a href="https://code.visualstudio.com/" title="VS Code Website">VS Code</a>{' '}
+                        After using <a href="https://code.visualstudio.com/" title="VS Code Website">VS Code</a>{" "}
                         daily for several weeks, I decided that today it was time to learn some useful shortcuts 
                         for the software. I listed below some of the useful shortcuts that I found:
                         

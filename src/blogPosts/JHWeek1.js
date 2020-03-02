@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
 function JHWeek1() {
     return (
@@ -16,9 +16,9 @@ function JHWeek1() {
                     </p>
 
                 <p>
-                    After one-on-ones, we did a group retro, talked about next steps (here’s a link to our official{' '}
+                    After one-on-ones, we did a group retro, talked about next steps (here’s a link to our official{" "}
                     <a href="https://docs.google.com/document/d/1bkCGpWru2tmJxA-8CEYX0Y479EYc9njGC163c-LWgGE/"
-                        title="F19 Next Steps">next step document</a>), and then went to{' '}
+                        title="F19 Next Steps">next step document</a>), and then went to{" "}
                     <a href="https://breakoutgames.com/lexington" title="Breakout Games — Lexington">Breakout
                             Games</a>!
                     </p>
@@ -51,8 +51,8 @@ function JHWeek1() {
                     </p>
 
                 <p>
-                    That evening we had a graduation party at Newton’s Attic on Versailles Rd.{' '}
-                    <a href="https://newtonsattic.com/index.php" title="Newton's Attic Website">Newton's Attic</a>{' '}
+                    That evening we had a graduation party at Newton’s Attic on Versailles Rd.{" "}
+                    <a href="https://newtonsattic.com/index.php" title="Newton's Attic Website">Newton's Attic</a>{" "}
                     is an engineering camp for kids, and there was a lot to do: cool robots, VR headsets,
                     a woodworking shop, as well as ping pong, foosball and other games. It was a
                     really fun place to hangout, and a great way to end part 1 of the Bootcamp.
@@ -118,7 +118,7 @@ function JHWeek1() {
                             commercial and residential properties in Versailles.
                             </li>
                         <li>
-                            Created <a href="https://www.indeed.com/">Indeed.com</a> and <a href="https://angel.co/">AngelList</a>{' '}
+                            Created <a href="https://www.indeed.com/">Indeed.com</a> and <a href="https://angel.co/">AngelList</a>{" "}
                             accounts, updated my LinkedIn and Resume, and combed
                             the internet for local software developer jobs.
                             </li>
@@ -155,8 +155,8 @@ function JHWeek1() {
                 </figure>
 
                 <p>
-                    First on my list of things to learns is{' '}
-                    <a href="https://sass-lang.com/" title="SASS Website">SASS</a> and{' '}
+                    First on my list of things to learns is{" "}
+                    <a href="https://sass-lang.com/" title="SASS Website">SASS</a> and{" "}
                     <a href="https://jquery.com/" title="jQuery Website">jQuery</a>. Of the technologies that the
                     job I am interviewing for next week uses, these are the only two that I am unfamiliar with.
                     I read through some documentation for SASS on Friday, and am working through the jQuery

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function BCWeek2() {
     return (
@@ -17,19 +17,19 @@ function BCWeek2() {
                 <h3>This Week’s Projects</h3>
 
                 <p>
-                    <a href="https://robbiegay.github.io/weather-app/" title="My Weather App">The Weather App</a>{' '}
+                    <a href="https://robbiegay.github.io/weather-app/" title="My Weather App">The Weather App</a>{" "}
                     was designed to take a user-inputted zip-code, and output
                     real-time weather conditions for that area. This project
                     introduced us to APIs and JSON. APIs are Application
                     Programming Interfaces, sets of code governing access
                     points to servers or databases. JSON stands for JavaScript
-                    Object Notation, and is a standardized data format. We used the{' '}
-                    <a href="https://openweathermap.org/api" title="openweathermap API">openweathermap API</a>{' '}
+                    Object Notation, and is a standardized data format. We used the{" "}
+                    <a href="https://openweathermap.org/api" title="openweathermap API">openweathermap API</a>{" "}
                     for this project, and received data from that API in the JSON format.
                     </p>
 
                 <p>
-                    The <a href="https://robbiegay.github.io/tic-tac-toe/" title="My Tic-Tac-Toe game">Tic-Tac-Toe game</a>{' '}
+                    The <a href="https://robbiegay.github.io/tic-tac-toe/" title="My Tic-Tac-Toe game">Tic-Tac-Toe game</a>{" "}
                     involved testing a set of 8 possible win conditions against the
                     current X and O positions on the Tic-Tac-Toe board.
                     To solve this, I created a nested array with the various
@@ -39,7 +39,7 @@ function BCWeek2() {
                     </p>
 
                 <p>
-                    The <a href="https://robbiegay.github.io/calculator/" title="My Calculator App">Calculator</a>{' '}
+                    The <a href="https://robbiegay.github.io/calculator/" title="My Calculator App">Calculator</a>{" "}
                     project involved building a basic calculator that could use
                      +, -, /, x on user-inputted numbers. This project seemed pretty
                      straight forward at first — computers should be pretty good
@@ -105,7 +105,7 @@ function BCWeek2() {
 
                 <p>
                     Once I get the core functionality working, I will then begin
-                        solving for edge cases. <a href="http://ianrios.me/" title="Ian's Website">Ian</a>{' '}
+                        solving for edge cases. <a href="http://ianrios.me/" title="Ian's Website">Ian</a>{" "}
                     recommended that I prioritize edge cases by using a four-quadrant
                     grid. The grid compares Important and Not-Important vs.
                     Urgent and Less-Urgent. This allowed me to tackle edge
@@ -125,8 +125,8 @@ function BCWeek2() {
                 <h3>Looking Forward</h3>
 
                 <p>
-                    In Bootcamp Week 3, we will be tackling a{' '}
-                    <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/sliding-puzzle.md" title="Sliding Puzzle Project Prompt">Sliding Puzzle project</a>{' '}
+                    In Bootcamp Week 3, we will be tackling a{" "}
+                    <a href="https://github.com/bootcamp-students/Projects-Exercises/blob/master/docs/projects/sliding-puzzle.md" title="Sliding Puzzle Project Prompt">Sliding Puzzle project</a>{" "}
                     — involving moving pieces around a board on
                     each user click. This project seems pretty
                     intimidating right now, but I think that we
