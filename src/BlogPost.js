@@ -12,7 +12,7 @@ import BCWeek2 from './blogPosts/BCWeek2';
 import BCWeek3 from './blogPosts/BCWeek3';
 import BCWeek4 from './blogPosts/BCWeek4';
 import BCWeek5 from './blogPosts/BCWeek5';
-// import BCWeek6 from './blogPosts/BCWeek6';
+import BCWeek6 from './blogPosts/BCWeek6';
 // import BCWeek7 from './blogPosts/BCWeek7';
 // import BCWeek8 from './blogPosts/BCWeek8';
 // import BCWeek9 from './blogPosts/BCWeek9';
@@ -107,6 +107,14 @@ class BlogPost extends React.Component {
                     blogPost: <BCWeek5 />,
                     title: "Bootcamp Week 5: React.JS",
                     date: <time datetime="2019-09-07">October 20<sup>th</sup>,
+                    2019</time>
+                });
+                break;
+            case "BCWeek6":
+                this.setState({
+                    blogPost: <BCWeek6 />,
+                    title: "Bootcamp Week 6: More React, A Halfway Point",
+                    date: <time datetime="2019-10-26">October 26<sup>th</sup>,
                     2019</time>
                 });
                 break;
