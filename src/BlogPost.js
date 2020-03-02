@@ -22,7 +22,7 @@ import BCWeek12 from './blogPosts/BCWeek12';
 import JHWeek1 from './blogPosts/JHWeek1';
 import JHWeek4 from './blogPosts/JHWeek4';
 import FLWeek3 from './blogPosts/FLWeek3';
-// import FLWeek7 from './blogPosts/FLWeek7';
+import FLWeek7 from './blogPosts/FLWeek7';
 
 
 class BlogPost extends React.Component {
@@ -187,6 +187,14 @@ class BlogPost extends React.Component {
                     blogPost: <FLWeek3 />,
                     title: "Swift vs JavaScript",
                     date: <time datetime="2020-01-31">January 31<sup>st</sup>, 2020</time>
+                });
+                break;
+            case "FLWeek7":
+                this.setState({
+                    blogPost: <FLWeek7 />,
+                    title: "Design: UI and UX",
+                    date: <time datetime="2019-09-07">February 29<sup>th</sup>,
+                    2020</time>
                 });
                 break;
             default:
