@@ -20,7 +20,7 @@ function Portfolio() {
                     <Row>
                         <Col xs={2}></Col>
                         <Col xs={8}>
-                            <Image src={process.env.PUBLIC_URL + "/images/headshot-short-hair.jpg"} roundedCircle fluid />
+                            <Image src={process.env.PUBLIC_URL + "/images/headshot-march-2020.jpg"} roundedCircle fluid />
                         </Col>
                         <Col xs={2}></Col>
                     </Row>
