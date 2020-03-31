@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-function FLWeek3() {
+function January2020() {
     return (
         <>
             {/* <!-- Main Text --> */}
@@ -192,4 +192,4 @@ Below are some key differences that I found:
     );
 }
 
-export default FLWeek3;
+export default January2020;

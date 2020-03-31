@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-function FLWeek7() {
+function February2020() {
     return (
         <>
             {/* <!-- Main Text --> */}
@@ -86,4 +86,4 @@ function FLWeek7() {
     );
 }
 
-export default FLWeek7;
+export default February2020;
