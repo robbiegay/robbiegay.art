@@ -243,7 +243,76 @@ function March2020() {
 
                 <h3 className="text-center">My Image Cache Code</h3>
 
-                
+                <p>
+                    Below is an image of my image cache code:
+                </p>
+
+                <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/image-cache-code.png" alt="Image Cache Code" />
+                    <figcaption className="figure-caption text-center">The code for fetching images from Firebase — includes a cache function (lines 21-24).</figcaption>
+                </figure>
+
+                <p>
+                    This code is for a <code>CustomImageView</code> class, an 
+                    extension of <code>UIImageView</code>. This custom class allows 
+                    me to call a <code>.loadImage(urlString: String)</code> method on an image view, that loads 
+                    an image from Firebase and sets the image view image equal to that loaded image. 
+                    This abstracts away a lot of repetitive code as I have to load images 
+                    from Firebase in several places throughout my Instagram app.
+                </p>
+
+                <p>
+                    On line 11 I declare an <code>imageCache</code> variable. 
+                    Since <code>imageCache</code> is declared outside 
+                    of our custom class, it is available throughout out entire code 
+                    base. <code>imageCache</code> is a dictionary of key-value pairs, 
+                    with the keys being Strings and the values being 
+                    of the type <code>UIImage</code>. The way key-value pairs work in a dictionaty is similar 
+                    to how a real world, paper dictionary works: a word (the key) is paired with a 
+                    definition (the value). For example, lets say you created a dictionary called colors: 
+                </p>
+
+                <p className="text-center">
+                    <code>colors["blue": "the color of water", "red": "the color of fire"]</code>.
+                </p>
+
+                <p>
+                    If you called <code>colors["blue"]</code> the output would be: <code>"the color of water"</code>
+                </p>
+
+                <p>
+                    Our code works just like this! The block of code from line 30 
+                    to 46 fetches our images from Firebase. After fetching the images, 
+                    it adds the fetched image to the <code>imageCache</code> dictionary 
+                    using the key value of the image's download url String. Lets say for example that 
+                    the first image we download has a download url of <code>"xyz"</code>.
+                </p>
+
+                <p>
+                    The next time <code>.loadImage(urlString: String)</code> is called, it 
+                    will run a test on line 21 to see if the image we are about to download is 
+                    already in our cache. If this is a new image (for example, if we have scrolled 
+                    down on our feed) with a download url of <code>abc</code>, then the check of 
+                    <code>imageCache["abc"]</code> will return <code>nil</code> and the code continues 
+                    on to lines 26 and below — fetching this new image from Firebase and adding it 
+                    to our cache.
+                </p>
+
+                <p>
+                    Lets say that we now scroll back up on our feed. <code>.loadImage(urlString: String)</code> is 
+                    called again, and on line 21, we check to see if the first image with a download 
+                    url of <code>"xyz"</code> is in our cache. Since it is indeed in our image, we 
+                    now enter our conditional block on line 22, setting the <code>CustomImageView</code>'s image 
+                    to the cached image (ie. using the cached image as the image to display in the app). 
+                    On line 23, we then <code>return</code> out of the <code>.loadImage(urlString: String)</code> method, 
+                    never allowing our code to reach lines 30-46 where we would have made an unnecessary 
+                    Firebase call.
+                </p>
+
+                <p>
+                    Hopefully I have managed to explain why using caches are useful, and 
+                    shown a simple example of how to implement one in your code!
+                </p>
 
 
 
