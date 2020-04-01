@@ -11,7 +11,7 @@ function March2020() {
                 <h3 className="text-center">Monthly Update</h3>
                 <p>
                     I realized that my blog post from February didn’t include a Monthly Update.
-                    Before diving into creating an image cache, I wanted to provide a update
+                    Before diving into creating an image cache, I wanted to provide an update
                     on some things I have done in February and March:
                 </p>
 
@@ -20,7 +20,7 @@ function March2020() {
                         Play Catan (and lose)
                     </li>
                     <li>
-                        Spend a lot of money of yummy French food for Valentine’s day
+                        Spend a lot of money on yummy French food for Valentine’s day
                     </li>
                     <li>
                         Participate in
@@ -116,18 +116,18 @@ function March2020() {
                     A major perk of doing freelance work is that I was able to take some time off to
                     go visit my brother in Denver. We left for Colorado on March 11th. When we left, there
                     were 1,215 cases in the US, which was worrisome, but we didn't think it was enough at that point
-                    to cancel our travel planes. Instead, we took lots of hand sanitizer and wipes, and we careful on
+                    to cancel our travel plans. Instead, we took lots of hand sanitizer and wipes, and we were careful on
                     the plane not to touch our faces and to wash our hands regularly.
                 </p>
 
                 <p>
-                    During out week in Colorado, things continued to look worse and worse. We woke up in the
+                    During our week in Colorado, things continued to look worse and worse. We woke up in the
                     hotel room to the news of canceled sporting events, and watched throughout the week as the DOW
                     dropped nearly 3,000 points. We planned on skiing
                     for 2-3 days (packing our lunch, washing our hands often). The first day, there were no reports of COVID-19
                     in Breckenridge. On the second day, we noticed that employees were sanitizing tables and that ski lifts were now
                     loading only members of the same party. On our third day out there, after the first confirmed cases on COVID-19 were
-                    reported on the mountain, the Governor stepped in and shutdown all the ski slopes.
+                    reported on the mountain, the Governor stepped in and shut down all the ski slopes.
                 </p>
 
                 <figure className="figure">
@@ -135,8 +135,8 @@ function March2020() {
                     <figcaption className="figure-caption text-center">Day 2: Breckenridge institutes a "Load Related Parties Only" policy for the ski lifts.</figcaption>
                 </figure>
 
-                On a positive note, we really enjoyed seeing William! The 2 days that we got on the slopes
-                we awesome. Anna continues to improve as a skier! On only her fourth cumulative ski day,
+                On a positive note, we really enjoyed seeing <a href="">William</a>! The 2 days that we got on the slopes
+                were awesome. Anna continues to improve as a skier! On only her fourth cumulative ski day,
                 she managed to go down a blue run! After spending the weekend in Breckenridge, we spent a few
                 more days in Denver, mostly in William's apartment due to concerns with COVID-19.
 
@@ -202,7 +202,7 @@ function March2020() {
                     computer so that future requests for that data can be served 
                     quickly. Here is a possible real world analogy: imagine you 
                     are a police sketch artist. You spend several hours drawing 
-                    suspects 1, 2, and 3. The next day, you star witness 
+                    suspects 1, 2, and 3. The next day, your star witness 
                     eliminates drawings of suspects 1 and 2. Do you throw away 
                     drawings 1 and 2 immediately? Perhaps not. If your star 
                     witness changes their mind, you would have to redraw suspects 
@@ -214,7 +214,7 @@ function March2020() {
                 <p>
                     Computer programs do something similar. In my Instagram app, 
                     I have a “home feed” of images from users that I follow. When 
-                    I scroll from top to bottom, any image the I scroll past, the app has to load 
+                    I scroll from top to bottom, any image that I scroll past, the app has to load 
                     from <a href="https://firebase.google.com/" title="Firebase Website">Firebase</a>. 
                     When I scroll past an image, should my app forget the data from that image? If 
                     so, when I scroll back to the top of my feed, my app will have to load all of 
@@ -264,10 +264,10 @@ function March2020() {
                 <p>
                     On line 11 I declare an <code>imageCache</code> variable. 
                     Since <code>imageCache</code> is declared outside 
-                    of our custom class, it is available throughout out entire code 
+                    of our custom class, it is available throughout our entire code 
                     base. <code>imageCache</code> is a dictionary of key-value pairs, 
                     with the keys being Strings and the values being 
-                    of the type <code>UIImage</code>. The way key-value pairs work in a dictionaty is similar 
+                    of the type <code>UIImage</code>. The way key-value pairs work in a dictionary is similar 
                     to how a real world, paper dictionary works: a word (the key) is paired with a 
                     definition (the value). For example, lets say you created a dictionary called colors: 
                 </p>
@@ -281,10 +281,10 @@ function March2020() {
                 </p>
 
                 <p>
-                    Our code works just like this! The block of code from line 30 
+                    Our code works just like this! The block of code from lines 30 
                     to 46 fetches our images from Firebase. After fetching the images, 
                     it adds the fetched image to the <code>imageCache</code> dictionary 
-                    using the key value of the image's download url String. Lets say for example that 
+                    using the key value of the image's download url String. Let's say for example that 
                     the first image we download has a download url of <code>"xyz"</code>.
                 </p>
 
