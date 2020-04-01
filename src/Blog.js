@@ -237,7 +237,7 @@ function Blog() {
                                     <li>
                                         <time datetime="2020-03-31">3.31.2020</time>
                                         : <a href="/blog/mar-2020" title="March 2020 Blog Post">
-                                            Design
+                                            Creating an Image Cache
                                         </a>
                                     </li>
                                 </ul>
