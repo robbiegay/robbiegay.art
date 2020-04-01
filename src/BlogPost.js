@@ -21,8 +21,9 @@ import BCWeek11 from "./blogPosts/BCWeek11";
 import BCWeek12 from "./blogPosts/BCWeek12";
 import JHWeek1 from "./blogPosts/JHWeek1";
 import JHWeek4 from "./blogPosts/JHWeek4";
-import FLWeek3 from "./blogPosts/FLWeek3";
-import FLWeek7 from "./blogPosts/FLWeek7";
+import January2020 from "./blogPosts/January2020";
+import February2020 from "./blogPosts/February2020";
+import March2020 from "./blogPosts/March2020";
 
 
 class BlogPost extends React.Component {
@@ -182,18 +183,26 @@ class BlogPost extends React.Component {
                     2019</time>
                 });
                 break;
-            case "fl-week-3":
+            case "jan-2020":
                 this.setState({
-                    blogPost: <FLWeek3 />,
+                    blogPost: <January2020 />,
                     title: "Swift vs JavaScript",
                     date: <time datetime="2020-01-31">January 31<sup>st</sup>, 2020</time>
                 });
                 break;
-            case "fl-week-7":
+            case "feb-2020":
                 this.setState({
-                    blogPost: <FLWeek7 />,
+                    blogPost: <February2020 />,
                     title: "Design: UI and UX",
-                    date: <time datetime="2019-09-07">February 29<sup>th</sup>,
+                    date: <time datetime="2020-02-29">February 29<sup>th</sup>,
+                    2020</time>
+                });
+                break;
+            case "mar-2020":
+                this.setState({
+                    blogPost: <March2020 />,
+                    title: "iOS Development: Creating an Image Cache",
+                    date: <time datetime="2020-03-31">March 31<sup>st</sup>,
                     2020</time>
                 });
                 break;

@@ -10,7 +10,7 @@ function AuthorCard(props) {
                 <Card style={{maxWidth: "300px"}}>
                     <Row className="no-gutters">
                         <Col xs={4}>
-                            <Card.Img src="/blogAssets/img/robbie-gay-cropped.jpg" alt="Robbie Gay" />
+                            <Card.Img src={process.env.PUBLIC_URL + "/images/headshot-march-2020.jpg"} />
                         </Col>
                         <Col xs={8}>
                             <Card.Body>

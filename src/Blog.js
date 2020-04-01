@@ -202,7 +202,7 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-01-31">1.31.2020</time>
-                                        : <a href="/blog/fl-week-3" title="Freelance Week 3 Blog Post">
+                                        : <a href="/blog/jan-2020" title="January 2020 Blog Post">
                                             Swift vs React
                                         </a>
                                     </li>
@@ -219,8 +219,25 @@ function Blog() {
                                 <ul>
                                     <li>
                                         <time datetime="2020-02-29">2.29.2020</time>
-                                        : <a href="/blog/fl-week-7" title="Freelance Week 7 Blog Post">
+                                        : <a href="/blog/feb-2020" title="February 2020 Blog Post">
                                             Design
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="7" style={{cursor: "pointer"}}>
+                            March
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="7">
+                            <Card.Body>
+                                <ul>
+                                    <li>
+                                        <time datetime="2020-03-31">3.31.2020</time>
+                                        : <a href="/blog/mar-2020" title="March 2020 Blog Post">
+                                            Creating an Image Cache
                                         </a>
                                     </li>
                                 </ul>
