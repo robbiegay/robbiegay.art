@@ -187,7 +187,63 @@ function March2020() {
 
                 <h3 className="text-center">Creating an Image Cache</h3>
 
+                <p>
+                    In addition to doing Freelance work, I have also been 
+                    spending my time working through 
+                    a <a href="https://www.letsbuildthatapp.com/" title="The Let's Build That App website">LBTA course on building iOS apps</a>. 
+                    The course I am working on walks you through development 
+                    of an Instagram clone. My app is only about halfway done, 
+                    but I wanted to talk about an image cache feature that I 
+                    built this week that I thought seemed really important.
+                </p>
 
+                <p>
+                    In computing, a cache is a collection of data, stored by the 
+                    computer so that future requests for that data can be served 
+                    quickly. Here is a possible real world analogy: imagine you 
+                    are a police sketch artist. You spend several hours drawing 
+                    suspects 1, 2, and 3. The next day, you star witness 
+                    eliminates drawings of suspects 1 and 2. Do you throw away 
+                    drawings 1 and 2 immediately? Perhaps not. If your star 
+                    witness changes their mind, you would have to redraw suspects 
+                    1 and 2. This would result in a lot of duplicated work. 
+                    Rather, it might be better to store these drawings, at least 
+                    for a little while, as the case progresses.
+                </p>
+
+                <p>
+                    Computer programs do something similar. In my Instagram app, 
+                    I have a “home feed” of images from users that I follow. When 
+                    I scroll from top to bottom, any image the I scroll past, the app has to load 
+                    from <a href="https://firebase.google.com/" title="Firebase Website">Firebase</a>. 
+                    When I scroll past an image, should my app forget the data from that image? If 
+                    so, when I scroll back to the top of my feed, my app will have to load all of 
+                    those images again. That’s a lot of extra work. Instead, my app can cache those 
+                    previously loaded images, storing them out of sight in case they are needed 
+                    again in the future.
+                </p>
+
+                <div className="text-center">
+                    <figure className="figure" style={{ maxWidth: "50%" }}>
+                        <img className="img-fluid" src="/blogAssets/img/robbie-instagram-clone-home-feed.png" alt="Instagram Clone Home Feed" />
+                        <figcaption className="figure-caption text-center">The "Home Feed" of my Instagram app clone.</figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    There are two main reasons why caching is helpful. First, it 
+                    decreases data usage. If someone has a limited data plan, they 
+                    don’t want to burn through data just to see photos their device 
+                    should already have loaded. Second, it increases speed. If a user's 
+                    device is on a relatively slow internet connection, they may have 
+                    to wait for each file to load. Once the file is loaded, it would be 
+                    wasteful for the device to delete the file if there is a reasonable 
+                    expectation that the user will access it again soon.
+                </p>
+
+                <h3 className="text-center">My Image Cache Code</h3>
+
+                
 
 
 
