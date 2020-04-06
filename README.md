@@ -19,5 +19,4 @@ If you've found a bug in my code, please feel free to send me an Issue!
 
 ## Authors
 
-* **Robbie Gay** - [Robbie's Blog](https://www.robbiegay.art/)
-
+* **Robbie Gay** - [Robbie's Website](https://www.robbiegay.art/)

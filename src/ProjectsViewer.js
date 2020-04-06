@@ -7,26 +7,90 @@ function ProjectsViewer() {
 
     return (
         <>
+        {/* Learning Swift (replae fbook, this site, Moolathon) - add upwork profile? */}
             <CardDeck>
                 <Card>
-                    <Card.Header>Facebook Emulator</Card.Header>
+                    <Card.Header>Instagram Clone</Card.Header>
                     <Card.Body>
-                        <Card.Title>Swift</Card.Title>
+                        <Card.Title>Swift, Firebase, Xcode</Card.Title>
                         <Card.Text>
                         <ul>
                             <li>
-                                <a href="https://github.com/robbiegay/swift-facebook">GitHub Repo</a>
+                                <a href="https://www.youtube.com/watch?v=tRLZppAY7Ik">Video Demo</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robbiegay/learning-swift/tree/master/instagram-firebase-clone">GitHub Repo</a>
                             </li>
                         </ul>
-                            In order to both help onboard Swift 5, and make me more comfortable working 
-                            in Xcode/iOS simulators, I created an emulation of the Facebook homepage. I called 
-                            my version of the app "Robbiebook".
+                            In order to better understand Swift and mobile app development, I have been 
+                            working on a clone of the Instagram app, with backend data being stored on 
+                            Firebase. I hope to have this app completed by the end of April 2020. In the meantime, 
+                            feel free to check out a video demo of the current state of the app by following the link 
+                            above!
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">January 2020</small>
+                        <small className="text-muted">April 2020</small>
                     </Card.Footer>
                 </Card>
+            </CardDeck>
+            <br />
+            <CardDeck>
+                <Card>
+                    <Card.Header>Moolathon App</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Swift, Firebase, Google Maps SDK</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://apps.apple.com/us/app/moolathon/id1486017163">Apple App Store Link</a>
+                            </li>
+                            <li>
+                                <a href="http://moolathon.com/">Moolathon Website</a>
+                            </li>
+                        </ul>
+                            In the Spring of 2020, I worked as a part of a team developing an app called Moolathon. 
+                            Moolathon is a fitness fundraising app, where users raise money by running more miles. 
+                            I helped create a feature where users could turn a workout summary into an easily shareable 
+                            post for social media. Moolathon was released on the Apple App store in March of 2020.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">March 2020</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Header>Robbiegay.art</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Bootstrap, React.js, React Router, Pts.js</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://www.robbiegay.art/">Demo</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robbiegay/robbiegay.art">GitHub Repo</a>
+                            </li>
+                        </ul>
+                            In late February I decided it was finally time to upgrade my website. 
+                            I built <a href="https://robbiegay.github.io/">my old website</a> early on in 
+                            the Bootcamp, and thought that due to how much new technology I was familiar with, 
+                            it would be best to rebuild from the ground up. This iteration of my website is built 
+                            using Bootstrap and React.js for the front end. The page navigation is run through 
+                            React Router. For the homepage, I wanted to do something that both showed some technical 
+                            skill in the Web Developer department, as well as something create to showcase my background 
+                            in the arts. I created a homepage the animated through a range of "sunrise-ey" colors, and that 
+                            will increase in luminosity as a user move their mouse vertically from the bottom to the 
+                            top of the page.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">February 2020</small>
+                    </Card.Footer>
+                </Card>
+            </CardDeck>
+            <br />
+            <CardDeck>
                 <Card>
                     <Card.Header>Phone Simulator</Card.Header>
                     <Card.Body>
@@ -57,6 +121,33 @@ function ProjectsViewer() {
                         <small className="text-muted">January 2020</small>
                     </Card.Footer>
                 </Card>
+                <Card>
+                    <Card.Header>MPM²</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Laravel, Tone.js, and Pts.js</Card.Title>
+                        <Card.Text>
+                            <ul>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=lDrPAQl78dc">Demo Video</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/robbiegay/mpm2">GitHub Repo</a>
+                                </li>
+                            </ul>
+                            Prior to the F19 Bootcamp, I spent several years making electronic music and, 
+                            for the past year, hosted a talk show on WRFL interviewing music makers. For my 
+                            final project, I wanted to do something that combined my love of digital music 
+                            with the Full Stack technologies that we learned in the course. MPM² is an 
+                            interactive art installation that allows up to 7 users to control various 
+                            pitch and tone aspects of an online synthesizer. Users use their mobile phones 
+                            to modify their respective parameter. The sounds generated cause the main screen’s 
+                            visuals to change.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">December 2019</small>
+                    </Card.Footer>
+                </Card>
             </CardDeck>
             <br />
             <CardDeck>
@@ -66,6 +157,9 @@ function ProjectsViewer() {
                         <Card.Title>PHP and Laravel</Card.Title>
                         <Card.Text>
                             <ul>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=M9PBVx0f840">Demo Video</a>
+                                </li>
                                 <li>
                                     <a href="https://github.com/robbiegay/laravel-library">GitHub Repo</a>
                                 </li>
