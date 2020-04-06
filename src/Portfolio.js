@@ -33,6 +33,7 @@ function Portfolio() {
                     <Col xs="auto">
                         <p>
                             <a href="https://www.linkedin.com/in/robbiegay/" title="My LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{ color: "#0077b5", fontSize: largerSize }}></i></a>{" "}
+                            {/* <a href="https://www.upwork.com/fl/robbiegay" title="My UpWork Profile" target="_blank" rel="noopener noreferrer"><Image src={process.env.PUBLIC_URL + "/websiteIcons/upwork.svg"} style={{ height: largerSize }} className="mb-5" /></a>{" "} */}
                             <a href="https://github.com/robbiegay" title="My GitHub Profile" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square" style={{ color: "#24292e", fontSize: largerSize }}></i></a>
                         </p>
                     </Col>
@@ -78,12 +79,16 @@ function Portfolio() {
                     <span style={{ width: "100%", display: "inline-block" }}></span>
                 </p>
 
-                {/* Resume */}
+                {/* Resume and UpWork */}
                 <Row>
                     <Col></Col>
                     <Col xs="auto">
-                        <Button href={Pdf} target="_blank">
+                        <Button href={Pdf} target="_blank" className="mr-1">
                             Resume
+                        </Button>
+
+                        <Button href="https://www.upwork.com/fl/robbiegay" target="_blank" className="ml-1">
+                            UpWork
                         </Button>
                         <br /><br />
                     </Col>
