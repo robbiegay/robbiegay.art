@@ -2,8 +2,6 @@ import React from "react";
 import { CardDeck, Card } from "react-bootstrap";
 
 function ProjectsViewer() {
-    // let fontSize = "30px";
-    // let largerSize = "75px";
 
     return (
         <>
@@ -131,6 +129,12 @@ function ProjectsViewer() {
                                 </li>
                                 <li>
                                     <a href="https://github.com/robbiegay/mpm2">GitHub Repo</a>
+                                </li>
+                                <li>
+                                    <a href="https://docs.google.com/document/d/1JbRhZaKWOODtXd37rOMaf0eFnQ-lcVgyZ77g5flP2Tc/edit?usp=sharing">MVP Document</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=qnKe355iV3o">Demo Day Presentation Video</a>
                                 </li>
                             </ul>
                             Prior to the F19 Bootcamp, I spent several years making electronic music and, 
