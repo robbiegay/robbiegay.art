@@ -7,7 +7,6 @@ function ProjectsViewer() {
 
     return (
         <>
-        {/* Learning Swift (replae fbook, this site, Moolathon) - add upwork profile? */}
             <CardDeck>
                 <Card>
                     <Card.Header>Instagram Clone</Card.Header>
