@@ -42,7 +42,7 @@ function Portfolio() {
 
                 {/* Bio */}
                 <p>
-                    Hi, my name is Robbie Gay. I graduated
+                    Hi, my name is Robbie! I graduated
                     from <a href="https://www.centre.edu" title="Centre's Website">Centre College</a> in
                     the Spring of 2016 with a degree in English Literature and a minor in Film Studies.
                     For 3 years I pursued my passion for filmmaking, photography, and music, while working
