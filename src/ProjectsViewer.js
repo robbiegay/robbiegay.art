@@ -2,7 +2,6 @@ import React from "react";
 import { CardDeck, Card } from "react-bootstrap";
 
 function ProjectsViewer() {
-
     return (
         <>
             <CardDeck>
@@ -71,12 +70,12 @@ function ProjectsViewer() {
                         </ul>
                             In late February, I decided it was finally time to upgrade my website. 
                             I built <a href="https://robbiegay.github.io/">my old website</a> early on in 
-                            the Bootcamp. Since I have learned several new frameworks and libraries since then, 
+                            the Bootcamp, and since I have learned several new frameworks and libraries since then, 
                             I thought it would be best to rebuild from the ground up. This iteration of my website is built 
                             using Bootstrap and React.js for the front end. The page navigation is run through 
                             React Router. For the homepage, I wanted to do something that both showcased some technical 
                             skill in Web Developer, as well as something creative from my background 
-                            in the arts. I created a homepage that animated through a range of "sunrise-ey" colors, and which 
+                            in the arts. I created a homepage that animates through a range of "sunrise-ey" colors, and which 
                             increases in luminosity as the user moves their mouse vertically from the bottom to the 
                             top of the page.
                         </Card.Text>
