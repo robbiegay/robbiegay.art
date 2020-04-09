@@ -49,7 +49,7 @@ function Portfolio() {
                     part time as a property manager for the Downtown Co. in Versailles, KY.
                     In the fall of 2019, I
                     completed <a href="https://www.awesomeinc.org/bootcamp" title="Bootcamp Website">Awesome Inc's Web Developer Bootcamp</a>, where
-                    I learned Full Stack Web Development (LAMP Tech Stack). I currently work as a Freelance mobile and web
+                    I learned Full Stack Web Development (LAMP Tech Stack). I currently work as a freelance mobile and web
                     developer, with the help of my boss/mentor <a href="https://warnerdesigntechnology.com/" title="Tommy's Website">Tommy Warner</a>.
                     Additionally, I still
                     make <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page">music</a>! I'm

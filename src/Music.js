@@ -24,7 +24,7 @@ function Music() {
                     I started making music as a first-year student at Centre College. I took a 1-credit
                     "Digital Music Production" course, and with the help of my professor, Dr. Dan Worley,
                     made a remix of an XX song. I spent the next 4 years at Centre filling my schedule with
-                    as many music theory, music production, and music performance classes as I fit. When
+                    as many music theory, music production, and music performance classes as I could. When
                     I graduated in May 2016, I decided that I wanted to spend the next few years pursing music
                     full-time. I moved in with my parents, worked several part-time jobs, and spent most
                     of my time making music. During the next 3 years, I made lot of music while also reviving some old passions in
@@ -37,7 +37,7 @@ function Music() {
                     I had become burnt out on trying to make music a career, on trying to make songs that could be
                     popular enough for me to make a living making them. During the Spring of 2020, I have been slowly
                     getting back into making music, but with a focus now on exploring ideas that interest me. I have
-                    also made in my resolution for 2020 to try to learn Jazz Piano. As a laptop musician, I look forward to
+                    also made it my resolution for 2020 to try to learn Jazz Piano. As a laptop musician, I look forward to
                     being able to play something that doesn't have to be plugged into the wall. At the top of the page
                     you can hear an example of a recent song, or you can find links to various music platforms down below!
             </p>

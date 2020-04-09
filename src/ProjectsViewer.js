@@ -39,7 +39,7 @@ function ProjectsViewer() {
                         <Card.Text>
                         <ul>
                             <li>
-                                <a href="https://apps.apple.com/us/app/moolathon/id1486017163">Apple App Store Link (Mobile Only Link)</a>
+                                <a href="https://apps.apple.com/us/app/moolathon/id1486017163">Apple App Store Link (iPhone Only Link)</a>
                             </li>
                             <li>
                                 <a href="http://moolathon.com/">Moolathon Website</a>
