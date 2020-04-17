@@ -6,32 +6,40 @@ function ProjectsViewer() {
         <>
             <CardDeck>
                 <Card>
-                    <Card.Header>Instagram Clone</Card.Header>
+                    <Card.Header>Instagram Clone iOS App</Card.Header>
                     <Card.Body>
-                        <Card.Title>Swift, Firebase, Xcode</Card.Title>
+                        <Card.Title>Swift, Firebase, AVFoundation, PhotoKit</Card.Title>
                         <Card.Text>
                         <ul>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=tRLZppAY7Ik">Video Demo</a>
+                                <a href="https://www.youtube.com/watch?v=BcsI42rxDQs">Video Demo</a>
                             </li>
                             <li>
                                 <a href="https://github.com/robbiegay/learning-swift/tree/master/instagram-firebase-clone">GitHub Repo</a>
                             </li>
                         </ul>
-                            In order to better understand Swift and mobile app development, I have been 
-                            working on a clone of the Instagram app, with backend data being stored on 
-                            Firebase. I hope to have this app completed by the end of April 2020. In the meantime, 
-                            feel free to check out a video demo of the current state of the app by following the link 
-                            above!
+                            In order to better understand Swift and mobile app development, I created a clone of 
+                            the Instagram app, with backend data being stored on Firebase. Similar to the actual 
+                            Instagram app, there is a Home feed where users can scroll through and view posts from 
+                            users that they follow. In this feed, users can like, unlike and comment on posts. There is 
+                            also a Capture Photo button that utilizes 
+                            the <a href="https://developer.apple.com/documentation/avfoundation" title="AVFoundation Documentation Page">AVFoundation framework</a> to 
+                            build a custom camera interface to capture and save new photos. The Search page allows users to search for 
+                            and follow and unfollow users. The Home feed has a drag-to-update feature to reflect changes in 
+                            users that they follow. The Photo Selector controller utilizes 
+                            the <a href="https://developer.apple.com/documentation/photokit" title="PhotoKit Documentation Page">PhotoKit SDK</a> to 
+                            create a page for selecting photos from your camera roll. The selected photo can then be 
+                            shared to your profile. Finally, users can visit their Profile page where they can view 
+                            the number of posts they have shared, users that they follow, and users that follow 
+                            them. Users can toggle between viewing their posts in a grid or list view. Users can 
+                            logout from their Profile page. When no one is logged into the app, users are 
+                            prompted to login or create a profile.
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted">April 2020</small>
                     </Card.Footer>
                 </Card>
-            </CardDeck>
-            <br />
-            <CardDeck>
                 <Card>
                     <Card.Header>Moolathon App</Card.Header>
                     <Card.Body>
@@ -55,10 +63,13 @@ function ProjectsViewer() {
                         <small className="text-muted">March 2020</small>
                     </Card.Footer>
                 </Card>
+            </CardDeck>
+            <br />
+            <CardDeck>
                 <Card>
                     <Card.Header>Robbiegay.art</Card.Header>
                     <Card.Body>
-                        <Card.Title>Bootstrap, React.js, React Router, Pts.js</Card.Title>
+                        <Card.Title className="text-left">Bootstrap, React.js, React Router, Pts.js</Card.Title>
                         <Card.Text>
                         <ul>
                             <li>
@@ -78,6 +89,33 @@ function ProjectsViewer() {
                             in the arts. I created a homepage that animates through a range of "sunrise-ey" colors, and which 
                             increases in luminosity as the user moves their mouse vertically from the bottom to the 
                             top of the page.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">February 2020</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Header>Calculator iOS App</Card.Header>
+                    <Card.Body>
+                        <Card.Title className="text-left">Swift, Xcode, UIKit, TinyConstraints</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=koZmsJvPW5k">Video Demo</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robbiegay/learning-swift/tree/master/calculator-app">GitHub Repo</a>
+                            </li>
+                        </ul>
+                            To help learn basic iOS app development, I wanted to create a iOS version of a web based 
+                            app I had previously completed. During the Awesome Inc Bootcamp, I built 
+                            a <a href="https://robbiegay.github.io/calculator/" title="Live demo of my JS Calculator">calculator app</a> using 
+                            JavaScript. I wanted to be able to compare the JavScript and Swift syntax. I used 
+                            Apple's <a href="https://developer.apple.com/documentation/uikit" title="UIKit Documentation Page">UIKit framework</a> to 
+                            build the various buttons and displays and used Robert-Hein 
+                            Hooijmans's <a href="https://github.com/roberthein/TinyConstraints">TinyConstraints</a> as 
+                            syntactic sugar for Auto Layout.
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
