@@ -5,6 +5,8 @@ import Blog from "./Blog";
 import Portfolio from "./Portfolio";
 import Music from "./Music";
 import BlogPost from ".//BlogPost";
+import Glch from "./apps/Glch";
+import GlchPrivacy from "./apps/GlchPrivacy";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -32,6 +34,12 @@ function App() {
             </Route>
             <Route path="/music">
               <Music />
+            </Route>
+            <Route exact path="/apps/glch">
+              <Glch />
+            </Route>
+            <Route path="/apps/glch/privacy">
+              <GlchPrivacy />
             </Route>
           </Switch>
         </Router>
