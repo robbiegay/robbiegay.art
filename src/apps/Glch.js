@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 import PageFormat from "../PageFormat";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
 
 function Glch() {
     return (
@@ -13,12 +13,19 @@ function Glch() {
             <br />
             <PageFormat>
                 <p className="text-center">
-                    <a href="/apps/glch/privacy" title="Glch Privacy Policy & ToS">Privacy Policy & Terms of Service</a>
+                    <Button href="/apps/glch/privacy" className="m-3">
+                        Privacy Policy & ToS
+                    </Button>
+                    <Button className="m-3" disabled>
+                        Download App Beta
+                    </Button>
                 </p>
                 <p>
                     Glch (pronounced "glitch") is a single button glitch photo generator. Users click
-                    the "capture photo" button and one of several effects is randomly applied. 
+                    the "capture photo" button and one of several effects is randomly applied.
                     Users then have the option to save their photo, or discard it and try again.
+                </p>
+                <p className="text-center">
                 </p>
                 <br />
                 <h3 className="text-center">Images</h3>

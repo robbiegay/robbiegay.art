@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 import PageFormat from "../PageFormat";
+import { Button } from "react-bootstrap";
 
 function GlchPrivacy() {
     return (
@@ -12,9 +13,6 @@ function GlchPrivacy() {
             <h3>Privacy Policy & Terms of Service</h3>
             <br />
             <PageFormat>
-                <p className="text-center">
-                    <a href="/apps/glch" title="Glch marketing page">Glch app main page</a>
-                </p>
                 <ul>
                     <li>
                         Users own the photos they generate using Glch.
@@ -35,7 +33,15 @@ function GlchPrivacy() {
                         it to 3rd parties.
                     </li>
                 </ul>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <p className="text-center">
+                    <Button href="/apps/glch" className="m-3">
+                        Glch App Main Page
+                    </Button>
+                    <Button className="m-3" disabled>
+                        Download App Beta
+                    </Button>
+                </p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </PageFormat>
             <Footer />
         </>
