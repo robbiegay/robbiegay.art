@@ -37,7 +37,7 @@ function GlchPrivacy() {
                     <Button href="/apps/glch" className="m-3">
                         Glch App Main Page
                     </Button>
-                    <Button className="m-3" disabled>
+                    <Button href="https://testflight.apple.com/join/1ZTQ3ZSX" className="m-3">
                         Download App Beta
                     </Button>
                 </p>
