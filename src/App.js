@@ -7,8 +7,11 @@ import Music from "./Music";
 import BlogPost from ".//BlogPost";
 import Glch from "./apps/Glch";
 import GlchPrivacy from "./apps/GlchPrivacy";
+import FinancedFarmer from "./apps/FinancedFarmer";
+import FinancedFarmerPrivact from "./apps/FinancedFarmerPrivacy";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import FinancedFarmerPrivacy from "./apps/FinancedFarmerPrivacy";
 
 function App() {
   function changePage(pageName) {
@@ -40,6 +43,12 @@ function App() {
             </Route>
             <Route path="/apps/glch/privacy">
               <GlchPrivacy />
+            </Route>
+            <Route exact path="/apps/financed-farmer">
+              <FinancedFarmer />
+            </Route>
+            <Route path="/apps/financed-farmer/privacy">
+              <FinancedFarmerPrivacy />
             </Route>
           </Switch>
         </Router>
