@@ -6,7 +6,7 @@ function March2020() {
         <>
             <article className="text-justify">
 
-                <br /> <br />
+                <br /><br />
 
                 <h3 className="text-center">Monthly Update</h3>
                 <p>
@@ -108,7 +108,7 @@ function March2020() {
                     </Carousel.Item>
                 </Carousel>
 
-                <br /> <br />
+                <br /><br />
 
                 <h3 className="text-center">Ski Trip</h3>
 
@@ -314,18 +314,10 @@ function March2020() {
                     shown a simple example of how to implement one in your code!
                 </p>
 
-
-
-
                 {/* <!-- White space --> */}
                 <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 
             </article >
-
-
-
-
-
         </>
     );
 }
