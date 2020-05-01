@@ -30,7 +30,7 @@ function FinancedFarmerPrivacy() {
                     <Button href="/apps/financed-farmer" className="m-3">
                         Financed Farmer App Main Page
                     </Button>
-                    <Button href="" className="m-3" disabled>
+                    <Button href="https://testflight.apple.com/join/FU613MUl" className="m-3">
                         Download App Beta
                     </Button>
                 </p>
