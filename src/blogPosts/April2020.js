@@ -62,14 +62,14 @@ function April2020() {
                 </p>
 
                 <div className="embed-responsive embed-responsive-16by9">
-                    <iframe className="embed-responsive-item" src="https://www.youtube.com/watch?v=BcsI42rxDQs" title="Instagram Clone Demo Video" allowfullscreen></iframe>
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/BcsI42rxDQs" title="Instagram Clone Demo Video" allowfullscreen></iframe>
                 </div>
 
                 <br />
 
                 <p>
-                    My next project was to create an app — something relatively 
-                    original — and attempt to take it from conception all the way 
+                    My next project was to create an app — something relatively
+                    original — and attempt to take it from conception all the way
                     through to being published on the app store.
                 </p>
 
@@ -78,33 +78,33 @@ function April2020() {
                 </p>
 
                 <p>
-                    With my wallet now slightly lighter, it was time to decide 
-                    what kind of app I wanted to create. I really like photography, 
-                    and since I had already learned how to create a custom camera 
-                    interface in the LBTA Instagram course, I decided I would try to 
+                    With my wallet now slightly lighter, it was time to decide
+                    what kind of app I wanted to create. I really like photography,
+                    and since I had already learned how to create a custom camera
+                    interface in the LBTA Instagram course, I decided I would try to
                     make a glitch camera app.
                 </p>
 
                 <p>
-                    I wanted the interface to be simple. The user loads the app, 
-                    opening with the camera already activated. The only control 
-                    is the shutter button. Once the user takes a photo, they can 
-                    save it or delete it and try again. As an additional bit of 
-                    flair, I wanted the camera shutter button to animate in and out, 
-                    to make the app feel a bit more alive. The graphic for the camera 
+                    I wanted the interface to be simple. The user loads the app,
+                    opening with the camera already activated. The only control
+                    is the shutter button. Once the user takes a photo, they can
+                    save it or delete it and try again. As an additional bit of
+                    flair, I wanted the camera shutter button to animate in and out,
+                    to make the app feel a bit more alive. The graphic for the camera
                     shutter was made from a photo taken by the app.
                 </p>
 
                 <p>
-                    There are no controls that the user can manipulate. The effect 
-                    that the user gets is random and unexpected. 
+                    There are no controls that the user can manipulate. The effect
+                    that the user gets is random and unexpected.
                 </p>
 
                 <p>
-                    Building the effects was where things started to get more challenging. 
-                    I used Core Image filters to create the distorted effects. These often 
-                    had their parameters maxed out far beyond their intended ranges, or 
-                    were chained one after another to create interesting effects. Currently, 
+                    Building the effects was where things started to get more challenging.
+                    I used Core Image filters to create the distorted effects. These often
+                    had their parameters maxed out far beyond their intended ranges, or
+                    were chained one after another to create interesting effects. Currently,
                     the app has 14 different effects.
                 </p>
 
@@ -113,7 +113,7 @@ function April2020() {
                 </p>
 
                 <p>
-                    You can download a Beta version of the app below, or 
+                    You can download a Beta version of the app below, or
                     check out the app’s landing page for more information!
                 </p>
 
