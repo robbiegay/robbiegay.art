@@ -21,10 +21,12 @@ function FinancedFarmer() {
                     </Button>
                 </p>
                 <p>
-                    Financed Farmer allows farmers to easily create finance reports to send to 
-                    loan officers and other financial institutions. The current build is designed 
-                    specifically for Almond Farmers, but future builds will expand into a wide 
-                    variety of farming operations.
+                    Financed Farmer allows farmers to easily create financial reports to send to 
+                    loan officers and other financial institutions. These reports compare the farmer's 
+                    costs with average costs from  
+                    the <a href="https://coststudies.ucdavis.edu/en/current/">UC Davis Department of Agricultural and Resource Economics cost studies (2019)</a>. The 
+                    current build is designed specifically for Almond Farmers, but 
+                    future builds will expand into a wide variety of farming operations.
                 </p>
                 <p className="text-center">
                 </p>

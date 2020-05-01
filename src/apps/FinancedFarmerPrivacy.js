@@ -15,9 +15,9 @@ function FinancedFarmerPrivacy() {
             <PageFormat>
                 <ul>
                     <li>
-                        User data will be saved to our database. This allows uses to retain 
+                        User data will be saved to our database. This allows users to retain 
                         their data even after logging out of the app. All data entered into 
-                        the Finance Farmer app becomes the property of Financed Farmer.
+                        the Financed Farmer app becomes the property of Financed Farmer.
                     </li>
                     <li>
                         Users own all reports created through the Financed Farmer app. Users 
