@@ -41,7 +41,7 @@ function April2020() {
                     </figure>
                 </div>
 
-                <br /><br />
+                <br />
 
                 <p>
                     For the last few months, I have been working as a freelance iOS developer,
@@ -94,6 +94,14 @@ function April2020() {
                     to make the app feel a bit more alive. The graphic for the camera
                     shutter was made from a photo taken by the app.
                 </p>
+
+                <div className="text-center">
+                    <figure className="figure border" style={{ maxWidth: "50%", margin: "auto" }}>
+                        <img className="img-fluid" src="/appAssets/img/glch-saved-message.PNG" alt="Generated with the Glch App" />
+                    </figure>
+                </div>
+
+                <br />
 
                 <p>
                     There are no controls that the user can manipulate. The effect
