@@ -211,7 +211,7 @@ class BlogPost extends React.Component {
                 this.setState({
                     blogPost: <April2020 />,
                     title: "Glch — Building an App from Scratch",
-                    date: <time datetime="2020-04-30">April 30<sup>st</sup>,
+                    date: <time datetime="2020-04-30">April 30<sup>th</sup>,
                     2020</time>
                 });
                 break;

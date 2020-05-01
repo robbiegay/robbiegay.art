@@ -27,7 +27,7 @@ function April2020() {
                 <p>
                     Anna's job as a Healthcare Technician has gotten significantly more
                     stressful as she has gotten pulled to a COVID-19 floor for the past
-                    3 shifts. Luckily they have plenty of PPE, and neither of use have come
+                    3 shifts. Luckily they have plenty of PPE, and neither of us have come
                     down with any symptoms. Although she finds working on the COVID-19 floor
                     more stressful than usual, she is in Nursing School because she loves to
                     help people, and she has been happy to help her patients. I'm very proud of her.
@@ -58,7 +58,7 @@ function April2020() {
                     an <a href="https://www.letsbuildthatapp.com/course/Instagram%20Firebase">LBTA tutorial</a> series
                     chronicling how to build a clone of the Instagram app, using Firebase for Authentication,
                     backend database, and image asset storage. The course took a long time to work through —
-                    over 16 hours of content, and since I paused often to code along of look things off,
+                    over 16 hours of content, and since I paused often to code along or look things up,
                     I’m sure that time was at least doubled. Below is a video walkthrough of my completed app.
                     I can’t recommend LBTA enough.
                 </p>
@@ -168,7 +168,7 @@ function April2020() {
 
                 <p>
                     From here, one option would be to continue to chain together more <code>CGFilters</code>. To 
-                    do this you simply add another filter, but instead of passing in passing in our 
+                    do this you simply add another filter, but instead of passing in our 
                     original <code>cgImage</code>, we pass in the output of our first 
                     filter, <code>filter?.outputImage</code>. Example:
                 </p>
@@ -195,7 +195,7 @@ function April2020() {
                 </code>
 
                 <p>
-                    This extracts the processed <code>cgImage</code> from out filter. 
+                    This extracts the processed <code>cgImage</code> from our filter. 
                     Next we need to create a <code>CIContext</code> (Core Image Context) for 
                     rendering our UIImage:
                 </p>
@@ -230,8 +230,8 @@ function April2020() {
                     the <code>CGImage</code>, with a scale of 1, and orientated to 
                     the right. We then return this <code>UIImage</code> out of our 
                     effect function. If we are unable to create our processed image, our 
-                    conditional statement fails and we print and error message and 
-                    out put an empty <code>UIImage</code>
+                    conditional statement fails and we print an error message and 
+                    output an empty <code>UIImage</code>.
                 </p>
   
                 <p>
