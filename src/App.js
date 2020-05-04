@@ -7,6 +7,8 @@ import Music from "./Music";
 import BlogPost from ".//BlogPost";
 import Glch from "./apps/Glch";
 import GlchPrivacy from "./apps/GlchPrivacy";
+import TheEasyGame from "./apps/TheEasyGame";
+import TheEasyGamePrivacy from "./apps/TheEasyGamePrivacy";
 import FinancedFarmer from "./apps/FinancedFarmer";
 import FinancedFarmerPrivact from "./apps/FinancedFarmerPrivacy";
 
@@ -43,6 +45,12 @@ function App() {
             </Route>
             <Route path="/apps/glch/privacy">
               <GlchPrivacy />
+            </Route>
+            <Route exact path="/apps/easy-game">
+              <TheEasyGame />
+            </Route>
+            <Route path="/apps/easy-game/privacy">
+              <TheEasyGamePrivacy />
             </Route>
             <Route exact path="/apps/financed-farmer">
               <FinancedFarmer />
