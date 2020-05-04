@@ -30,7 +30,7 @@ function TheEasyGamePrivacy() {
                     <Button href="/apps/easy-game" className="m-3">
                         The Easy Game Main Page
                     </Button>
-                    <Button href="" className="m-3" disabled>
+                    <Button href="https://testflight.apple.com/join/gHYS01EE" className="m-3">
                         Download App Beta
                     </Button>
                 </p>
