@@ -6,6 +6,104 @@ function ProjectsViewer() {
         <>
             <CardDeck>
                 <Card>
+                    <Card.Header>The Easy Game App</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Swift, SpriteKit</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://testflight.apple.com/join/gHYS01EE">App Beta</a>
+                            </li>
+                            <li>
+                                <a href="https://www.robbiegay.art/apps/easy-game">App Info Page</a>
+                            </li>
+                        </ul>
+                            With a free weekend, I wanted to explore 
+                            Apple's <a href="https://developer.apple.com/documentation/spritekit">SpriteKit</a>, and 
+                            maybe dip my toes into game design. I followed 
+                            a <a href="https://www.hackingwithswift.com/read/36/">tutorial</a> from 
+                            Hacking with Swift, and found that SpriteKit made the physics and world 
+                            building aspect of game development really simple! After following the 
+                            tutorial and building the "Crashy Plane" game (a clone 
+                            of <a href="https://en.wikipedia.org/wiki/Flappy_Bird">Flappy Bird</a>), I 
+                            wanted to try building my own game. I built a simple platform game, 
+                            where a user attempts to dodge oncoming 
+                            obstacles and make it to the end of the level (the game turned out suspiciously 
+                            like <a href="https://en.wikipedia.org/wiki/The_Impossible_Game">another game</a> that 
+                            I enjoyed in the early 2010's). I had a lot of fun building this, 
+                            particularly because it gave me an excuse to play around with 
+                            making <a href="https://en.wikipedia.org/wiki/Pixel_art">pixel art</a>, and 
+                            an opportunity to do some custom sound design work. Feel free to check 
+                            out the Beta version of the app! Despite naming it "The Easy Game", I 
+                            find the current build fairly hard to beat...
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">May 2020</small>
+                    </Card.Footer>
+                </Card>
+            </CardDeck>
+            <br />
+            <CardDeck>
+                <Card>
+                    <Card.Header>Glch Photo App</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Swift, Core Image Framework</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://testflight.apple.com/join/1ZTQ3ZSX">App Beta</a>
+                            </li>
+                            <li>
+                                <a href="https://www.robbiegay.art/apps/glch">App Info Page</a>
+                            </li>
+                        </ul>
+                            Glch is a glitch/distorted photo generator. The user opens the app and 
+                            is presented with a custom camera controller. There are no parameters for the 
+                            user to adjust. Rather, when the user takes a photo, one of 14 photo distortion 
+                            effects is randomly applied. The user then has the option to save the photo or discard it 
+                            and try again. I wanted the UX to be optimized for quick experimentation by taking new photos. All buttons are therefore situated on the bottom of the screen, allowing 
+                            for rapid, single-handed use. As mentioned above, the current iteration has 14 filters. It 
+                            is my goal to continue to add filters (likely until I have 25-50 total), and then publish to the 
+                            app store. The filters are built using 
+                            Apple's <a href="https://developer.apple.com/documentation/coreimage">Core Image</a> framework. 
+                            Feel free to download the app Beta!
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">April 2020</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Header>Aja's Poetry Website</Card.Header>
+                    <Card.Body>
+                        <Card.Title>React.js, Bootstrap, React Router</Card.Title>
+                        <Card.Text>
+                        <ul>
+                            <li>
+                                <a href="https://robbiegay.github.io/aja-poetry/">Demo</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robbiegay/aja-poetry">GitHub Repo</a>
+                            </li>
+                        </ul>
+                            I promised my friend Aja that I would make a website for her months ago. 
+                            Unfortunately, between job hunting and freelance work, this has been something 
+                            I have repeatedly put off. With a free Saturday evening, I decided to sit down and 
+                            build her a site. This is a pretty standard website, built using React.js and Bootstrap, 
+                            although I did find a 
+                            cool <a href="https://www.npmjs.com/package/react-typing-animation" title="React Typing Animation">typing animation</a> package 
+                            to add simple animation to the splash page.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">April 2020</small>
+                    </Card.Footer>
+                </Card>
+            </CardDeck>
+            <br />
+            <CardDeck>
+                <Card>
                     <Card.Header>Instagram Clone iOS App</Card.Header>
                     <Card.Body>
                         <Card.Title>Swift, Firebase, AVFoundation, PhotoKit</Card.Title>
