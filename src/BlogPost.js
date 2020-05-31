@@ -25,6 +25,7 @@ import January2020 from "./blogPosts/January2020";
 import February2020 from "./blogPosts/February2020";
 import March2020 from "./blogPosts/March2020";
 import April2020 from "./blogPosts/April2020";
+import May2020 from "./blogPosts/May2020";
 
 
 class BlogPost extends React.Component {
@@ -212,6 +213,14 @@ class BlogPost extends React.Component {
                     blogPost: <April2020 />,
                     title: "Glch — Building an App from Scratch",
                     date: <time datetime="2020-04-30">April 30<sup>th</sup>,
+                    2020</time>
+                });
+                break;
+            case "may-2020":
+                this.setState({
+                    blogPost: <May2020 />,
+                    title: "What I Learned From Harvard's CS50 Course",
+                    date: <time datetime="2020-05-31">May 31<sup>st</sup>,
                     2020</time>
                 });
                 break;
