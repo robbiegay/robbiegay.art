@@ -329,7 +329,61 @@ function May2020() {
                     information. Different data types take up different amounts of space:
                 </p>
 
+                <Table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Definition</th>
+                            <th>Size</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">int</th>
+                            <td>Whole numbers</td>
+                            <td>4 bytes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">double</th>
+                            <td>Floating point numbers</td>
+                            <td>8 bytes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">bool</th>
+                            <td>true or false</td>
+                            <td>1 <strong>bit</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">char</th>
+                            <td>Individual ASCII character</td>
+                            <td>2 bytes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">string</th>
+                            <td>A string of characters</td>
+                            <td>2 bytes <strong>per</strong> character</td>
+                        </tr>
+                    </tbody>
+                </Table>
 
+                <p>
+                    When you tell the computer: <code>int x;</code> the computer 
+                    stores 4 bytes in RAM and names it <code>x</code>. When you 
+                    assign <code>x</code> a value (ex. <code>x = 52;</code>), that 
+                    value is stored in those 4 bytes of memory.
+                </p>
+
+                <h3 className="text-center">Closing</h3>
+
+                <p>
+                    I highly recommend Harvard’s CS50 course. David Malan 
+                    does a great job explaining technical topics in an entertaining 
+                    and easily understandable manner. Even if you have no background in 
+                    computer science or programming, Professor Malan starts the series by 
+                    explaining that 2/3rds of students in the class have no technical 
+                    background. You can find the CS50 course 
+                    here: <a href="https://cs50.harvard.edu/x/2020/">CS50</a>
+                </p>
 
                 <br />
                 <br /><br /><br /><br /><br /><br /><br /><br />
