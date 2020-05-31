@@ -32,6 +32,8 @@ function May2020() {
                     </ul>
                 </p>
 
+                <br /><br />
+
                 <h3 className="text-center">CS50</h3>
 
                 <p>
@@ -95,6 +97,8 @@ function May2020() {
                     so instead I want to focus on a few main points that I learned.
                     Additionally, I want to encourage you to take CS50 if you find any of this interesting :)
                 </p>
+
+                <br /><br />
 
                 <h3 className="text-center">Bit, Bytes, and Binary Code</h3>
 
@@ -242,6 +246,8 @@ function May2020() {
                     represent each character.
                 </p>
 
+                <br /><br />
+
                 <h3 className="text-center">Images From Binary</h3>
 
                 <p>
@@ -287,6 +293,8 @@ function May2020() {
                     </tbody>
                 </Table>
 
+                <br /><br />
+
                 <h3 className="text-center">Compiling</h3>
 
                 <p>
@@ -319,6 +327,8 @@ function May2020() {
                 <p>
                     This entire, 4 part process is called compiling.
                 </p>
+
+                <br /><br />
 
                 <h3 className="text-center">Memory</h3>
 
@@ -372,6 +382,8 @@ function May2020() {
                     assign <code>x</code> a value (ex. <code>x = 52;</code>), that 
                     value is stored in those 4 bytes of memory.
                 </p>
+
+                <br /><br />
 
                 <h3 className="text-center">Closing</h3>
 
