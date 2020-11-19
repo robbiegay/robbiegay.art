@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+import GetYear from "./GetYear";
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
             <footer>
                 <Navbar sticky="bottom" bg="light">
                     <Navbar.Text>
-                        <em>&copy; 2020 Robbie Gay. All rights reserved.</em>
+                        <em>&copy; {GetYear()} Robbie Gay. All rights reserved.</em>
                     </Navbar.Text>
                 </Navbar>
             </footer>
