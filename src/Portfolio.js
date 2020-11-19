@@ -46,15 +46,13 @@ function Portfolio() {
                     from <a href="https://www.centre.edu" title="Centre's Website">Centre College</a> in
                     the Spring of 2016 with a degree in English Literature and a minor in Film Studies.
                     For 3 years I pursued my passion for filmmaking, photography, and music, while working
-                    part time as a property manager for the Downtown Co. in Versailles, KY.
+                    part time as a property manager for the Downtown Company in Versailles, KY.
                     In the fall of 2019, I
                     completed <a href="https://www.awesomeinc.org/bootcamp" title="Bootcamp Website">Awesome Inc's Web Developer Bootcamp</a>, where
-                    I learned Full Stack Web Development (LAMP Tech Stack). I currently work as a freelance mobile and web
-                    developer, with the help of my boss/mentor <a href="https://warnerdesigntechnology.com/" title="Tommy's Website">Tommy Warner</a>.
-                    Additionally, I still
-                    make <a href="https://soundcloud.com/robbiegay" title="My SoundCloud Page">music</a>! I'm
-                    mostly a laptop musician, but my goal in 2020 is to learn jazz piano — stay tuned! I also
-                    manage the RPM playbox (electronic music) for <a href="http://wrfl.fm/" title="WRFL's website">WRFL</a>.
+                    I learned Full Stack Web Development (LAMP Tech Stack). From Jan - May of 2020, I worked as a freelance iOS developer on <a href="https://www.upwork.com/fl/robbiegay" title="My UpWork Profile">UpWork</a>, developing apps
+                    for clients in the the sports, fitness, and agriculture industries.
+                    In June of 2020, I started working as Associate QA Engineer at <a href="https://vetdata.com/" title="Vetdata's Website">VetData</a>,
+                    a leader in data integration, conversion, and support services for the veterinary industry.
                 </p>
 
                 {/* Language Icons */}
