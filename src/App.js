@@ -10,7 +10,6 @@ import GlchPrivacy from "./apps/GlchPrivacy";
 import TheEasyGame from "./apps/TheEasyGame";
 import TheEasyGamePrivacy from "./apps/TheEasyGamePrivacy";
 import FinancedFarmer from "./apps/FinancedFarmer";
-import FinancedFarmerPrivact from "./apps/FinancedFarmerPrivacy";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FinancedFarmerPrivacy from "./apps/FinancedFarmerPrivacy";
