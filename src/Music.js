@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import PageFormat from "./PageFormat";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Music() {
     let largerSize = "75px";
