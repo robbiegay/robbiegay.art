@@ -12,10 +12,17 @@ function Blog() {
             <h1>Blog Posts</h1>
             <PageFormat>
                 <p>
-                    Welcome to my blog! This blog started as an assignment for
-                    the <a href="https://www.awesomeinc.org/bootcamp" title="Bootcamp Webpage" target="_blank" rel="noopener noreferrer">Awesome Inc Web Developer's Bootcamp</a>.
-                    I have continued to post articles (at a much slower rate) about web and mobile development
-                    topics that are interesting to me. Below you can find a list of blog articles. I hope you enjoy!
+                    Hey! Welcome to my blog. I write about anything from tech topics to 
+                    personal interests. 
+                </p>
+
+                <p>
+                    A note about audience: I really enjoy writing these blog posts. I think 
+                    if I had aspirations that anyone would read them, it might take the fun 
+                    out of it. I do still try to make the posts interesting and concise (as 
+                    if someone <i>might</i> read them), but I'm guessing that most of these posts will 
+                    only have an audience of one. If you are someone other than Mom: I'm glad 
+                    you are here, and I hope you find my ramblings interesting :)   
                 </p>
 
                 <Accordion>
@@ -272,6 +279,28 @@ function Blog() {
                                         <time datetime="2020-05-31">5.31.2020</time>
                                         : <a href="/blog/may-2020" title="May 2020 Blog Post">
                                             What I Learned From Harvard's CS50 Course
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
+                            <b>2021 — More Blog Posts</b>
+                        </Card.Header>
+                    </Card>
+                    <Card>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="10" style={{cursor: "pointer"}}>
+                            May
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="10">
+                            <Card.Body>
+                                <ul>
+                                    <li>
+                                        <time datetime="2021-05-16">5.16.2021</time>
+                                        : <a href="/blog/may-2021" title="May 2021 Blog Post">
+                                            Top Books of Quarantine
                                         </a>
                                     </li>
                                 </ul>
