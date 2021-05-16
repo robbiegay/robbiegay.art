@@ -57,7 +57,7 @@ class Homepage extends PtsCanvas {
 
         let blogRect = Rectangle.fromCenter( [this.centerX,this.centerY + (this.yPerc * 10)], 300  );
         this.form.fill("rgba(0,0,0,0)").font(40).stroke("rgba(0,0,0,0)", 3).rect( blogRect );
-        this.form.fillOnly("#FFF").alignText("center").paragraphBox( blogRect, "dev blog", 1, "middle", false );
+        this.form.fillOnly("#FFF").alignText("center").paragraphBox( blogRect, "blog", 1, "middle", false );
         this.blogButton.render( g => this.form.fillOnly("rgba(0,0,0,0.05)").polygon(g) );
 
         let portfolioRect = Rectangle.fromCenter( [this.centerX,this.centerY + (this.yPerc * 20)], 300  );
