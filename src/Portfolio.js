@@ -85,7 +85,7 @@ function Portfolio() {
                             Resume
                         </Button>
 
-                        <Button href="https://www.upwork.com/fl/robbiegay" target="_blank" className="ml-1">
+                        <Button href="https://www.upwork.com/freelancers/~019f4a1f66cf9ca3ce" target="_blank" className="ml-1">
                             UpWork
                         </Button>
                         <br /><br />
