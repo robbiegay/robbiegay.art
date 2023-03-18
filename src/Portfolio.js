@@ -45,15 +45,32 @@ function Portfolio() {
                     Hi, my name is Robbie! I graduated
                     from <a href="https://www.centre.edu" title="Centre's Website">Centre College</a> in
                     the Spring of 2016 with a degree in English Literature and a minor in Film Studies.
-                    For 3 years I pursued my passion for filmmaking, photography, and music, while working
+                    For 3 years I pursued my passion for <a href="https://www.youtube.com/robbiegay">filmmaking</a>, <a href="https://www.instagram.com/robbiegay/">photography</a>, and <a href="/music">music</a>, while working
                     part time as a property manager for the Downtown Company in Versailles, KY.
                     In the fall of 2019, I
                     completed <a href="https://www.awesomeinc.org/bootcamp" title="Bootcamp Website">Awesome Inc's Web Developer Bootcamp</a>, where
-                    I learned Full Stack Web Development (LAMP Tech Stack). From Jan - May of 2020, I worked as a freelance iOS developer on <a href="https://www.upwork.com/fl/robbiegay" title="My UpWork Profile">UpWork</a>, developing apps
-                    for clients in the the sports, fitness, and agriculture industries.
-                    In June of 2020, I started working as Associate QA Engineer at <a href="https://vetdata.com/" title="Vetdata's Website">VetData</a>,
-                    a leader in data integration, conversion, and support services for the veterinary industry.
+                    I learned Full Stack Web Development (LAMP Tech Stack). Since the beginning of 2020, I have been working in tech:
                 </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            <b>Jan 2020 - May 2020</b>: I worked as a freelance iOS developer on <a href="https://www.upwork.com/fl/robbiegay" title="My UpWork Profile">UpWork</a>, developing apps
+                            for clients in the the sports, fitness, and agriculture industries.
+                        </li>
+                        <li>
+                            <b>June 2020 - April 2022</b>: I worked first as a QA and then as 
+                            a Software Developer at <a href="https://vetdata.com/" title="Vetdata's Website">VetData</a>,
+                    a leader in data integration, conversion, and support services for the veterinary industry.
+                        </li>
+                        <li>
+                            <b>April 2022 - Present</b>: I currently work as a Software Developer 
+                            at <a href="https://www.bitwerx.com/">Bitwerx</a>, the veterinary industry's only pure play data company.
+                        </li>
+                    </ul>
+                </p>
+
+                <br />
 
                 {/* Language Icons */}
                 <p className="text-justify">
@@ -85,9 +102,9 @@ function Portfolio() {
                             Resume
                         </Button>
 
-                        <Button href="https://www.upwork.com/freelancers/~019f4a1f66cf9ca3ce" target="_blank" className="ml-1">
+                        {/* <Button href="https://www.upwork.com/freelancers/~019f4a1f66cf9ca3ce" target="_blank" className="ml-1">
                             UpWork
-                        </Button>
+                        </Button> */}
                         <br /><br />
                     </Col>
                     <Col></Col>

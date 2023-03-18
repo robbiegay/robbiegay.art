@@ -17,12 +17,9 @@ function Blog() {
                 </p>
 
                 <p>
-                    A note about audience: I really enjoy writing these blog posts. I think 
-                    if I had aspirations that anyone would read them, it might take the fun 
-                    out of it. I do still try to make the posts interesting and concise (as 
-                    if someone <i>might</i> read them), but I'm guessing that most of these posts will 
-                    only have an audience of one. If you are someone other than Mom: I'm glad 
-                    you are here, and I hope you find my ramblings interesting :)   
+                    A note about audience: I try to make my blog posts interesting, but 
+                    I don't really expect many people to read them. I mostly post here 
+                    because I enjoy writing these posts and working on the website :)
                 </p>
 
                 <Accordion>

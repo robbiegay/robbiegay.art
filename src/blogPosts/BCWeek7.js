@@ -189,7 +189,7 @@ function BCWeek7() {
                 <p>
                     Next week we start the week off with a remote day!{" "}
                     <a href="https://twitter.com/realDonaldTrump" title="The Donald's Twitter Page">President Trump</a>{" "}
-                    is holing a political rally in the evening, and most of
+                    is holding a political rally in the evening, and most of
                     downtown will be blocked off starting at 2pm. Traffic
                     will be a nightmare, and because of this we will be working
                     from home. We will spend the first day or two working through
