@@ -59,12 +59,12 @@ function Portfolio() {
                             for clients in the the sports, fitness, and agriculture industries.
                         </li>
                         <li>
-                            <b>June 2020 - April 2022</b>: I worked first as a QA and then as 
+                            <b>June 2020 - April 2022</b>: I worked first as a QA and then as
                             a Software Developer at <a href="https://vetdata.com/" title="Vetdata's Website">VetData</a>,
                     a leader in data integration, conversion, and support services for the veterinary industry.
                         </li>
                         <li>
-                            <b>April 2022 - Present</b>: I currently work as a Software Developer 
+                            <b>April 2022 - Present</b>: I currently work as a Software Developer
                             at <a href="https://www.bitwerx.com/">Bitwerx</a>, the veterinary industry's only pure play data company.
                         </li>
                     </ul>

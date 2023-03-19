@@ -58,7 +58,7 @@ function March2023StartingToBlog() {
                     I'm exciting to be posting on this site again! Check out my year in review posts below:
 
                     <ul>
-                        <li><a href="">2020 Year in Review</a></li>
+                        <li><a href="year-in-review-2020">2020 Year in Review</a></li>
                         <li><a href="">2021 Year in Review</a> [Coming Soon]</li>
                         <li><a href="">2022 Year in Review</a> [Coming Soon]</li>
                     </ul>

@@ -283,6 +283,23 @@ function Blog() {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="11" style={{cursor: "pointer"}}>
+                            Year in Review
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="11">
+                            <Card.Body>
+                                <ul>
+                                    <li>
+                                        <time datetime="2023-03-18">3.18.2023</time>
+                                        : <a href="/blog/year-in-review-2020" title="Year in Review 2020">
+                                        Year in Review 2020 (written 2023)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
                         <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2021</b>
                         </Card.Header>
@@ -304,21 +321,21 @@ function Blog() {
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
-                    <Card>
+                    {/* <Card>
                         <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2022</b>
                         </Card.Header>
-                    </Card>
+                    </Card> */}
                     <Card>
                         <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2023</b>
                         </Card.Header>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="11" style={{cursor: "pointer"}}>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="12" style={{cursor: "pointer"}}>
                             March
                         </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="11">
+                        <Accordion.Collapse eventKey="12">
                             <Card.Body>
                                 <ul>
                                     <li>
