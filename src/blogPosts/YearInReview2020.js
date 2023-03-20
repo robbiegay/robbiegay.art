@@ -11,6 +11,8 @@ function YearInReview2020() {
                     After a few years off from blog posts, I am writing a series of "year in review" posts. I'm writing this on March 18th, 2023.
                 </p>
 
+                <br /><br />
+
                 <h3 className="text-center">Winter</h3>
 
                 <p>
@@ -33,6 +35,7 @@ function YearInReview2020() {
                     One thing that was really reassuring was watching governor Beshear's daily press updates. We would make some snacks and tune in for updates on the pandemic.
                 </p>
 
+                <br />
                 <Carousel>
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/2020/lockdown-life-1.JPG" alt="Watch Beshear's updates" />
@@ -47,6 +50,9 @@ function YearInReview2020() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                <br />
+
+                <br />
 
                 <h3 className="text-center">Spring</h3>
 
@@ -61,6 +67,8 @@ function YearInReview2020() {
                 <p>
                     My job at VetData was remote (eventually there was an option to go into the Lexington office, but people rarely went in). I have also included a picture of my remote work setup, taken the weekend before my first day.
                 </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -77,6 +85,8 @@ function YearInReview2020() {
                     </Carousel.Item>
                 </Carousel>
 
+                <br /><br />
+
                 <h3 className="text-center">Summer</h3>
 
                 <p>
@@ -87,6 +97,8 @@ function YearInReview2020() {
                     A perk of working from home during the summer was that I spent my lunch breaks going for walks or relaxing in the backyard. That summer, I listened to a podcast featuring Naval. Naval talked about meditation (<a href="https://twitter.com/naval/status/1261481222359801856?lang=en">a different Naval thread on meditation</a>). My understanding was that meditation didn't require any sort of guidance, and that you just spent some time doing nothing. To me, it made sense that we are constantly bombarded with input: social media, books, work, conversations and that our brain never has down time. It seemed like every second we are either consuming media or listening to music or talking to someone. Our brain is constantly in taking, and is never given a chance to process. In my opinion, that's why the few times without input (driving, showering, falling asleep), it felt like I always had a lot on my mind. All this is to say, that I was surprised to find that when I just spent some time doing "nothing", I was never board -- it seemed like my brain liked having some space to catch up on all that information I was feeding it. Naval referred to this input as an email inbox and if we spend enough time doing nothing, we might eventually process everything that is on our mind. *Phew* sorry for the rant.
                 </p>
 
+                <br />
+
                 <div className="text-center">
                     <figure className="figure">
                         <img className="img-fluid" src="/blogAssets/img/2020/backyard-meditation.JPG" alt="Robbie in the backyard" />
@@ -94,9 +106,13 @@ function YearInReview2020() {
                     </figure>
                 </div>
 
+                <br />
+
                 <p>
                     We also took advantage of the summer weather and threw a dinner party. Yes that is our kitchen table on the back porch -- this was a season of life without much furniture and we had no dedicated outdoor pieces. It looks like Anna made us some yummy ramen. We did a lot of cooking that summer. I was really into <a href="https://www.youtube.com/channel/UCqqJQ_cXSat0KIAVfIfKkVA">J. Kenji López-Alt</a>.
                     </p>
+
+                <br />
 
                 <div className="text-center">
                     <figure className="figure">
@@ -105,9 +121,13 @@ function YearInReview2020() {
                     </figure>
                 </div>
 
+                <br />
+
                 <p>
                     In July, I ordered a "dumb" phone. This was part on my continuing efforts to break my addiction to my phone. I wanted to turn my phone off but was worried about not having a phone in case of emergency.
-                    </p>
+                </p>
+
+                <br />
 
                 <div className="text-center">
                     <figure className="figure" style={{ maxWidth: "50%", margin: "auto" }}>
@@ -116,9 +136,13 @@ function YearInReview2020() {
                     </figure>
                 </div>
 
+                <br />
+
                 <p>
                     I also decided to camp in the backyard. I had ambitious plans to do this more than once, but I never got around to it. I didn't sleep that well but it was nice to be outside. I built a fire and went to sleep under the stars and woke up to the sunrise.
-                    </p>
+                </p>
+
+                <br />
 
                 <div className="text-center">
                     <figure className="figure">
@@ -127,9 +151,13 @@ function YearInReview2020() {
                     </figure>
                 </div>
 
+                <br />
+
                 <p>
                     Finally, in July we also took our annual family trip to Vermont. This was one of my favorite trips up there. We had a large group and it was my grandfathers last trip with us.
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -174,12 +202,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">One more group photo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     In September, Anna graduated with her second bachelor’s degree in Nursing. Due to the pandemic, their graduation was going to be virtual but the students self organized an outdoor graduation.
-                    </p>
+                </p>
+
+                <br />
 
                 <div className="text-center">
                     <figure className="figure">
@@ -188,9 +219,13 @@ function YearInReview2020() {
                     </figure>
                 </div>
 
+                <br />
+
                 <p>
                     A few weeks later, we traveled up to Cincinnati for her Nursing RN exam. While Anna was taking her test, I got in touch with my roots -- my maternal grandparents grew up in Cincinnati (grandma) and northern Kentucky (grandpa). I drove by both of their family homes. On Sunday, we got brunch with one of my coworkers, Audrey. Three months into my job, I had finally met a coworker in person!
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -217,12 +252,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Anna gets her RN!!!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     In my <a href="mar-2020">March 2020 blog post</a>, I talked about how excited we were to start a garden. We started our seeds inside before planting them in the backyard. For several months, we watered every day or so and weeded weekly. And I must say... it paid off. We actually had a pretty nice garden!
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -249,18 +287,23 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">And peppers!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     The remaining two summer that we lived at the house, we planted our garden each Spring and ignored it all Summer. Those years we grew nothing but weeds.
-                    </p>
+                </p>
+
+                <br /><br />
 
                 <h3 className="text-center">Fall</h3>
 
                 <p>
-                    In September, we had my grandparents over for dinner! I might be being a little bit sentimental, but my grandfather ended up passing away about a year after this dinner, and this dinner was a really nice evening that Anna and I had with Bob and Judi. I think we served some J Kenji Tucson Soup (from his book <a href="http://www.kenjilopezalt.com/books">The Food Lab</a>). We used some rosemary from our garden and ate outside.
-                    </p>
+                    In September, we had my grandparents over for dinner! I might be being a little bit sentimental, but my grandfather ended up passing away about a year after this dinner, and this dinner was a really nice evening that Anna and I had with Bob and Judi. I think we served some J Kenji Tuscan White Bean and Parmesan Soup (from his book <a href="http://www.kenjilopezalt.com/books">The Food Lab</a>). We used some rosemary from our garden and ate outside.
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -272,7 +315,7 @@ function YearInReview2020() {
                     <Carousel.Item>
                         <img className="d-block w-100" src="/blogAssets/img/2020/woodlawn-bob-dinner-2.JPG" alt="Soup" />
                         <Carousel.Caption>
-                            <p className="d-inline-flex px-2 mb-4 bg-dark rounded">J Kenji Tucson Bean Soup</p>
+                            <p className="d-inline-flex px-2 mb-4 bg-dark rounded">J Kenji Tuscan Bean Soup</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -281,12 +324,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Hanging out after dinner</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     We spent labor day with family and friends on Lake Herrington. I'm not a big lake person, but everyone having their boats next to each other was pretty fun!
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -307,12 +353,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">People and boats</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     In October, Anna and I went out to visit William in Denver. William and I did some long boarding around the city. It was a really fun way to explore. I fell off the board a few times but managed to stumble and stay on my feet each time.
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -333,16 +382,19 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Leaving Denver</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     In November, the <a href="https://en.wikipedia.org/wiki/2020_United_States_presidential_election">general election happened</a>.
-                    </p>
+                </p>
 
                 <p>
                     On November 4th, Anna's Dad passed away unexpectedly. Tom was a really great man who we have both missed over the last few years. He was a great cook and I always enjoyed when Anna would invite me over for family dinner. He made a delicious rendition of the <a href="https://www.wallacestation.com/#menu">Wallace Station</a> Merv's Hot Ham and Jalapeno. I know that it has been really tough on Anna and I wish I could do more to help her.
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -369,12 +421,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Anna graduating from High School</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     In addition to the regular holiday stuff, there was a day in December where we went over to my grandparent's house in Lawrenceburg. My grandfather (Bob)'s Mom (Jane) was into family history and had many boxes as pictures, documents, and written notes. That day, we took those boxes out and looked through them. I am also very interested in family history and I was asked if I wanted to start going through those boxes. I felt a little overwhelmed by the amount in the boxes, and thought that I would need to dedicate a time to come over and talk to my grandfather about everything in there. I decided to spend a lot of time that day looking over stuff and I really wish I had. He seemed so healthy then and I didn't know that he would be gone soon. I never did look through that box with him and its something I regret.
-                    </p>
+                </p>
+
+                <br />
 
                 <Carousel>
                     <Carousel.Item>
@@ -413,12 +468,15 @@ function YearInReview2020() {
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">An early yearbook photo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
                 </Carousel>
+
+                <br />
 
                 <p>
                     We held our annual family Christmas party. Due to Covid, we decided to do a "drive by" party. Everyone came by in their car, we wished them a Happy Holiday and gave them some Xmas treats. It was probably a good thing that we did our party remote because on Christmas day, we all started to lose our sense of taste and smell and a few days later, tested positive for Covid. We were lucky that our symptoms were mostly mild (Dad was the sickest with flu-like symptoms). In a way, it meant that we all spent a few more days celebrating the holidays together. The downside was that Anna (thankfully) did not catch Covid but had to spend the holidays away from us.
-                    </p>
+                </p>
+
+                <br />
 
                 <div className="text-center">
                     <figure className="figure">
