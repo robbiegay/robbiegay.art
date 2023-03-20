@@ -210,7 +210,7 @@ function YearInReview2020() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/vermont-7.jpg" alt="The Group" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/vermont-7.JPG" alt="The Group" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">One more group photo</p>
                         </Carousel.Caption>
@@ -390,7 +390,7 @@ function YearInReview2020() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/visiting-denver-3.JPG" alt="The roup" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/visiting-denver-3.jpg" alt="The group" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Leaving Denver</p>
                         </Carousel.Caption>
@@ -456,31 +456,31 @@ function YearInReview2020() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-2.JPG" alt="Great-grandma" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-2.jpg" alt="Great-grandma" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Great-Grandma -- Jane</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-3.JPG" alt="Bob and his dog" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-3.jpg" alt="Bob and his dog" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Bob and his childhood dog, Nipper</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-4.JPG" alt="Bob and his friend" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-4.jpg" alt="Bob and his friend" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">Bob and his friend -- what were they fighting about?</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-5.JPG" alt="An old newspaper" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-5.jpg" alt="An old newspaper" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">The end of WW-I</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-6.JPG" alt="Bob's Yearbook" />
+                        <img className="d-block w-100" src="/blogAssets/img/2020/bob-family-history-6.jpg" alt="Bob's Yearbook" />
                         <Carousel.Caption>
                             <p className="d-inline-flex px-2 mb-4 bg-dark rounded">An early yearbook photo</p>
                         </Carousel.Caption>
