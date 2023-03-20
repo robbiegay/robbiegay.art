@@ -135,7 +135,7 @@ function March2020() {
                     <figcaption className="figure-caption text-center">Day 2: Breckenridge institutes a "Load Related Parties Only" policy for the ski lifts.</figcaption>
                 </figure>
 
-                On a positive note, we really enjoyed seeing <a href="">William</a>! The 2 days that we got on the slopes
+                On a positive note, we really enjoyed seeing William! The 2 days that we got on the slopes
                 were awesome. Anna continues to improve as a skier! On only her fourth cumulative ski day,
                 she managed to go down a blue run! After spending the weekend in Breckenridge, we spent a few
                 more days in Denver, mostly in William's apartment due to concerns with COVID-19.
