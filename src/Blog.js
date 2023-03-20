@@ -18,8 +18,8 @@ function Blog() {
 
                 <p>
                     A note about audience: I try to make my blog posts interesting, but 
-                    I don't really expect many people to read them. I mostly post here 
-                    because I enjoy writing these posts and working on the website :)
+                    I don't really expect many people to read them. I mostly share here 
+                    because I enjoy writing these posts and working on the website is fun :)
                 </p>
 
                 <Accordion>
