@@ -29,6 +29,7 @@ import May2020 from "./blogPosts/May2020";
 import May2021 from "./blogPosts/May2021";
 import March2023StartingToBlog from "./blogPosts/March2023StartingToBlog";
 import YearInReview2020 from "./blogPosts/YearInReview2020";
+import TheHardWorkOfLivingAGoodLife from "./blogPosts/TheHardWorkOfLivingAGoodLife";
 
 
 class BlogPost extends React.Component {
@@ -248,6 +249,14 @@ class BlogPost extends React.Component {
                     blogPost: <YearInReview2020 />,
                     title: "Year in Review 2020",
                     date: <time datetime="2023-03-18">March 18<sup>th</sup>,
+                    2023</time>
+                });
+                break;
+            case "march-2023-a-good-life":
+                this.setState({
+                    blogPost: <TheHardWorkOfLivingAGoodLife />,
+                    title: "The Hard Work of Living a Good Life",
+                    date: <time datetime="2023-03-21">March 21<sup>st</sup>,
                     2023</time>
                 });
                 break;
