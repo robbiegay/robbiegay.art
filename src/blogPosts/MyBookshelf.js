@@ -121,7 +121,7 @@ function MyBookshelf() {
                             <b>Code</b> (Charles Petzold)
                             <ul>
                                 <li>
-                                    <a href="/blog/code-book-review">Book review</a> [coming soon]
+                                    <a href="/blog/code-book-review">Book review</a>
                                 </li>
                             </ul>
                         </li>
@@ -130,7 +130,7 @@ function MyBookshelf() {
                             <b>Clean Architecture</b> (Robert C. Martin)
                             <ul>
                                 <li>
-                                    <a href="/blog/clean-architecture-book-review">Book review</a> [coming soon]
+                                    <a href="/blog/clean-architecture-book-review">Book review</a>
                                 </li>
                             </ul>
                         </li>
