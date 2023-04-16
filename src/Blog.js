@@ -22,6 +22,29 @@ function Blog() {
                     because I enjoy writing these posts and working on the website is fun :)
                 </p>
 
+                <br />
+
+                <h5>Highlighted Blog Posts:</h5>
+
+                <p>
+                    <ul>
+                        <li>
+                            Awesome Inc Bootcamp:&nbsp;
+                            <a href="/blog/bc-week-12" title="Bootcamp Week 12 Blog Post">
+                                Demo Day
+                            </a>
+                        </li>
+                        <li>
+                            Learning resources:&nbsp;
+                            <a href="/blog/my-bookshelf" title="My Technical Bookshelf">
+                                My Technical Bookshelf
+                            </a>
+                        </li>
+                    </ul>
+                </p>
+
+                <br />
+
                 <Accordion>
                     {/* defaultActiveKey="0" */}
                     <Card>
@@ -321,11 +344,6 @@ function Blog() {
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
-                    {/* <Card>
-                        <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
-                            <b>2022</b>
-                        </Card.Header>
-                    </Card> */}
                     <Card>
                         <Card.Header style={{ backgroundColor: "lightGray" }} className="text-center">
                             <b>2023</b>
@@ -348,6 +366,23 @@ function Blog() {
                                         <time datetime="2023-03-21">3.21.2023</time>
                                         : <a href="/blog/march-2023-a-good-life" title="March 2023 - The Hard Work of Living a Good Life">
                                             The Hard Work of Living a Good Life
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="13" style={{ cursor: "pointer" }}>
+                            April
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="13">
+                            <Card.Body>
+                                <ul>
+                                    <li>
+                                        <time datetime="2023-04-16">4.16.2023</time>
+                                        : <a href="/blog/my-bookshelf" title="April 2023 - My Technical Bookshelf">
+                                            My Technical Bookshelf
                                         </a>
                                     </li>
                                 </ul>
