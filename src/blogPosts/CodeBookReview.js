@@ -26,7 +26,7 @@ function CodeBookReview() {
                 </p>
 
                 <p>
-                    <i>This review was completed on 2/9/23 but only made its way onto my site on 4/16/23.</i>
+                    <i>This review was completed in January of 2023 but only made its way onto my site on 4/16/23.</i>
                 </p>
 
                 <br /><br />
