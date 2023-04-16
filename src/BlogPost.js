@@ -31,6 +31,9 @@ import March2023StartingToBlog from "./blogPosts/March2023StartingToBlog";
 import YearInReview2020 from "./blogPosts/YearInReview2020";
 import TheHardWorkOfLivingAGoodLife from "./blogPosts/TheHardWorkOfLivingAGoodLife";
 import MyBookshelf from "./blogPosts/MyBookshelf";
+import CodeBookReview from "./blogPosts/CodeBookReview";
+import CleanArchitectureBookReview from "./blogPosts/CleanArchitectureBookReview";
+import DDIABookSummary from "./blogPosts/DDIABookSummary";
 
 
 class BlogPost extends React.Component {
@@ -265,6 +268,30 @@ class BlogPost extends React.Component {
                 this.setState({
                     blogPost: <MyBookshelf />,
                     title: "My Technical Bookshelf",
+                    date: <time datetime="2023-04-16">April 16<sup>th</sup>,
+                    2023</time>
+                });
+                break;
+            case "code-book-review":
+                this.setState({
+                    blogPost: <CodeBookReview />,
+                    title: "Code Book Review",
+                    date: <time datetime="2023-04-16">April 16<sup>th</sup>,
+                    2023</time>
+                });
+                break;
+            case "clean-architecture-book-review":
+                this.setState({
+                    blogPost: <CleanArchitectureBookReview />,
+                    title: "Clean Architecture Book Review",
+                    date: <time datetime="2023-04-16">April 16<sup>th</sup>,
+                    2023</time>
+                });
+                break;
+            case "designing-data-intensive-applications-book-summary":
+                this.setState({
+                    blogPost: <DDIABookSummary />,
+                    title: "Designing Data Intensive Applications Book Summary",
                     date: <time datetime="2023-04-16">April 16<sup>th</sup>,
                     2023</time>
                 });

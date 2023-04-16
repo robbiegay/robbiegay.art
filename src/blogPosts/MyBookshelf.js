@@ -121,7 +121,7 @@ function MyBookshelf() {
                             <b>Code</b> (Charles Petzold)
                             <ul>
                                 <li>
-                                    <a href="">Book review</a> [coming soon]
+                                    <a href="/blog/code-book-review">Book review</a> [coming soon]
                                 </li>
                             </ul>
                         </li>
@@ -130,7 +130,7 @@ function MyBookshelf() {
                             <b>Clean Architecture</b> (Robert C. Martin)
                             <ul>
                                 <li>
-                                    <a href="">Book review</a> [coming soon]
+                                    <a href="/blog/clean-architecture-book-review">Book review</a> [coming soon]
                                 </li>
                             </ul>
                         </li>
@@ -139,7 +139,7 @@ function MyBookshelf() {
                             <b>Designing Data Intensive Applications</b> (Martin Kleppmann)
                             <ul>
                                 <li>
-                                    <a href="">Book summary</a> [coming soon]
+                                    <a href="/blog/designing-data-intensive-applications-book-summary">Book summary</a> [coming soon]
                                 </li>
                             </ul>
                         </li>

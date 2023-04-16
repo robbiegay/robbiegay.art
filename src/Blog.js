@@ -385,6 +385,24 @@ function Blog() {
                                             My Technical Bookshelf
                                         </a>
                                     </li>
+                                    <li>
+                                        <time datetime="2023-04-16">4.16.2023</time>
+                                        : <a href="/blog/code-book-review" title="April 2023 - Code Book Review">
+                                            Code Book Review
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <time datetime="2023-04-16">4.16.2023</time>
+                                        : <a href="/blog/clean-architecture-book-review" title="April 2023 - Clean Architecture Book Review">
+                                            Clean Architecture Book Review
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <time datetime="2023-04-16">4.16.2023</time>
+                                        : <a href="/blog/designing-data-intensive-applications-book-summary" title="April 2023 - Designing Data Intensive Applications Book Summary">
+                                            Designing Data Intensive Applications Book Summary
+                                        </a>
+                                    </li>
                                 </ul>
                             </Card.Body>
                         </Accordion.Collapse>

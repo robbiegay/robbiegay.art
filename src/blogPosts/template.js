@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-function BCWeek2() {
+function BlogPost() {
     return (
         <>
             <article className="text-justify">
@@ -9,10 +9,15 @@ function BCWeek2() {
 
                 {/* text here */}
 
+                {/* <figure className="figure">
+                    <img className="img-fluid" src="/blogAssets/img/year/image.jpg" alt="Description" />
+                    <figcaption className="figure-caption text-center">Caption</figcaption>
+                </figure> */}
+
                 <br /><br /><br /><br /><br /><br /><br /><br />
             </article>
         </>
     );
 }
 
-export default BCWeek2;
+export default BlogPost;
