@@ -292,7 +292,7 @@ class BlogPost extends React.Component {
                 this.setState({
                     blogPost: <DDIABookSummary />,
                     title: "Designing Data Intensive Applications Book Summary",
-                    date: <time datetime="2023-04-16">April 16<sup>th</sup>,
+                    date: <time datetime="2023-04-22">April 22<sup>nd</sup>,
                     2023</time>
                 });
                 break;

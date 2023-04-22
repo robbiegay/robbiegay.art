@@ -398,7 +398,7 @@ function Blog() {
                                         </a>
                                     </li>
                                     <li>
-                                        <time datetime="2023-04-16">4.16.2023</time>
+                                        <time datetime="2023-04-22">4.22.2023</time>
                                         : <a href="/blog/designing-data-intensive-applications-book-summary" title="April 2023 - Designing Data Intensive Applications Book Summary">
                                             Designing Data Intensive Applications Book Summary
                                         </a>
