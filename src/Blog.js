@@ -40,6 +40,12 @@ function Blog() {
                                 My Technical Bookshelf
                             </a>
                         </li>
+                        <li>
+                            Book summary:&nbsp;
+                            <a href="/blog/designing-data-intensive-applications-book-summary" title="Designing Data Intensive Applications">
+                                Designing Data Intensive Applications
+                            </a>
+                        </li>
                     </ul>
                 </p>
 
