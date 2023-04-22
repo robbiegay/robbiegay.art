@@ -81,7 +81,7 @@ function MyBookshelf() {
                             <b>Head First Design Patterns</b> (Eric Freeman, Elisabeth Robson)
                             <ul>
                                 <li>
-                                    A good overview of design patterns, though I wish the writing style was more straight forward as their approach can be a little distracting.
+                                    A good overview of design patterns, though I wish the writing style were more straightforward as their approach can be a little distracting.
                                 </li>
                                 <li>
                                     I would actually favor this website over the HFDP book: <a href="https://refactoring.guru/design-patterns">Refactoring Guru</a>
@@ -162,7 +162,7 @@ function MyBookshelf() {
                 </p>
 
                 <p>
-                    Written by the creators of the Bradfield Computer Science Intensive (San francisco), the site details a multi-year, self-study course in computer science fundamentals.
+                    Written by the creators of the Bradfield Computer Science Intensive (San Francisco), the site details a multi-year, self-study course in computer science fundamentals.
                 </p>
 
                 <br />
@@ -195,7 +195,7 @@ function MyBookshelf() {
                 <br />
 
                 <p>
-                    A few weeks ago my brother came to visit. He stayed in our guest bedroom and while there he asked about the bookshelf that lines on side of the room. I has some technical books on it, and he asked if I had really read all of them.
+                    A few weeks ago my brother came to visit. He stayed in our guest bedroom and while there he asked about the bookshelf that lines one side of the room. I has some technical books on it, and he asked if I had really read all of them.
                 </p>
 
                 <p>
@@ -220,7 +220,7 @@ function MyBookshelf() {
                 </p>
 
                 <p>
-                    It is my goad to continue to grow the "read" column over the coming months. As part of that, I wanted to share a related project: book reviews and summaries.
+                    It is my goal to continue to grow the "read" column over the coming months. As part of that, I wanted to share a related project: book reviews and summaries.
                 </p>
 
                 <p>
@@ -231,7 +231,11 @@ function MyBookshelf() {
                     A note about the summaries: The are a mix of my own summaries and verbatim text from the book. I don't want to claim these as original works in any way.
                 </p>
 
+
                 <br /><br /><br /><br /><br /><br /><br /><br />
+
+                <p class="text-muted">Thanks to Mom who pointed out some spelling and grammar errors in this post.</p>
+
             </article>
         </>
     );
