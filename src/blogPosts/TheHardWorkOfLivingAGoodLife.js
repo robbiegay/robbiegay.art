@@ -45,7 +45,7 @@ function TheHardWorkOfLivingAGoodLife() {
                             I love being up early -- I hate waking up early; I have trouble falling asleep early.
                         </li>
                         <li>
-                            I love being outside at night -- In the evening, the coach is more comfortable and the TV has a lot of appeal.
+                            I love being outside at night -- In the evening, the couch is more comfortable and the TV has a lot of appeal.
                         </li>
                     </ul>
 
