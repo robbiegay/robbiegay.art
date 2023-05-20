@@ -8,11 +8,11 @@ function CodeBookReview() {
                 <br /><br />
 
                 <p>
-                    <b><u>Rating</u></b>:
+                    <b>Title</b>: "Code: The Hidden Language of Computer Hardware and Software" by Charles Petzold
                 </p>
 
                 <p>
-                    &#11088; &#11088; &#11088; &#11088; &#9733;
+                    <b>Rating</b>: &#11088; &#11088; &#11088; &#11088; &#9733;
                 </p>
 
                 <br />

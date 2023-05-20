@@ -8,11 +8,11 @@ function CleanArchitectureBookReview() {
                 <br /><br />
 
                 <p>
-                    <b><u>Rating</u></b>:
+                    <b>Title</b>: "Clean Architecture" by Robert C. Martin
                 </p>
 
                 <p>
-                    &#11088; &#11088; &#11088; &#11088; &#9733;
+                    <b>Rating</b>: &#11088; &#11088; &#11088; &#11088; &#9733;
                 </p>
 
                 <br />

@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
 
 function DDIABookSummary() {
     return (
@@ -8,11 +7,11 @@ function DDIABookSummary() {
                 <br /><br />
 
                 <p>
-                    <b><u>Rating</u></b>:
-</p>
+                    <b>Title</b>: "Designing Data Intensive Applications" by Martin Kleppmann
+                </p>
 
                 <p>
-                    &#11088; &#11088; &#11088; &#11088; &#11088;
+                    <b>Rating</b>: &#11088; &#11088; &#11088; &#11088; &#11088;
 </p>
 
                 <p>
@@ -3318,19 +3317,6 @@ In phase 1, the coordinator sends a <b>prepare</b> message to all nodes (<b>part
 <br />
 
 <br />
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <br /><br /><br /><br /><br /><br /><br /><br />
             </article>

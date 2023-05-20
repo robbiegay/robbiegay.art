@@ -34,6 +34,7 @@ import MyBookshelf from "./blogPosts/MyBookshelf";
 import CodeBookReview from "./blogPosts/CodeBookReview";
 import CleanArchitectureBookReview from "./blogPosts/CleanArchitectureBookReview";
 import DDIABookSummary from "./blogPosts/DDIABookSummary";
+import HowTheInternetReallyWorksBookReview from "./blogPosts/HowTheInternetReallyWorksBookReview";
 
 
 class BlogPost extends React.Component {
@@ -275,7 +276,7 @@ class BlogPost extends React.Component {
             case "code-book-review":
                 this.setState({
                     blogPost: <CodeBookReview />,
-                    title: "Code Book Review",
+                    title: "Code (Book Review)",
                     date: <time datetime="2023-04-16">April 16<sup>th</sup>,
                     2023</time>
                 });
@@ -283,7 +284,7 @@ class BlogPost extends React.Component {
             case "clean-architecture-book-review":
                 this.setState({
                     blogPost: <CleanArchitectureBookReview />,
-                    title: "Clean Architecture Book Review",
+                    title: "Clean Architecture (Book Review)",
                     date: <time datetime="2023-04-16">April 16<sup>th</sup>,
                     2023</time>
                 });
@@ -291,8 +292,16 @@ class BlogPost extends React.Component {
             case "designing-data-intensive-applications-book-summary":
                 this.setState({
                     blogPost: <DDIABookSummary />,
-                    title: "Designing Data Intensive Applications Book Summary",
+                    title: "Designing Data Intensive Applications (Book Summary)",
                     date: <time datetime="2023-04-22">April 22<sup>nd</sup>,
+                    2023</time>
+                });
+                break;
+            case "how-the-internet-really-works-book-review":
+                this.setState({
+                    blogPost: <HowTheInternetReallyWorksBookReview />,
+                    title: "How The Internet Really Works (Book Review)",
+                    date: <time datetime="2023-05-20">May 20<sup>th</sup>,
                     2023</time>
                 });
                 break;
