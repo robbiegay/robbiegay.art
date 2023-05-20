@@ -37,9 +37,10 @@ function HowTheInternetReallyWorksBookReview() {
 
                 <br />
 
-                <p>
-                    Some interesting things that I learned:
-                </p>
+                <h3> Some interesting things that I learned </h3>
+
+                <br />
+                <br />
 
                 <p>
                     <b>How devices connect to a network</b>: Devices have a network card that handles network connections. Each device has a Media Access Control (MAC) Address that is used by the network's router to remember what hardware device it is talking to (sometimes called the 'device id'). The router assigns a device a local IP address and uses that address to facilitate communication both on the local network and with the public internet. To communicate with the internet, the router performs Network Address Translation (NAT). This is where the router rewrites the packet's address tags. For example, a packet from device 1.2.3.4 with a destination on the public internet of 8.8.8.8, might be rewritten to come from the router's public IP address of 5.6.7.8. When the router receives a response from 8.8.8.8, it translates the response packet to be addressed to 1.2.3.4.
@@ -81,12 +82,16 @@ function HowTheInternetReallyWorksBookReview() {
                     <b>Domain Name System (DNS)</b>: IP addresses are easy for machines to remember and hard for humans. To fix this, DNS servers translate human readable URLs into IP addresses. For example, when you enter a memorable name like wikipedia.org into your web browser, your browser will query a DNS server that looks for the IP address associated with wikipedia. The following image shows more detail of how DNS queries are resolved.
                 </p>
 
+                <br />
+
                 <div className="text-center">
                     <figure className="figure">
                         <img className="img-fluid" src="/blogAssets/img/2023/dns-server.jpg" alt="DNS Servers" />
                         <figcaption className="figure-caption text-center"></ figcaption>
                     </figure>
                 </div>
+
+                <br />
 
                 <p>
                     <b>URL Parsing</b>: The following URL can be broken down as follows: en.wikipedia.org
@@ -105,12 +110,16 @@ function HowTheInternetReallyWorksBookReview() {
                     TLDs and domains are administered by organizations such as <a href="https://www.icann.org/">ICANN</a> and domain registries. Subdomains are controlled by the owner of the domain. For example, Google might register google.com. Google can then host subdomains like mail.google.com and translate.google.com. Each of these subdomains can have their own server (or servers) that server completely different applications than other subdomains. The following image further explains URL parsing.
                 </p>
 
+                <br />
+
                 <div className="text-center">
                     <figure className="figure">
                         <img className="img-fluid" src="/blogAssets/img/2023/url-parsing.jpg" alt="URL Parsing" />
                         <figcaption className="figure-caption text-center"></ figcaption>
                     </figure>
                 </div>
+
+                <br />
 
                 <p>
                     <b>Content Delivery Networks (CDN)</b>: It used to be the a website on the internet might be served from a single computer. Today's website content might include things like: embedded video, social media feeds, and ad content. To compile a webpage like this, content is pulled from various servers called CDNs. These CDNs are replicated around the globe for resiliency and to server content to users from a geographically close location, thus reducing latency.
@@ -124,9 +133,86 @@ function HowTheInternetReallyWorksBookReview() {
                     <b>Open Systems Interconnection (OSI) Model</b>: Although not covered too in-depth, the following image is a useful model of the layers of infrastructure used to run the internet.
                 </p>
 
+                <br />
+
                 <div className="text-center">
                     <figure className="figure">
                         <img className="img-fluid" src="/blogAssets/img/2023/osi-model.jpg" alt="OSI Model" />
+                        <figcaption className="figure-caption text-center"></ figcaption>
+                    </figure>
+                </div>
+
+                <br />
+                <br />
+                <hr />
+                <br />
+                <br />
+
+                <h3>Packet Demo</h3>
+
+                <br />
+                <br />
+
+
+                <p>
+                    I wanted to get hands-on with some of the concepts covered in HTIRW. I was particularly curious to see some packets in action! I thought it would be interesting to compare secure (HTTPS) and non-secure (HTTP) network traffic.
+                </p>
+
+                <p>
+                    To view network packets, I did the following
+                    <ul>
+                        <li>
+                            Used a packet sniffer (<a href="https://www.wireshark.org/">Wireshark</a>), to view packets sent over my local network.
+                        </li>
+                        <li>
+                            Used <a href="https://www.postman.com/">Postman</a> to send HTTP and HTTPS Post requests.
+                        </li>
+                        <li>
+                            Used the free API <a href="http://httpbin.org/">HTTP Bin</a> as a destination for network data.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    I sent the following test data via Postman using HTTP and HTTPS:
+                    <ul>
+                        <li>
+                            <b>POST</b>: http://httpbin.org/post
+                        </li>
+                        <li>
+                            <b>Body</b>: {'{ "myBankingPassword": "password1" }'}
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    Using Wireshark, I located a packet used in my API call, and right-clicked into: Follow > TCP Stream.
+                </p>
+
+                <p>
+                    When making an unencrypted HTTP request, I was able to view my 'sensitive' data as plaintext. This made me much more aware of how important HTTPS is and how visible your traffic might be on a public wifi network.
+                </p>
+
+                <br />
+
+                <div className="text-center">
+                    <figure className="figure">
+                        <img className="img-fluid" src="/blogAssets/img/2023/http-request.PNG" alt="HTTP Request" />
+                        <figcaption className="figure-caption text-center"></ figcaption>
+                    </figure>
+                </div>
+
+                <br />
+
+                <p>
+                    When making a HTTPS request, I had a little more trouble tracking down which packet I had actually sent! The image below contains what I think is the same POST request sent using HTTPS. Since it is encrypted, I can't really confirm this... but I guess neither can you!
+                </p>
+
+                <br />
+
+                <div className="text-center">
+                    <figure className="figure">
+                        <img className="img-fluid" src="/blogAssets/img/2023/https-request.PNG" alt="HTTPS Request" />
                         <figcaption className="figure-caption text-center"></ figcaption>
                     </figure>
                 </div>
