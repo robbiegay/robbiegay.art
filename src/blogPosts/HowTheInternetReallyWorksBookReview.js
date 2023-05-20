@@ -197,7 +197,7 @@ function HowTheInternetReallyWorksBookReview() {
 
                 <div className="text-center">
                     <figure className="figure">
-                        <img className="img-fluid" src="/blogAssets/img/2023/http-request.PNG" alt="HTTP Request" />
+                        <img className="img-fluid" src="/blogAssets/img/2023/http-request.png" alt="HTTP Request" />
                         <figcaption className="figure-caption text-center"></ figcaption>
                     </figure>
                 </div>
@@ -212,7 +212,7 @@ function HowTheInternetReallyWorksBookReview() {
 
                 <div className="text-center">
                     <figure className="figure">
-                        <img className="img-fluid" src="/blogAssets/img/2023/https-request.PNG" alt="HTTPS Request" />
+                        <img className="img-fluid" src="/blogAssets/img/2023/https-request.png" alt="HTTPS Request" />
                         <figcaption className="figure-caption text-center"></ figcaption>
                     </figure>
                 </div>
