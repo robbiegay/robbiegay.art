@@ -113,6 +113,19 @@ class Homepage extends PtsCanvas {
     }
 
     action(type, x, y, event) { 
+        if (!this.blogButton) {
+            console.error('The blogButton UI element is not initialized');
+            return;
+        }
+        if (!this.portfolioButton) {
+            console.error('The portfolioButton UI element is not initialized');
+            return;
+        }
+        if (!this.musicButton) {
+            console.error('The musicButton UI element is not initialized');
+            return;
+        }
+
         UI.track( [this.blogButton, this.portfolioButton, this.musicButton], type, new Pt(x, y), event );
     }
 

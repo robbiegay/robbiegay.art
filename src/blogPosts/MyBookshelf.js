@@ -139,7 +139,16 @@ function MyBookshelf() {
                             <b>Designing Data Intensive Applications</b> (Martin Kleppmann)
                             <ul>
                                 <li>
-                                    <a href="/blog/designing-data-intensive-applications-book-summary">Book summary</a> [coming soon]
+                                    <a href="/blog/designing-data-intensive-applications-book-summary">Book summary</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <b>How The Internet Really Works</b> (Article 19 and Catnip)
+                            <ul>
+                                <li>
+                                    <a href="/blog/how-the-internet-really-works-book-review">Book review</a>
                                 </li>
                             </ul>
                         </li>
