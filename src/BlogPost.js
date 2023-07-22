@@ -35,6 +35,7 @@ import CodeBookReview from "./blogPosts/CodeBookReview";
 import CleanArchitectureBookReview from "./blogPosts/CleanArchitectureBookReview";
 import DDIABookSummary from "./blogPosts/DDIABookSummary";
 import HowTheInternetReallyWorksBookReview from "./blogPosts/HowTheInternetReallyWorksBookReview";
+import AzureInAMonthOfLunchesBookReview from "./blogPosts/AzureInAMonthOfLunchesBookReview";
 
 
 class BlogPost extends React.Component {
@@ -302,6 +303,14 @@ class BlogPost extends React.Component {
                     blogPost: <HowTheInternetReallyWorksBookReview />,
                     title: "How The Internet Really Works (Book Review)",
                     date: <time datetime="2023-05-20">May 20<sup>th</sup>,
+                    2023</time>
+                });
+                break;
+            case "azure-in-a-month-of-lunches-book-review":
+                this.setState({
+                    blogPost: <AzureInAMonthOfLunchesBookReview />,
+                    title: "Azure in a Month of Lunches (Book Review)",
+                    date: <time datetime="2023-07-22">July 22<sup>nd</sup>,
                     2023</time>
                 });
                 break;

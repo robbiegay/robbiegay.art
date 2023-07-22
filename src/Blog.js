@@ -430,6 +430,23 @@ function Blog() {
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
+                    <Card>
+                        <Accordion.Toggle as={Card.Header} variant="link" eventKey="15" style={{ cursor: "pointer" }}>
+                            July
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="15">
+                            <Card.Body>
+                                <ul>
+                                    <li>
+                                        <time datetime="2023-07-22">7.22.2023</time>
+                                        : <a href="/blog/azure-in-a-month-of-lunches-book-review" title="Azure in a Month of Lunches Book Review">
+                                            Azure in a Month of Lunches (Book Review)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
                 </Accordion>
 
             </PageFormat>
